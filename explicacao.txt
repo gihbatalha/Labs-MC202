@@ -1,0 +1,9 @@
+A lista duplamente ligada circular utilizada nesse projeto foi pensada da seguinte maneira
+
+- inicio->dir será sempre NULL
+- inicio->esq aponta para o primeiro elemento da lista
+
+-fim->dir aponta para o último elemento da lista
+-fim->esq será sempre NULL
+
+Adição é feita adicionando o nó após o ultimo nó, ou seja, após o nó apontado por fim->dir.
