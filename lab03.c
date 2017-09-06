@@ -336,10 +336,6 @@ int liga(Lista* lista, int tel){
 }
 
 int avancar(Lista* lista, int n){
-	//busca retorna o anterior do nó selecionado
-	No* sel = busca(lista, lista->selecionado->chave->cod);
-	sel = sel->dir;
-
 	if(n<0){
 		printf("ERRO [avancar]: parâmetro n negativo. Usar função retroceder.\n");
 		return 0;
@@ -350,12 +346,75 @@ int avancar(Lista* lista, int n){
 		return 0;
 	}
 
+	//busca retorna o anterior do nó selecionado
+	No* sel = busca(lista, lista->selecionado->chave->cod);
+	sel = sel->dir;
+
 	int i;
 	for(i=0; i < n; i++){
 		sel = sel->dir;
 	}
 
 	lista->selecionado = sel;
+}
+
+int retroceder(Lista* lista, int n){
+	if(n<0){
+		printf("ERRO [avancar]: parâmetro n negativo.\n");
+		return 0;
+	}
+
+	if(lista == NULL){
+		printf("ERRO[avancar]: Lista nula\n");
+		return 0;
+	}
+
+	//busca retorna o anterior do nó selecionado
+	No* sel = busca(lista, lista->selecionado->chave->cod);
+	sel = sel->dir;
+
+	int i;
+	for(i=0; i < n; i++){
+		sel = sel->esq;
+	}
+
+	lista->selecionado = sel;
+}
+
+//TESTAAAAAAAAAAAAAAAAAAAAAAAAAAAAARRRRRRRRRR
+int preferido(Lista* lista, char* nome){
+	if(lista == NULL){
+		printf("ERRO[avancar]: Lista nula\n");
+		return 0;
+	}
+
+	if(nome == NULL){
+		printf("ERRO[avancar]: nome nulo\n");
+		return 0;
+	}
+
+	No* no = busca(lista, lista->selecionado->chave->cod);
+	no = no->dir;
+
+	//verifica se é o selecionado
+	if(no->chave->nome == nome){
+		no->chave->preferido = 1;
+		return 1;
+	}
+
+	no = no->dir;
+
+	//Percorrendo pela direita
+	while(no != lista->selecionado){
+		if(no->chave->nome == nome){
+			no->chave->preferido = 1;
+			return 1;
+		}
+
+		no = no->dir;
+	}
+
+	return 0;
 }
 
 int main()
@@ -401,6 +460,9 @@ int main()
 	printf("selecionado.nome: %s\n\n", lista->selecionado->chave->nome);
 
 	avancar(lista, 3);
+	printf("selecionado.nome: %s\n\n", lista->selecionado->chave->nome);
+
+	retroceder(lista, 2);
 	printf("selecionado.nome: %s\n\n", lista->selecionado->chave->nome);
 
 	printf("\n");	
