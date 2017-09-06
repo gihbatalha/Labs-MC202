@@ -57,7 +57,7 @@ int printaNo(No* no){
 }
 
 //Imprime TODOS os contatos da lista
-int imprimeContatos(Lista* lista){
+int imprimeTodosContatos(Lista* lista){
 	if(lista->inicio->esq == NULL && lista->fim->dir == NULL){
 		printf("ImprimeContato: Lista vazia\n");
 		return 1;
@@ -87,7 +87,7 @@ int inicializaNo(No* no){
 }
 
 int inicializaLista(Lista* lista){
-	printf("Inicializando lista...\n");
+	//printf("Inicializando lista...\n");
 
 	if(lista == NULL){
 		printf("ERRO [inicializaLista]: Lista nula \n");
@@ -108,7 +108,7 @@ int inicializaLista(Lista* lista){
 }
 
 int adicionaNoFimListaVazia(Lista* lista, No* no){
-	printf("Adicionando no fim da lista vazia - Contato %d\n", no->chave->cod);
+	//printf("Adicionando no fim da lista vazia - Contato %d\n", no->chave->cod);
 	
 	if(no == NULL){
 		printf("ERRO [adicionaNoFimListaVazia] Nó nulo \n");
@@ -122,6 +122,7 @@ int adicionaNoFimListaVazia(Lista* lista, No* no){
 	lista->fim->dir = no;
 	lista->selecionado = no;
 
+	printf("Contato %s (telefone​ %d) adicionado na agenda\n", no->chave->nome, no->chave->tel);
 	return 1;
 }
 
@@ -137,8 +138,6 @@ int adicionaNoFim(Lista* lista, No* no){
 	if(lista->inicio->esq == NULL && lista->fim->dir == NULL){
 		return adicionaNoFimListaVazia(lista, no);
 	}
-
-	printf("Adicionando no fim da lista - Contato %d\n", no->chave->cod);
 	
 	no->dir = lista->inicio->esq;
 	lista->inicio->esq->esq = no;
@@ -147,7 +146,7 @@ int adicionaNoFim(Lista* lista, No* no){
 
 	//atualiza o fim
 	lista->fim->dir = no;
-
+	printf("Contato %s (telefone​ %d) adicionado na agenda\n", no->chave->nome, no->chave->tel);
 	return 1;
 }
 
@@ -172,60 +171,14 @@ int adicionaContato(Lista* lista, int cod, char* nome, int tel, int preferido){
 	return adicionaNoFim(lista, novoNo);
 }
 
-//Caso só exista um no na lista e ele for o buscado, o ant será retornado NULL
-//Caso a lista estiver vazia, o noAchado será retornado NULL
-int buscaContato(Lista* lista, int cod, No* noRetorno, No* anterior){
-	// if(anterior == NULL || noRetorno == NULL || lista == NULL){
-	// 	printf("ERRO [buscaContato] parâmetros nulos\n");
-	// 	return 0;
-	// }
-
-	// if(lista->inicio->esq == NULL && lista->fim->dir == NULL){
-	// 	printf("Buscando contato - Lista vazia\n");
-	// 	noRetorno = NULL;
-	// 	anterior = NULL;
-	// 	return 0;
-	// }
-
-	//noRetorno = lista->inicio->esq; 
-	No* noTeste = malloc(sizeof(No*));
-	Contato* novoContato = malloc(sizeof(Contato*));
-	novoContato->nome = "Teste";
-	novoContato->cod = cod;
-	novoContato->tel = 123;
-	novoContato->preferido = 0;
-
-	noTeste->chave = novoContato;
-
-	noRetorno = noTeste;
-
-	printf("Contato dentro do buscaContato-----------------------\n");
-	printaContato(noRetorno->chave);
-}
-
 No* busca(Lista* lista, int cod){
-
-	// No* noTeste = malloc(sizeof(No*));
-	// Contato* novoContato = malloc(sizeof(Contato*));
-	// novoContato->nome = "Teste";
-	// novoContato->cod = cod;
-	// novoContato->tel = 123;
-	// novoContato->preferido = 0;
-
-	// noTeste->chave = novoContato;
-
-	// printf("Contato dentro do buscaContato-----------------------\n");
-	// printaContato(noTeste->chave);
-
-	// return noTeste;
-
 	if(lista == NULL){
 		printf("ERRO [buscaContato] lista nula\n");
-		return 0;
+		return NULL;
 	}
 
 	if(lista->inicio->esq == NULL && lista->fim->dir == NULL){
-		printf("Buscando contato - Lista vazia\n");
+		//printf("Buscando contato - Lista vazia\n");
 		return NULL;
 	}
 
@@ -263,16 +216,12 @@ int removeContato(Lista* lista, int cod){
 	No* ant = busca(lista, cod);
 	
 	//Remoção de verdade a partir da busca:
-	if(ant == NULL)
+	if(ant == NULL){
+		printf("Contato nao existe\n");
 		return 0;
+	}
 
 	No* noAchado = ant->dir;
-
-	printf("Busca deu certo\n");
-	printaContato(noAchado->chave);
-	printf("\n");
-	printf("ant:\n");
-	printaContato(ant->chave);
 
 	//settando o nó SEL
 	if(lista->selecionado == noAchado){
@@ -295,6 +244,8 @@ int removeContato(Lista* lista, int cod){
 
 	ant->dir = noAchado->dir;
 	noAchado->dir->esq = ant;	
+
+	printf("Contato %s (telefone​ %d) removido da agenda\n",noAchado->chave->nome, noAchado->chave->tel);
 
 	free(noAchado);
 }
@@ -346,6 +297,12 @@ int avancar(Lista* lista, int n){
 		return 0;
 	}
 
+	//Lista vazia
+	if(lista->inicio->esq == NULL && lista->fim->dir == NULL){
+		printf("Agenda vazia\n");
+		return 0;
+	}
+
 	//busca retorna o anterior do nó selecionado
 	No* sel = busca(lista, lista->selecionado->chave->cod);
 	sel = sel->dir;
@@ -356,6 +313,8 @@ int avancar(Lista* lista, int n){
 	}
 
 	lista->selecionado = sel;
+
+	printf("Contato %s (telefone​ %d) selecionado\n", sel->chave->nome, sel->chave->tel);
 }
 
 int retroceder(Lista* lista, int n){
@@ -369,6 +328,12 @@ int retroceder(Lista* lista, int n){
 		return 0;
 	}
 
+	//Lista vazia
+	if(lista->inicio->esq == NULL && lista->fim->dir == NULL){
+		printf("Agenda vazia\n");
+		return 0;
+	}
+
 	//busca retorna o anterior do nó selecionado
 	No* sel = busca(lista, lista->selecionado->chave->cod);
 	sel = sel->dir;
@@ -379,9 +344,9 @@ int retroceder(Lista* lista, int n){
 	}
 
 	lista->selecionado = sel;
+	printf("Contato %s (telefone​ %d) selecionado\n", sel->chave->nome, sel->chave->tel);
 }
 
-//TESTAAAAR
 int preferido(Lista* lista, char* nome){
 	if(lista == NULL){
 		printf("ERRO[avancar]: Lista nula\n");
@@ -490,12 +455,9 @@ int main()
 
 	No* noAchado = malloc(sizeof(No*));
 	No* ant =  malloc(sizeof(No*));
-	buscaContato(lista, 999, noAchado, ant);
 
 	printaContato(noAchado->chave);
 
-	imprimeContatos(lista);
-	//removeContato(lista, 001);
 	printf("\n");
 
 	adicionaContato(lista, 87, "Daniel", 981344418, 0);	
@@ -513,7 +475,6 @@ int main()
 
 	imprimirContatos(lista, 'M');
 
-	imprimeContatos(lista);
 	printf("\n");
 
 	removeContato(lista, 12345678);
@@ -525,7 +486,8 @@ int main()
 	liga(lista, 9111);
 
 	printf("\n Contatos: \n");
-	imprimeContatos(lista);
+	imprimeTodosContatos(lista);
+
 	printf("selecionado.nome: %s\n\n", lista->selecionado->chave->nome);
 
 	avancar(lista, 3);
