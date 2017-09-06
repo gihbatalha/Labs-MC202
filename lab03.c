@@ -335,6 +335,29 @@ int liga(Lista* lista, int tel){
 	return 0;
 }
 
+int avancar(Lista* lista, int n){
+	//busca retorna o anterior do nó selecionado
+	No* sel = busca(lista, lista->selecionado->chave->cod);
+	sel = sel->dir;
+
+	if(n<0){
+		printf("ERRO [avancar]: parâmetro n negativo. Usar função retroceder.\n");
+		return 0;
+	}
+
+	if(lista == NULL){
+		printf("ERRO[avancar]: Lista nula\n");
+		return 0;
+	}
+
+	int i;
+	for(i=0; i < n; i++){
+		sel = sel->dir;
+	}
+
+	lista->selecionado = sel;
+}
+
 int main()
 {
 	Lista* lista = malloc(sizeof(Lista*));
@@ -373,7 +396,11 @@ int main()
 	//adicionaContato(lista, 007, "Telefoneee", 9111, 0);
 	liga(lista, 9111);
 
+	printf("\n Contatos: \n");
 	imprimeContatos(lista);
+	printf("selecionado.nome: %s\n\n", lista->selecionado->chave->nome);
+
+	avancar(lista, 3);
 	printf("selecionado.nome: %s\n\n", lista->selecionado->chave->nome);
 
 	printf("\n");	
