@@ -299,45 +299,41 @@ int removeContato(Lista* lista, int cod){
 	free(noAchado);
 }
 
-// int liga(Lista* lista, int tel){
-// 	No* noAchado = malloc(sizeof(No*));
+int liga(Lista* lista, int tel){
+	//recebe o anterior do nó selecionado da lista
+	No* noAchado = busca(lista, lista->selecionado->chave->cod);
 
-// 	if(noAchado == NULL){
-// 		printf("ERRO [liga]: no nulo\n");
-// 	}
-// 	if(lista == NULL){
-// 		printf("ERRO [liga]: lista nula\n");
-// 	}
+	if(noAchado == NULL){
+		printf("ERRO [liga]: no nulo\n");
+	}
+	if(lista == NULL){
+		printf("ERRO [liga]: lista nula\n");
+	}
 
-// 	//Lista vazia
-// 	if(lista->inicio->esq == NULL && lista->fim->dir == NULL){
-// 		printf("Contato nao existe\n");
-// 		return 0;
-// 	}
+	//Lista vazia
+	if(lista->inicio->esq == NULL && lista->fim->dir == NULL){
+		printf("Contato nao existe\n");
+		return 0;
+	}
 
-// 	noAchado = lista->inicio->esq; //Recebe o início da lista
+	//noAchado começa do selecionado
+	noAchado = noAchado->dir; 
 
-// 	if(noAchado->chave->tel == tel){
-// 		printf("Ligando para %s (telefone​ %d)\n", noAchado->chave->nome, noAchado->chave->tel);
-// 		return 1;
-// 	}
+	//Percorrendo pela direita
+	while(noAchado != lista->inicio->esq){
+		if(noAchado->chave->tel == tel){
+			printf("Ligando para %s (telefone​ %d)\n", noAchado->chave->nome, noAchado->chave->tel);
+			lista->selecionado = noAchado;
+			return 1;
+		}
 
-// 	noAchado = noAchado->dir;
+		noAchado = noAchado->dir;
+	}
 
-// 	//Percorrendo pela direita
-// 	while(noAchado != lista->inicio->esq){
-// 		if(noAchado->chave->cod == tel){
-// 			printf("Ligando para %s (telefone​ %d)\n", noAchado->chave->nome, noAchado->chave->tel);
-// 			return 1;
-// 		}
-
-// 		noAchado = noAchado->dir;
-// 	}
-
-// 	//Não achou nenhum nó com o cod buscado
-// 	printf("Contato nao existe\n");
-// 	return 0;
-// }
+	//Não achou nenhum nó com o cod buscado
+	printf("Contato nao existe\n");
+	return 0;
+}
 
 int main()
 {
@@ -361,6 +357,8 @@ int main()
 	adicionaContato(lista, 002, "Luma", 9222, 0);
 	adicionaContato(lista, 003, "João", 9888, 0);
 	adicionaContato(lista, 004, "Lucas", 9000, 0);
+	adicionaContato(lista, 11, "José", 9111, 0);
+	adicionaContato(lista, 10, "Jon Snow", 12121, 0);
 	adicionaContato(lista, 007, "Fernanda", 9272, 0);
 	printf("selecionado.nome: %s\n\n", lista->selecionado->chave->nome);
 
@@ -371,6 +369,9 @@ int main()
 	removeContato(lista, 2);
 	removeContato(lista, 87);
 	removeContato(lista, 999);
+	removeContato(lista, 7);
+	//adicionaContato(lista, 007, "Telefoneee", 9111, 0);
+	liga(lista, 9111);
 
 	imprimeContatos(lista);
 	printf("selecionado.nome: %s\n\n", lista->selecionado->chave->nome);
