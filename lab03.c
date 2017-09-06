@@ -175,104 +175,128 @@ int adicionaContato(Lista* lista, int cod, char* nome, int tel, int preferido){
 //Caso só exista um no na lista e ele for o buscado, o ant será retornado NULL
 //Caso a lista estiver vazia, o noAchado será retornado NULL
 int buscaContato(Lista* lista, int cod, No* noRetorno, No* anterior){
-	if(anterior == NULL || noRetorno == NULL || lista == NULL){
-		printf("ERRO [buscaContato] parâmetros nulos\n");
+	// if(anterior == NULL || noRetorno == NULL || lista == NULL){
+	// 	printf("ERRO [buscaContato] parâmetros nulos\n");
+	// 	return 0;
+	// }
+
+	// if(lista->inicio->esq == NULL && lista->fim->dir == NULL){
+	// 	printf("Buscando contato - Lista vazia\n");
+	// 	noRetorno = NULL;
+	// 	anterior = NULL;
+	// 	return 0;
+	// }
+
+	//noRetorno = lista->inicio->esq; 
+	No* noTeste = malloc(sizeof(No*));
+	Contato* novoContato = malloc(sizeof(Contato*));
+	novoContato->nome = "Teste";
+	novoContato->cod = cod;
+	novoContato->tel = 123;
+	novoContato->preferido = 0;
+
+	noTeste->chave = novoContato;
+
+	noRetorno = noTeste;
+
+	printf("Contato dentro do buscaContato-----------------------\n");
+	printaContato(noRetorno->chave);
+}
+
+No* busca(Lista* lista, int cod){
+
+	// No* noTeste = malloc(sizeof(No*));
+	// Contato* novoContato = malloc(sizeof(Contato*));
+	// novoContato->nome = "Teste";
+	// novoContato->cod = cod;
+	// novoContato->tel = 123;
+	// novoContato->preferido = 0;
+
+	// noTeste->chave = novoContato;
+
+	// printf("Contato dentro do buscaContato-----------------------\n");
+	// printaContato(noTeste->chave);
+
+	// return noTeste;
+
+	if(lista == NULL){
+		printf("ERRO [buscaContato] lista nula\n");
 		return 0;
 	}
 
 	if(lista->inicio->esq == NULL && lista->fim->dir == NULL){
 		printf("Buscando contato - Lista vazia\n");
-		noRetorno = NULL;
-		anterior = NULL;
-		return 0;
+		return NULL;
 	}
 
-	noRetorno = lista->inicio->esq; 
+	No* noAchado = malloc(sizeof(No*));
+	No* ant = malloc(sizeof(No*));
+	//printf("Busca Nó - Lista não vazia\n");
+	noAchado = lista->inicio->esq; //Recebe o início da lista
+	ant = lista->inicio->esq->esq; //Recebe o início da lista
+
+	if(noAchado->chave->cod == cod){
+		printf("achado no primeiro nó:  %s\n", noAchado->chave->nome);
+		return ant;
+	}			
+
+	ant = noAchado;
+	noAchado = noAchado->dir;
+
+	//Percorrendo pela direita
+	while(noAchado != lista->inicio->esq){
+		if(noAchado->chave->cod == cod){
+			return ant;
+		}
+
+		ant = noAchado;
+		noAchado = noAchado->dir;
+	}
+
+	return NULL;
+	
 }
 
 
 
 int removeContato(Lista* lista, int cod){
-	// No* noAchado = malloc(sizeof(No*));
-	// No* ant =  malloc(sizeof(No*));
-
-	// //int busca = buscaContato(lista, cod, noAchado, ant);
-
-	// int busca = 0;
-
-	// if(lista->inicio->esq == NULL && lista->fim->dir == NULL){
-	// 	//Lista vazia;
-	// 	printf("Busca Nó - Lista vazia\n");
-	// 	noAchado = NULL;
-	// 	ant = NULL;
-	// 	return -1;
-	// }
-
-	// //printf("Busca Nó - Lista não vazia\n");
-	// noAchado = lista->inicio->esq; //Recebe o início da lista
-	// ant = lista->inicio->esq; //Recebe o início da lista
-
-	// if(noAchado->chave->cod == cod){
-	// 	printf("achado no primeiro nó:  %s\n", noAchado->chave->nome);
-	// 	//printf("noAchado cod: %d\n",noAchado->chave->cod);
-	// 	busca = 1;
-	// }
-
-	// noAchado = noAchado->dir;
-
-	// //Percorrendo pela direita
-	// while(noAchado != lista->inicio->esq){
-	// 	if(noAchado->chave->cod == cod){
-	// 		printf("achado %s\n", noAchado->chave->nome);
-	// 		busca = 1;
-	// 		break;
-	// 	}
-
-	// 	ant = noAchado;
-	// 	noAchado = noAchado->dir;
-	// }
-
-	// //Não achou nenhum nó com o cod buscado
-	// if(busca != 1){
-	// 	printf("Não achou o nó\n");
-	// 	noAchado = NULL;
-	// 	ant = NULL;
-	// 	busca = -1;
-	// }
+	No* ant = busca(lista, cod);
 	
-	// //Remoção de verdade a partir da busca:
-	// if(busca != 1)
-	// 	return 0;
+	//Remoção de verdade a partir da busca:
+	if(ant == NULL)
+		return 0;
 
+	No* noAchado = ant->dir;
 
-	// printf("Busca deu certo\n");
+	printf("Busca deu certo\n");
+	printaContato(noAchado->chave);
+	printf("\n");
+	printf("ant:\n");
+	printaContato(ant->chave);
 
-	// printaContato(noAchado->chave);
+	//settando o nó SEL
+	if(lista->selecionado == noAchado){
+		if(noAchado->dir == noAchado){
+			lista->selecionado == NULL;
+		}else{
+			lista->selecionado = ant;
+		}
+	}
 
-	// printf("\n");
-	// printf("ant:\n");
-	// printaContato(ant->chave);
+	//setamos o inicio se o no que será removido for o primeiro
+	if(noAchado == lista->inicio->esq){
+		lista->inicio->esq = noAchado->dir;
+	}
 
-	// if(lista->selecionado == noAchado){
-	// 	if(noAchado->dir == noAchado){
-	// 		lista->selecionado == NULL;
-	// 	}else{
-	// 		lista->selecionado = ant;
-	// 	}
-	// }
+	//setamos o fim se o no que será removido for o ultimo
+	if(noAchado == lista->fim->dir){
+		lista->fim->dir = ant;
+	}
 
-	// if(noAchado == lista->inicio->esq){
-	// 	lista->inicio->esq = noAchado->dir;
-	// }
+	ant->dir = noAchado->dir;
+	noAchado->dir->esq = ant;	
 
-	// if(noAchado == lista->fim->dir){
-	// 	lista->fim->dir = ant;
-	// }
-
-	// ant->dir = noAchado->dir;
-	// noAchado->dir->esq = ant;	
-
-	// free(noAchado);
+	free(noAchado);
 }
 
 // int liga(Lista* lista, int tel){
@@ -328,9 +352,10 @@ int main()
 	printaContato(noAchado->chave);
 
 	imprimeContatos(lista);
-	removeContato(lista, 001);
+	//removeContato(lista, 001);
 	printf("\n");
 
+	adicionaContato(lista, 87, "Daniel", 981344418, 0);	
 	adicionaContato(lista, 12345678, "Giovanna", 981344418, 0);	
 	adicionaContato(lista, 001, "Gabriel", 9111, 0);
 	adicionaContato(lista, 002, "Luma", 9222, 0);
@@ -344,6 +369,7 @@ int main()
 
 	removeContato(lista, 12345678);
 	removeContato(lista, 2);
+	removeContato(lista, 87);
 	removeContato(lista, 999);
 
 	imprimeContatos(lista);
