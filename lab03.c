@@ -236,7 +236,7 @@ No* busca(Lista* lista, int cod){
 	ant = lista->inicio->esq->esq; //Recebe o início da lista
 
 	if(noAchado->chave->cod == cod){
-		printf("achado no primeiro nó:  %s\n", noAchado->chave->nome);
+		//printf("achado no primeiro nó:  %s\n", noAchado->chave->nome);
 		return ant;
 	}			
 
@@ -381,7 +381,7 @@ int retroceder(Lista* lista, int n){
 	lista->selecionado = sel;
 }
 
-//TESTAAAAAAAAAAAAAAAAAAAAAAAAAAAAARRRRRRRRRR
+//TESTAAAAR
 int preferido(Lista* lista, char* nome){
 	if(lista == NULL){
 		printf("ERRO[avancar]: Lista nula\n");
@@ -397,7 +397,8 @@ int preferido(Lista* lista, char* nome){
 	no = no->dir;
 
 	//verifica se é o selecionado
-	if(no->chave->nome == nome){
+	if(no->chave->nome == nome){		
+		printf("Contato %s (telefone​ %d) assinalado como preferido\n",no->chave->nome, no->chave->tel);
 		no->chave->preferido = 1;
 		return 1;
 	}
@@ -407,6 +408,7 @@ int preferido(Lista* lista, char* nome){
 	//Percorrendo pela direita
 	while(no != lista->selecionado){
 		if(no->chave->nome == nome){
+			printf("Contato %s (telefone​ %d) assinalado como preferido\n",no->chave->nome, no->chave->tel);
 			no->chave->preferido = 1;
 			return 1;
 		}
@@ -414,7 +416,70 @@ int preferido(Lista* lista, char* nome){
 		no = no->dir;
 	}
 
-	return 0;
+	printf("Contato nao existe\n");
+	return 0;	
+}
+
+int imprimirPreferidos(Lista* lista){
+	printf("[CONTATOS PREFERIDOS]\n");
+
+	int preferidos = 0;
+
+	//Retorna o ant do selecionado
+	No* no = busca(lista, lista->selecionado->chave->cod);
+	no = no->dir;
+
+	//verifica se o selecionado é preferido
+	if(no->chave->preferido == 1){
+		preferidos++;
+		printf("Contato %s (telefone %d) codigo: %d\n",no->chave->nome, no->chave->tel, no->chave->cod);
+	}
+
+	no = no->dir;
+
+	//Percorrendo pela direita
+	while(no != lista->selecionado){
+		if(no->chave->preferido == 1){
+			preferidos++;
+			printf("Contato %s (telefone %d) codigo: %d\n",no->chave->nome, no->chave->tel, no->chave->cod);
+		}
+
+		no = no->dir;
+	}
+
+	if(preferidos <= 0){
+		printf("Nenhum preferido encontrado\n");
+	}
+	return 1;
+}
+
+int imprimirContatos(Lista* lista, char letra){
+	//Retorna o ant do selecionado
+	No* no = busca(lista, lista->selecionado->chave->cod);
+	no = no->dir;
+
+	printf("[CONTATOS COM INICIAL %c]\n",letra);
+
+	int contatos = 0;
+
+	do{
+		char* nome = no->chave->nome;
+		char primeiraLetra = nome[0];
+		//printf("primeiraLetra: %c\n", primeiraLetra);
+
+		if(primeiraLetra == letra){
+			printaContato(no->chave);
+			contatos++;
+		}
+
+		no = no->dir;
+	}while(no != lista->selecionado);
+
+	if(contatos <= 0){
+		printf("Nenhum contato encontrado\n");
+	}
+
+	return 1;
 }
 
 int main()
@@ -444,6 +509,10 @@ int main()
 	adicionaContato(lista, 007, "Fernanda", 9272, 0);
 	printf("selecionado.nome: %s\n\n", lista->selecionado->chave->nome);
 
+	imprimirContatos(lista, 'G');
+
+	imprimirContatos(lista, 'M');
+
 	imprimeContatos(lista);
 	printf("\n");
 
@@ -466,5 +535,12 @@ int main()
 	printf("selecionado.nome: %s\n\n", lista->selecionado->chave->nome);
 
 	printf("\n");	
+
+	preferido(lista, "Giovanna");
+	imprimirPreferidos(lista);
+
+	preferido(lista, "Jon Snow");
+	imprimirPreferidos(lista);
+
 	return 0;
 }
