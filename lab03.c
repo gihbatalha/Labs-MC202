@@ -289,25 +289,13 @@ int liga(Lista* lista, int tel){
 
 	//Lista vazia
 	if(lista->inicio->esq == NULL && lista->fim->dir == NULL){
-		printf("Lista vazia\n");
+		//printf("Lista vazia\n");
 		printf("Contato nao existe\n");
 		return 0;
 	}
 
 	//noAchado começa do selecionado
 	noAchado = noAchado->dir; 
-
-
-	//Percorrendo pela direita
-	// while(noAchado != lista->inicio->esq){
-	// 	if(noAchado->chave->tel == tel){
-	// 		printf("Ligando para %s (telefone​ %d)\n", noAchado->chave->nome, noAchado->chave->tel);
-	// 		lista->selecionado = noAchado;
-	// 		return 1;
-	// 	}
-
-	// 	noAchado = noAchado->dir;
-	// }
 
 	do{
 		if(noAchado->chave->tel == tel){
@@ -318,7 +306,7 @@ int liga(Lista* lista, int tel){
 
 		noAchado = noAchado->dir;
 
-	}while(noAchado != lista->inicio->esq);
+	}while(noAchado != lista->selecionado);
 
 	//Não achou nenhum nó com o tel buscado
 	printf("Contato nao existe\n");
@@ -348,22 +336,22 @@ int avancar(Lista* lista, int n){
 
 	int i;
 	for(i=0; i < n; i++){
-		sel = sel->dir;
+		sel = sel->esq;
 	}
 
 	lista->selecionado = sel;
-
 	printf("Contato %s (telefone​ %d) selecionado\n", sel->chave->nome, sel->chave->tel);
+	
 }
 
 int retroceder(Lista* lista, int n){
 	if(n<0){
-		printf("ERRO [avancar]: parâmetro n negativo.\n");
+		printf("ERRO [retroceder]: parâmetro n negativo.\n");
 		return 0;
 	}
 
 	if(lista == NULL){
-		printf("ERRO[avancar]: Lista nula\n");
+		printf("ERRO[retroceder]: Lista nula\n");
 		return 0;
 	}
 
@@ -379,10 +367,11 @@ int retroceder(Lista* lista, int n){
 
 	int i;
 	for(i=0; i < n; i++){
-		sel = sel->esq;
+		sel = sel->dir;
 	}
 
 	lista->selecionado = sel;
+
 	printf("Contato %s (telefone​ %d) selecionado\n", sel->chave->nome, sel->chave->tel);
 }
 
@@ -402,11 +391,18 @@ int preferido(Lista* lista, char* nome){
 		return 1;
 	}
 
+	//retorna o ant do selecionado
 	No* no = busca(lista, lista->selecionado->chave->cod);
-	no = no->dir;
+	no = no->dir; // setamos o no para o selecionado
+
+	//printf("nome: %s\n",nome);
 
 	do{
-		if(*(no->chave->nome) == *nome){
+		char* nomeDoNo = no->chave->nome;
+		//printf("Nome do no: %s\n",nomeDoNo);
+
+		if(strcmp(nomeDoNo, nome) == 0){
+			//printaNo(no);
 			printf("Contato %s (telefone​ %d) assinalado como preferido\n",no->chave->nome, no->chave->tel);
 			no->chave->preferido = 1;
 			return 1;
@@ -438,6 +434,7 @@ int imprimirPreferidos(Lista* lista){
 	//Retorna o ant do selecionado
 	No* no = busca(lista, lista->selecionado->chave->cod);
 	no = no->dir;
+	//no = no->esq;
 
 	//verifica se o selecionado é preferido
 	if(no->chave->preferido == 1){
@@ -445,7 +442,8 @@ int imprimirPreferidos(Lista* lista){
 		printf("Contato %s (telefone %d) codigo: %d\n",no->chave->nome, no->chave->tel, no->chave->cod);
 	}
 
-	no = no->dir;
+	//no = no->dir;
+	no = no->esq;
 
 	//Percorrendo pela direita
 	while(no != lista->selecionado){
@@ -454,7 +452,8 @@ int imprimirPreferidos(Lista* lista){
 			printf("Contato %s (telefone %d) codigo: %d\n",no->chave->nome, no->chave->tel, no->chave->cod);
 		}
 
-		no = no->dir;
+		//no = no->dir;
+		no = no->esq;
 	}
 
 	if(preferidos <= 0){
@@ -480,8 +479,7 @@ int imprimirContatos(Lista* lista, char letra){
 	//Retorna o ant do selecionado
 	No* no = busca(lista, lista->selecionado->chave->cod);
 	no = no->dir;
-
-	printf("[CONTATOS COM INICIAL %c]\n",letra);
+	//no = no->esq;
 	
 	int contatos = 0;
 
@@ -495,7 +493,8 @@ int imprimirContatos(Lista* lista, char letra){
 			contatos++;
 		}
 
-		no = no->dir;
+		//no = no->dir;
+		no = no->esq;
 	}while(no != lista->selecionado);
 
 	if(contatos <= 0){
@@ -657,42 +656,42 @@ int main(){
 
 		switch(op){
 			case 1: preparaParaAdicao(agenda);
-					imprimeTodosContatos(agenda);
+					//imprimeTodosContatos(agenda);
 					op = 0;
 					break;
 
 			case 2: preparaParaRemocao(agenda);
-					imprimeTodosContatos(agenda);
+					//imprimeTodosContatos(agenda);
 					op = 0;
 					break;
 
 			case 3: preparaParaLigar(agenda);
-					imprimeTodosContatos(agenda);
+					//imprimeTodosContatos(agenda);
 					op = 0;
 					break;
 
 			case 4: preparaParaAvancar(agenda);
-					imprimeTodosContatos(agenda);
+					//imprimeTodosContatos(agenda);
 					op = 0;
 					break;
 
 			case 5: preparaParaRetroceder(agenda);
-					imprimeTodosContatos(agenda);
+					//imprimeTodosContatos(agenda);
 					op = 0;
 					break;
 
 			case 6: preparaParaMarcarComoPreferido(agenda);
-					imprimeTodosContatos(agenda);
+					//imprimeTodosContatos(agenda);
 					op = 0;
 					break;
 
 			case 7: preparaParaImprimirContatos(agenda);
-					imprimeTodosContatos(agenda);
+					//imprimeTodosContatos(agenda);
 					op = 0;
 					break;
 
 			case 8: preparaParaImprimirPreferidos(agenda);
-					imprimeTodosContatos(agenda);
+					//imprimeTodosContatos(agenda);
 					op = 0;
 					break;
 		}
