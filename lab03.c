@@ -73,6 +73,7 @@ int imprimeTodosContatos(Lista* lista){
 		aux = aux->dir;
 	}while(aux != lista->inicio->esq);
 
+	printf("selecionado: %s\n", lista->selecionado->chave->nome);
 	printf("-------------------------------------------------------------\n");
 }
 
@@ -288,6 +289,7 @@ int liga(Lista* lista, int tel){
 
 	//Lista vazia
 	if(lista->inicio->esq == NULL && lista->fim->dir == NULL){
+		printf("Lista vazia\n");
 		printf("Contato nao existe\n");
 		return 0;
 	}
@@ -295,8 +297,19 @@ int liga(Lista* lista, int tel){
 	//noAchado começa do selecionado
 	noAchado = noAchado->dir; 
 
+
 	//Percorrendo pela direita
-	while(noAchado != lista->inicio->esq){
+	// while(noAchado != lista->inicio->esq){
+	// 	if(noAchado->chave->tel == tel){
+	// 		printf("Ligando para %s (telefone​ %d)\n", noAchado->chave->nome, noAchado->chave->tel);
+	// 		lista->selecionado = noAchado;
+	// 		return 1;
+	// 	}
+
+	// 	noAchado = noAchado->dir;
+	// }
+
+	do{
 		if(noAchado->chave->tel == tel){
 			printf("Ligando para %s (telefone​ %d)\n", noAchado->chave->nome, noAchado->chave->tel);
 			lista->selecionado = noAchado;
@@ -304,9 +317,10 @@ int liga(Lista* lista, int tel){
 		}
 
 		noAchado = noAchado->dir;
-	}
 
-	//Não achou nenhum nó com o cod buscado
+	}while(noAchado != lista->inicio->esq);
+
+	//Não achou nenhum nó com o tel buscado
 	printf("Contato nao existe\n");
 	return 0;
 }
@@ -496,6 +510,9 @@ int testandoFuncoes()
 	adicionaContato(lista, 007, "Fernanda", 9272, 0);
 	printf("selecionado.nome: %s\n\n", lista->selecionado->chave->nome);
 
+	printf("\nVOU LIGAAAAAAR\n");
+	liga(lista, 9111);
+
 	imprimirContatos(lista, 'G');
 
 	imprimirContatos(lista, 'M');
@@ -508,6 +525,8 @@ int testandoFuncoes()
 	removeContato(lista, 999);
 	removeContato(lista, 7);
 	//adicionaContato(lista, 007, "Telefoneee", 9111, 0);
+
+	printf("\nVOU LIGAAAAAAR\n");
 	liga(lista, 9111);
 
 	printf("\n Contatos: \n");
@@ -557,10 +576,20 @@ int preparaParaRemocao(Lista* lista){
 }
 
 int preparaParaLigar(Lista* lista){
+	int tel;
+
+	scanf("%d", &tel);
+	liga(lista, tel);
+
 	return 1;
 }
 
 int preparaParaAvancar(Lista* lista){
+	int n;
+
+	scanf("%d", &n);
+
+	avancar(lista, n);
 	return 1;
 }
 
@@ -582,13 +611,15 @@ int preparaParaImprimirPreferidos(Lista* lista){
 
 int main(){
 
+	testandoFuncoes();
+	printf("\n");
+
 	int op, teste;
 
 	Lista* agenda = malloc(sizeof(Lista*));
 	inicializaLista(agenda);
 
 	while(teste = scanf("%d", &op) != EOF){
-		//printf("Op: %d\n\n", op);
 
 		switch(op){
 			case 1: preparaParaAdicao(agenda);
