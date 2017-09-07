@@ -388,12 +388,12 @@ int retroceder(Lista* lista, int n){
 
 int preferido(Lista* lista, char* nome){
 	if(lista == NULL){
-		printf("ERRO[avancar]: Lista nula\n");
+		printf("ERRO[preferido]: Lista nula\n");
 		return 0;
 	}
 
 	if(nome == NULL){
-		printf("ERRO[avancar]: nome nulo\n");
+		printf("ERRO[preferido]: nome nulo\n");
 		return 0;
 	}
 
@@ -421,9 +421,19 @@ int preferido(Lista* lista, char* nome){
 }
 
 int imprimirPreferidos(Lista* lista){
+	if(lista == NULL){
+		printf("ERRO[imprimirPreferidos]: Lista nula\n");
+		return 0;
+	}
+
 	printf("[CONTATOS PREFERIDOS]\n");
 
 	int preferidos = 0;
+
+	if(lista->inicio->esq == NULL && lista->fim->dir == NULL){
+		printf("Nenhum preferido encontrado\n");
+		return 1;
+	}
 
 	//Retorna o ant do selecionado
 	No* no = busca(lista, lista->selecionado->chave->cod);
@@ -454,12 +464,25 @@ int imprimirPreferidos(Lista* lista){
 }
 
 int imprimirContatos(Lista* lista, char letra){
+	if(lista == NULL){
+		printf("ERRO[imprimirContatos]: Lista nula\n");
+		return 0;
+	}
+	//printf("Letra recebida: %c\n",letra);
+	printf("[CONTATOS COM INICIAL %c]\n",letra);
+
+	//lista vazia
+	if(lista->inicio->esq == NULL && lista->fim->dir == NULL){
+		printf("Nenhum contato encontrado\n");
+		return 1;
+	}
+
 	//Retorna o ant do selecionado
 	No* no = busca(lista, lista->selecionado->chave->cod);
 	no = no->dir;
 
 	printf("[CONTATOS COM INICIAL %c]\n",letra);
-
+	
 	int contatos = 0;
 
 	do{
@@ -607,17 +630,23 @@ int preparaParaMarcarComoPreferido(Lista* lista){
 }
 
 int preparaParaImprimirContatos(Lista* lista){
+	char letra;
+
+	scanf(" %c", &letra);
+
+	imprimirContatos(lista, letra);
 	return 1;
 }
 
 int preparaParaImprimirPreferidos(Lista* lista){
+	imprimirPreferidos(lista);
 	return 1;
 }
 
 int main(){
 
-	testandoFuncoes();
-	printf("\n");
+	// testandoFuncoes();
+	// printf("\n");
 
 	int op, teste;
 
