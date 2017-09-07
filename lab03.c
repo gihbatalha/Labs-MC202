@@ -63,6 +63,7 @@ int imprimeTodosContatos(Lista* lista){
 		return 1;
 	}
 
+	printf("\n --------------- Imprimindo todos os contatos ----------------\n");
 	No* aux = lista->inicio->esq; //Recebe o início da lista
 
 	//percorrendo pela direita
@@ -70,6 +71,8 @@ int imprimeTodosContatos(Lista* lista){
 		printaContato(aux->chave);
 		aux = aux->dir;
 	}while(aux != lista->inicio->esq);
+
+	printf("-------------------------------------------------------------\n");
 }
 
 //Coloca 0 e "" nos atrivutos
@@ -153,6 +156,8 @@ int adicionaNoFim(Lista* lista, No* no){
 //Métodos oficiais a serem chamados......
 
 int adicionaContato(Lista* lista, int cod, char* nome, int tel, int preferido){
+	//printf("Adicionando contato....\n");
+	//printf("cod: %d| nome %s| tel %d|\n", cod, nome, tel);
 	Contato* novoContato;
 	novoContato = malloc(sizeof(Contato*));
 
@@ -447,7 +452,7 @@ int imprimirContatos(Lista* lista, char letra){
 	return 1;
 }
 
-int main()
+int testandoFuncoes()
 {
 	Lista* lista = malloc(sizeof(Lista*));
 
@@ -505,4 +510,95 @@ int main()
 	imprimirPreferidos(lista);
 
 	return 0;
+}
+
+int preparaParaAdicao(Lista* lista){
+	int cod, tel, preferido;
+	char* nome = malloc(sizeof(char*));
+
+	scanf("%d", &cod);
+	scanf("%s", nome);
+	scanf("%d", &tel);
+
+	preferido = 0; //default
+
+	adicionaContato(lista, cod, nome, tel, preferido);
+
+	return 1;	
+}
+
+int preparaParaRemocao(Lista* lista){
+	return 1;
+}
+
+int preparaParaLigar(Lista* lista){
+	return 1;
+}
+
+int preparaParaAvancar(Lista* lista){
+	return 1;
+}
+
+int preparaParaRetroceder(Lista* lista){
+	return 1;
+}
+
+int preparaParaMarcarComoPreferido(Lista* lista){
+	return 1;
+}
+
+int preparaParaImprimirContatos(Lista* lista){
+	return 1;
+}
+
+int preparaParaImprimirPreferidos(Lista* lista){
+	return 1;
+}
+
+int main(){
+
+	int op;
+
+	Lista* agenda = malloc(sizeof(Lista*));
+	inicializaLista(agenda);
+
+	while(scanf("%d", &op) != EOF){
+		printf("Op: %d\n\n", op);
+
+		switch(op){
+			case 1: preparaParaAdicao(agenda);
+					imprimeTodosContatos(agenda);
+					break;
+
+			case 2: preparaParaRemocao(agenda);
+					imprimeTodosContatos(agenda);
+					break;
+
+			case 3: preparaParaLigar(agenda);
+					imprimeTodosContatos(agenda);
+					break;
+
+			case 4: preparaParaAvancar(agenda);
+					imprimeTodosContatos(agenda);
+					break;
+
+			case 5: preparaParaRetroceder(agenda);
+					imprimeTodosContatos(agenda);
+					break;
+
+			case 6: preparaParaMarcarComoPreferido(agenda);
+					imprimeTodosContatos(agenda);
+					break;
+
+			case 7: preparaParaImprimirContatos(agenda);
+					imprimeTodosContatos(agenda);
+					break;
+
+			case 8: preparaParaImprimirPreferidos(agenda);
+					imprimeTodosContatos(agenda);
+					break;
+		}
+	}
+
+	return 1;
 }
