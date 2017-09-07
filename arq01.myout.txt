@@ -1,79 +1,1955 @@
-Contato Mcnear (telefone​ 930943) adicionado na agenda
-Contato Aller (telefone​ 956657) adicionado na agenda
-Contato Hricko (telefone​ 992921) adicionado na agenda
-Contato Santoro (telefone​ 941652) adicionado na agenda
-Contato Kloepper (telefone​ 941073) adicionado na agenda
-Contato Blindt (telefone​ 970110) adicionado na agenda
-Contato Leconte (telefone​ 912059) adicionado na agenda
-Contato Guevin (telefone​ 956686) adicionado na agenda
-Contato Judge (telefone​ 966760) adicionado na agenda
-Contato Dressman (telefone​ 932472) adicionado na agenda
-Contato Stele (telefone​ 910297) adicionado na agenda
-Contato Buntyn (telefone​ 957210) adicionado na agenda
-Contato Harrop (telefone​ 925671) adicionado na agenda
-Contato Lockmiller (telefone​ 999629) adicionado na agenda
-Contato Gwendolyn (telefone​ 982727) adicionado na agenda
-Contato Harrod (telefone​ 950062) adicionado na agenda
-Contato Emanuel (telefone​ 930272) adicionado na agenda
-Contato Binn (telefone​ 963208) adicionado na agenda
-Contato Conkey (telefone​ 972934) adicionado na agenda
-Contato Rosek (telefone​ 960966) adicionado na agenda
-Contato Spires (telefone​ 961663) adicionado na agenda
-Contato Bastian (telefone​ 945320) adicionado na agenda
-Contato Stremel (telefone​ 920208) adicionado na agenda
-Contato Caveney (telefone​ 914481) adicionado na agenda
-Contato Palomares (telefone​ 989135) adicionado na agenda
-Contato Motta (telefone​ 980848) adicionado na agenda
-Contato Levier (telefone​ 926524) adicionado na agenda
-Contato Ruwe (telefone​ 914717) adicionado na agenda
-Contato Daddona (telefone​ 962080) adicionado na agenda
-Contato Petter (telefone​ 942113) adicionado na agenda
-Contato Harkrider (telefone​ 953517) adicionado na agenda
-Contato Tobert (telefone​ 962910) adicionado na agenda
-Contato Bluming (telefone​ 951270) adicionado na agenda
-Contato Ariyoshi (telefone​ 978150) adicionado na agenda
-Contato Mancos (telefone​ 991319) adicionado na agenda
-Contato Gainforth (telefone​ 996047) adicionado na agenda
-Contato Dunham (telefone​ 998731) adicionado na agenda
-Contato Purwin (telefone​ 972429) adicionado na agenda
-Contato Astwood (telefone​ 932473) adicionado na agenda
-Contato Hinkes (telefone​ 947620) adicionado na agenda
-Contato Krupinski (telefone​ 995508) adicionado na agenda
-Contato Graeff (telefone​ 927335) adicionado na agenda
-Contato Abousaleh (telefone​ 952317) adicionado na agenda
-Contato Tepe (telefone​ 937922) adicionado na agenda
-Contato Millers (telefone​ 933443) adicionado na agenda
-Contato Yolonda (telefone​ 980895) adicionado na agenda
-Contato Carreno (telefone​ 948213) adicionado na agenda
-Contato Fronek (telefone​ 975543) adicionado na agenda
-Contato Boldrin (telefone​ 910993) adicionado na agenda
-Contato Urquidi (telefone​ 965025) adicionado na agenda
-Contato Jen (telefone​ 957809) adicionado na agenda
-Contato Reil (telefone​ 937402) adicionado na agenda
-Contato Muston (telefone​ 963920) adicionado na agenda
-Contato Arendsee (telefone​ 976769) adicionado na agenda
-Contato Trim (telefone​ 919308) adicionado na agenda
-Contato Marguez (telefone​ 988925) adicionado na agenda
-Contato Dosal (telefone​ 925359) adicionado na agenda
-Contato Slaymaker (telefone​ 955020) adicionado na agenda
-Contato Tutoky (telefone​ 960396) adicionado na agenda
-Contato Wolaver (telefone​ 974082) adicionado na agenda
-Contato Goyda (telefone​ 970687) adicionado na agenda
-Contato Lavina (telefone​ 916741) adicionado na agenda
-Contato Elzinga (telefone​ 995122) adicionado na agenda
-Contato Gloshen (telefone​ 981076) adicionado na agenda
-Contato Hollyfield (telefone​ 934023) adicionado na agenda
-Contato Brentano (telefone​ 960338) adicionado na agenda
-Contato Brandy (telefone​ 937556) adicionado na agenda
-Contato Kingham (telefone​ 962926) adicionado na agenda
-Contato Lout (telefone​ 993355) adicionado na agenda
-Contato Pereiro (telefone​ 944978) adicionado na agenda
-Contato Tingwald (telefone​ 999633) adicionado na agenda
-Contato Gobeille (telefone​ 991930) adicionado na agenda
-Contato Ficorilli (telefone​ 991797) adicionado na agenda
-Contato Kuklinski (telefone​ 978351) adicionado na agenda
-Contato Fringuello (telefone​ 944064) adicionado na agenda
-Contato Fiebig (telefone​ 919407) adicionado na agenda
-Contato Floe (telefone​ 933170) adicionado na agenda
-Contato Stall (telefone​ 958210) adicionado na agenda
-Contato Callarman (telefone​ 930575) adicionado na agenda
+Contato Mcnear (telefone 930943) adicionado na agenda
+Contato Aller (telefone 956657) adicionado na agenda
+Contato Hricko (telefone 992921) adicionado na agenda
+Contato Santoro (telefone 941652) adicionado na agenda
+Contato Kloepper (telefone 941073) adicionado na agenda
+Contato Blindt (telefone 970110) adicionado na agenda
+Contato Leconte (telefone 912059) adicionado na agenda
+Contato Guevin (telefone 956686) adicionado na agenda
+Contato Judge (telefone 966760) adicionado na agenda
+Contato Dressman (telefone 932472) adicionado na agenda
+Contato Stele (telefone 910297) adicionado na agenda
+Contato Buntyn (telefone 957210) adicionado na agenda
+Contato Harrop (telefone 925671) adicionado na agenda
+Contato Lockmiller (telefone 999629) adicionado na agenda
+Contato Gwendolyn (telefone 982727) adicionado na agenda
+Contato Harrod (telefone 950062) adicionado na agenda
+Contato Emanuel (telefone 930272) adicionado na agenda
+Contato Binn (telefone 963208) adicionado na agenda
+Contato Conkey (telefone 972934) adicionado na agenda
+Contato Rosek (telefone 960966) adicionado na agenda
+Contato Spires (telefone 961663) adicionado na agenda
+Contato Bastian (telefone 945320) adicionado na agenda
+Contato Stremel (telefone 920208) adicionado na agenda
+Contato Caveney (telefone 914481) adicionado na agenda
+Contato Palomares (telefone 989135) adicionado na agenda
+Contato Motta (telefone 980848) adicionado na agenda
+Contato Levier (telefone 926524) adicionado na agenda
+Contato Ruwe (telefone 914717) adicionado na agenda
+Contato Daddona (telefone 962080) adicionado na agenda
+Contato Petter (telefone 942113) adicionado na agenda
+Contato Harkrider (telefone 953517) adicionado na agenda
+Contato Tobert (telefone 962910) adicionado na agenda
+Contato Bluming (telefone 951270) adicionado na agenda
+Contato Ariyoshi (telefone 978150) adicionado na agenda
+Contato Mancos (telefone 991319) adicionado na agenda
+Contato Gainforth (telefone 996047) adicionado na agenda
+Contato Dunham (telefone 998731) adicionado na agenda
+Contato Purwin (telefone 972429) adicionado na agenda
+Contato Astwood (telefone 932473) adicionado na agenda
+Contato Hinkes (telefone 947620) adicionado na agenda
+Contato Krupinski (telefone 995508) adicionado na agenda
+Contato Graeff (telefone 927335) adicionado na agenda
+Contato Abousaleh (telefone 952317) adicionado na agenda
+Contato Tepe (telefone 937922) adicionado na agenda
+Contato Millers (telefone 933443) adicionado na agenda
+Contato Yolonda (telefone 980895) adicionado na agenda
+Contato Carreno (telefone 948213) adicionado na agenda
+Contato Fronek (telefone 975543) adicionado na agenda
+Contato Boldrin (telefone 910993) adicionado na agenda
+Contato Urquidi (telefone 965025) adicionado na agenda
+Contato Jen (telefone 957809) adicionado na agenda
+Contato Reil (telefone 937402) adicionado na agenda
+Contato Muston (telefone 963920) adicionado na agenda
+Contato Arendsee (telefone 976769) adicionado na agenda
+Contato Trim (telefone 919308) adicionado na agenda
+Contato Marguez (telefone 988925) adicionado na agenda
+Contato Dosal (telefone 925359) adicionado na agenda
+Contato Slaymaker (telefone 955020) adicionado na agenda
+Contato Tutoky (telefone 960396) adicionado na agenda
+Contato Wolaver (telefone 974082) adicionado na agenda
+Contato Goyda (telefone 970687) adicionado na agenda
+Contato Lavina (telefone 916741) adicionado na agenda
+Contato Elzinga (telefone 995122) adicionado na agenda
+Contato Gloshen (telefone 981076) adicionado na agenda
+Contato Hollyfield (telefone 934023) adicionado na agenda
+Contato Brentano (telefone 960338) adicionado na agenda
+Contato Brandy (telefone 937556) adicionado na agenda
+Contato Kingham (telefone 962926) adicionado na agenda
+Contato Lout (telefone 993355) adicionado na agenda
+Contato Pereiro (telefone 944978) adicionado na agenda
+Contato Tingwald (telefone 999633) adicionado na agenda
+Contato Gobeille (telefone 991930) adicionado na agenda
+Contato Ficorilli (telefone 991797) adicionado na agenda
+Contato Kuklinski (telefone 978351) adicionado na agenda
+Contato Fringuello (telefone 944064) adicionado na agenda
+Contato Fiebig (telefone 919407) adicionado na agenda
+Contato Floe (telefone 933170) adicionado na agenda
+Contato Stall (telefone 958210) adicionado na agenda
+Contato Callarman (telefone 930575) adicionado na agenda
+[CONTATOS PREFERIDOS]
+Nenhum preferido encontrado
+Contato Lockmiller (telefone 999629) assinalado como preferido
+Contato Pereiro (telefone 944978) removido da agenda
+Ligando para Tepe (telefone 937922)
+[CONTATOS COM INICIAL Q]
+Nenhum contato encontrado
+Contato Shollenberger (telefone 969286) adicionado na agenda
+Contato Mancos (telefone 991319) selecionado
+Contato Santoro (telefone 941652) assinalado como preferido
+Contato Graeff (telefone 927335) assinalado como preferido
+[CONTATOS COM INICIAL N]
+Nenhum contato encontrado
+[CONTATOS COM INICIAL S]
+Contato Stremel (telefone 920208) codigo: 42953 [N_PREFERIDO]
+Contato Spires (telefone 961663) codigo: 19372 [N_PREFERIDO]
+Contato Stele (telefone 910297) codigo: 57810 [N_PREFERIDO]
+Contato Santoro (telefone 941652) codigo: 17516 [PREFERIDO]
+Contato Shollenberger (telefone 969286) codigo: 46235 [N_PREFERIDO]
+Contato Stall (telefone 958210) codigo: 56186 [N_PREFERIDO]
+Contato Slaymaker (telefone 955020) codigo: 52964 [N_PREFERIDO]
+Contato Lout (telefone 993355) assinalado como preferido
+[CONTATOS PREFERIDOS]
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Lout (telefone 993355) codigo: 58993
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Boldrin (telefone 910993) removido da agenda
+Ligando para Lockmiller (telefone 999629)
+Contato Petter (telefone 942113) selecionado
+[CONTATOS PREFERIDOS]
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Lout (telefone 993355) codigo: 58993
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Stremel (telefone 920208) removido da agenda
+[CONTATOS PREFERIDOS]
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Lout (telefone 993355) codigo: 58993
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Conkey (telefone 972934) removido da agenda
+[CONTATOS PREFERIDOS]
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Lout (telefone 993355) codigo: 58993
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Dressman (telefone 932472) assinalado como preferido
+Contato Hricko (telefone 992921) selecionado
+Contato Brandy (telefone 937556) removido da agenda
+Ligando para Jen (telefone 957809)
+Contato Callarman (telefone 930575) assinalado como preferido
+Contato Welti (telefone 994448) adicionado na agenda
+Ligando para Marguez (telefone 988925)
+Ligando para Guevin (telefone 956686)
+[CONTATOS PREFERIDOS]
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Callarman (telefone 930575) codigo: 54634
+Contato Lout (telefone 993355) codigo: 58993
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Lout (telefone 993355) assinalado como preferido
+Contato Goyda (telefone 970687) assinalado como preferido
+Contato Stele (telefone 910297) selecionado
+Contato Gerlich (telefone 991086) adicionado na agenda
+Contato Prestwood (telefone 972173) adicionado na agenda
+Contato Krupinski (telefone 995508) assinalado como preferido
+[CONTATOS COM INICIAL V]
+Nenhum contato encontrado
+[CONTATOS COM INICIAL T]
+Contato Tingwald (telefone 999633) codigo: 70913 [N_PREFERIDO]
+Contato Tutoky (telefone 960396) codigo: 37940 [N_PREFERIDO]
+Contato Trim (telefone 919308) codigo: 43007 [N_PREFERIDO]
+Contato Tepe (telefone 937922) codigo: 66810 [N_PREFERIDO]
+Contato Tobert (telefone 962910) codigo: 33741 [N_PREFERIDO]
+Contato Ruwe (telefone 914717) removido da agenda
+Contato Levoy (telefone 976025) adicionado na agenda
+[CONTATOS PREFERIDOS]
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Callarman (telefone 930575) codigo: 54634
+Contato Lout (telefone 993355) codigo: 58993
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Pettiway (telefone 966699) adicionado na agenda
+Contato Ariyoshi (telefone 978150) removido da agenda
+[CONTATOS COM INICIAL O]
+Nenhum contato encontrado
+Contato Behmer (telefone 957209) adicionado na agenda
+[CONTATOS PREFERIDOS]
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Callarman (telefone 930575) codigo: 54634
+Contato Lout (telefone 993355) codigo: 58993
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Petter (telefone 942113) selecionado
+Ligando para Urquidi (telefone 965025)
+[CONTATOS COM INICIAL Q]
+Nenhum contato encontrado
+Contato Fronek (telefone 975543) selecionado
+Contato Stasulis (telefone 976088) adicionado na agenda
+Contato Ancrum (telefone 921752) adicionado na agenda
+[CONTATOS COM INICIAL J]
+Contato Judge (telefone 966760) codigo: 86019 [N_PREFERIDO]
+Contato Jen (telefone 957809) codigo: 16310 [N_PREFERIDO]
+[CONTATOS PREFERIDOS]
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Callarman (telefone 930575) codigo: 54634
+Contato Lout (telefone 993355) codigo: 58993
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Prestwood (telefone 972173) assinalado como preferido
+Contato Ancrum (telefone 921752) assinalado como preferido
+Contato Gainforth (telefone 996047) selecionado
+[CONTATOS COM INICIAL D]
+Contato Daddona (telefone 962080) codigo: 58653 [N_PREFERIDO]
+Contato Dressman (telefone 932472) codigo: 7685 [PREFERIDO]
+Contato Dosal (telefone 925359) codigo: 62964 [N_PREFERIDO]
+Contato Dunham (telefone 998731) codigo: 77029 [N_PREFERIDO]
+Contato Arendsee (telefone 976769) assinalado como preferido
+Contato Harkrider (telefone 953517) removido da agenda
+Ligando para Jen (telefone 957809)
+[CONTATOS COM INICIAL D]
+Contato Dunham (telefone 998731) codigo: 77029 [N_PREFERIDO]
+Contato Daddona (telefone 962080) codigo: 58653 [N_PREFERIDO]
+Contato Dressman (telefone 932472) codigo: 7685 [PREFERIDO]
+Contato Dosal (telefone 925359) codigo: 62964 [N_PREFERIDO]
+Contato Carreno (telefone 948213) selecionado
+[CONTATOS COM INICIAL M]
+Contato Millers (telefone 933443) codigo: 96698 [N_PREFERIDO]
+Contato Mancos (telefone 991319) codigo: 10198 [N_PREFERIDO]
+Contato Motta (telefone 980848) codigo: 42791 [N_PREFERIDO]
+Contato Mcnear (telefone 930943) codigo: 71740 [N_PREFERIDO]
+Contato Marguez (telefone 988925) codigo: 98909 [N_PREFERIDO]
+Contato Muston (telefone 963920) codigo: 24228 [N_PREFERIDO]
+Contato Stasulis (telefone 976088) assinalado como preferido
+Contato Gamarra (telefone 969736) adicionado na agenda
+Contato Judge (telefone 966760) selecionado
+Contato Levier (telefone 926524) removido da agenda
+Ligando para Ancrum (telefone 921752)
+[CONTATOS PREFERIDOS]
+Contato Ancrum (telefone 921752) codigo: 49624
+Contato Stasulis (telefone 976088) codigo: 87129
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Callarman (telefone 930575) codigo: 54634
+Contato Lout (telefone 993355) codigo: 58993
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Santoro (telefone 941652) codigo: 17516
+Ligando para Marguez (telefone 988925)
+[CONTATOS PREFERIDOS]
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Ancrum (telefone 921752) codigo: 49624
+Contato Stasulis (telefone 976088) codigo: 87129
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Callarman (telefone 930575) codigo: 54634
+Contato Lout (telefone 993355) codigo: 58993
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Behmer (telefone 957209) selecionado
+[CONTATOS PREFERIDOS]
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Callarman (telefone 930575) codigo: 54634
+Contato Lout (telefone 993355) codigo: 58993
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Ancrum (telefone 921752) codigo: 49624
+Contato Stasulis (telefone 976088) codigo: 87129
+[CONTATOS PREFERIDOS]
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Callarman (telefone 930575) codigo: 54634
+Contato Lout (telefone 993355) codigo: 58993
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Ancrum (telefone 921752) codigo: 49624
+Contato Stasulis (telefone 976088) codigo: 87129
+Ligando para Pettiway (telefone 966699)
+Contato Lesmeister (telefone 937051) adicionado na agenda
+Contato Dunham (telefone 998731) selecionado
+[CONTATOS PREFERIDOS]
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Ancrum (telefone 921752) codigo: 49624
+Contato Stasulis (telefone 976088) codigo: 87129
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Callarman (telefone 930575) codigo: 54634
+Contato Lout (telefone 993355) codigo: 58993
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Palomares (telefone 989135) assinalado como preferido
+Contato Leconte (telefone 912059) selecionado
+Contato Slaymaker (telefone 955020) removido da agenda
+[CONTATOS PREFERIDOS]
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Ancrum (telefone 921752) codigo: 49624
+Contato Stasulis (telefone 976088) codigo: 87129
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Callarman (telefone 930575) codigo: 54634
+Contato Lout (telefone 993355) codigo: 58993
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Dressman (telefone 932472) codigo: 7685
+[CONTATOS PREFERIDOS]
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Ancrum (telefone 921752) codigo: 49624
+Contato Stasulis (telefone 976088) codigo: 87129
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Callarman (telefone 930575) codigo: 54634
+Contato Lout (telefone 993355) codigo: 58993
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Brentano (telefone 960338) assinalado como preferido
+Contato Brentano (telefone 960338) selecionado
+[CONTATOS PREFERIDOS]
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Ancrum (telefone 921752) codigo: 49624
+Contato Stasulis (telefone 976088) codigo: 87129
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Callarman (telefone 930575) codigo: 54634
+Contato Lout (telefone 993355) codigo: 58993
+Contato Callarman (telefone 930575) removido da agenda
+[CONTATOS PREFERIDOS]
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Ancrum (telefone 921752) codigo: 49624
+Contato Stasulis (telefone 976088) codigo: 87129
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Lout (telefone 993355) codigo: 58993
+Ligando para Fronek (telefone 975543)
+[CONTATOS COM INICIAL D]
+Contato Dunham (telefone 998731) codigo: 77029 [N_PREFERIDO]
+Contato Daddona (telefone 962080) codigo: 58653 [N_PREFERIDO]
+Contato Dressman (telefone 932472) codigo: 7685 [PREFERIDO]
+Contato Dosal (telefone 925359) codigo: 62964 [N_PREFERIDO]
+Contato Millers (telefone 933443) assinalado como preferido
+[CONTATOS COM INICIAL R]
+Contato Rosek (telefone 960966) codigo: 48024 [N_PREFERIDO]
+Contato Reil (telefone 937402) codigo: 66274 [N_PREFERIDO]
+[CONTATOS PREFERIDOS]
+Contato Millers (telefone 933443) codigo: 96698
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Ancrum (telefone 921752) codigo: 49624
+Contato Stasulis (telefone 976088) codigo: 87129
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+[CONTATOS PREFERIDOS]
+Contato Millers (telefone 933443) codigo: 96698
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Ancrum (telefone 921752) codigo: 49624
+Contato Stasulis (telefone 976088) codigo: 87129
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+[CONTATOS COM INICIAL O]
+Nenhum contato encontrado
+Ligando para Dressman (telefone 932472)
+Contato Trim (telefone 919308) removido da agenda
+[CONTATOS COM INICIAL W]
+Contato Welti (telefone 994448) codigo: 11324 [N_PREFERIDO]
+Contato Wolaver (telefone 974082) codigo: 55381 [N_PREFERIDO]
+Ligando para Tepe (telefone 937922)
+Contato Santoro (telefone 941652) selecionado
+[CONTATOS COM INICIAL J]
+Contato Jen (telefone 957809) codigo: 16310 [N_PREFERIDO]
+Contato Judge (telefone 966760) codigo: 86019 [N_PREFERIDO]
+Contato Caveney (telefone 914481) assinalado como preferido
+[CONTATOS COM INICIAL K]
+Contato Kuklinski (telefone 978351) codigo: 33497 [N_PREFERIDO]
+Contato Kingham (telefone 962926) codigo: 71671 [N_PREFERIDO]
+Contato Krupinski (telefone 995508) codigo: 38370 [PREFERIDO]
+Contato Kloepper (telefone 941073) codigo: 37152 [N_PREFERIDO]
+Contato Buntyn (telefone 957210) selecionado
+Contato Kloepper (telefone 941073) assinalado como preferido
+[CONTATOS PREFERIDOS]
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Ancrum (telefone 921752) codigo: 49624
+Contato Stasulis (telefone 976088) codigo: 87129
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Millers (telefone 933443) codigo: 96698
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Caveney (telefone 914481) codigo: 14893
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Dosal (telefone 925359) assinalado como preferido
+Contato Binn (telefone 963208) removido da agenda
+[CONTATOS COM INICIAL L]
+Contato Leconte (telefone 912059) codigo: 61925 [N_PREFERIDO]
+Contato Lesmeister (telefone 937051) codigo: 25330 [N_PREFERIDO]
+Contato Levoy (telefone 976025) codigo: 42137 [N_PREFERIDO]
+Contato Lout (telefone 993355) codigo: 58993 [PREFERIDO]
+Contato Lavina (telefone 916741) codigo: 86689 [N_PREFERIDO]
+Contato Lockmiller (telefone 999629) codigo: 39400 [PREFERIDO]
+[CONTATOS COM INICIAL J]
+Contato Judge (telefone 966760) codigo: 86019 [N_PREFERIDO]
+Contato Jen (telefone 957809) codigo: 16310 [N_PREFERIDO]
+[CONTATOS COM INICIAL Y]
+Contato Yolonda (telefone 980895) codigo: 73605 [N_PREFERIDO]
+Ligando para Caveney (telefone 914481)
+Contato Judge (telefone 966760) assinalado como preferido
+Contato Dunham (telefone 998731) assinalado como preferido
+Contato Rosek (telefone 960966) assinalado como preferido
+[CONTATOS PREFERIDOS]
+Contato Caveney (telefone 914481) codigo: 14893
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Ancrum (telefone 921752) codigo: 49624
+Contato Stasulis (telefone 976088) codigo: 87129
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Dosal (telefone 925359) codigo: 62964
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Millers (telefone 933443) codigo: 96698
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Dunham (telefone 998731) codigo: 77029
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Purwin (telefone 972429) selecionado
+Contato Pettiway (telefone 966699) assinalado como preferido
+Contato Tingwald (telefone 999633) selecionado
+Contato Motta (telefone 980848) assinalado como preferido
+Contato Fearing (telefone 999154) adicionado na agenda
+Contato Carreno (telefone 948213) selecionado
+Contato Palomares (telefone 989135) assinalado como preferido
+Ligando para Behmer (telefone 957209)
+Ligando para Krupinski (telefone 995508)
+Contato Rosek (telefone 960966) assinalado como preferido
+Contato Brentano (telefone 960338) assinalado como preferido
+Contato Leconte (telefone 912059) removido da agenda
+Contato Lockmiller (telefone 999629) assinalado como preferido
+Contato Spires (telefone 961663) selecionado
+Contato Abousaleh (telefone 952317) assinalado como preferido
+Contato Alves (telefone 987319) adicionado na agenda
+Ligando para Arendsee (telefone 976769)
+Ligando para Gobeille (telefone 991930)
+[CONTATOS PREFERIDOS]
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Dosal (telefone 925359) codigo: 62964
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Dunham (telefone 998731) codigo: 77029
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Caveney (telefone 914481) codigo: 14893
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Ancrum (telefone 921752) codigo: 49624
+Contato Stasulis (telefone 976088) codigo: 87129
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Prestwood (telefone 972173) codigo: 34400
+[CONTATOS COM INICIAL L]
+Contato Lout (telefone 993355) codigo: 58993 [PREFERIDO]
+Contato Lavina (telefone 916741) codigo: 86689 [N_PREFERIDO]
+Contato Lockmiller (telefone 999629) codigo: 39400 [PREFERIDO]
+Contato Lesmeister (telefone 937051) codigo: 25330 [N_PREFERIDO]
+Contato Levoy (telefone 976025) codigo: 42137 [N_PREFERIDO]
+[CONTATOS COM INICIAL D]
+Contato Dosal (telefone 925359) codigo: 62964 [PREFERIDO]
+Contato Dunham (telefone 998731) codigo: 77029 [PREFERIDO]
+Contato Daddona (telefone 962080) codigo: 58653 [N_PREFERIDO]
+Contato Dressman (telefone 932472) codigo: 7685 [PREFERIDO]
+[CONTATOS PREFERIDOS]
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Dosal (telefone 925359) codigo: 62964
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Dunham (telefone 998731) codigo: 77029
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Caveney (telefone 914481) codigo: 14893
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Ancrum (telefone 921752) codigo: 49624
+Contato Stasulis (telefone 976088) codigo: 87129
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Rosek (telefone 960966) selecionado
+[CONTATOS COM INICIAL M]
+Contato Mcnear (telefone 930943) codigo: 71740 [N_PREFERIDO]
+Contato Marguez (telefone 988925) codigo: 98909 [N_PREFERIDO]
+Contato Muston (telefone 963920) codigo: 24228 [N_PREFERIDO]
+Contato Millers (telefone 933443) codigo: 96698 [PREFERIDO]
+Contato Mancos (telefone 991319) codigo: 10198 [N_PREFERIDO]
+Contato Motta (telefone 980848) codigo: 42791 [PREFERIDO]
+Contato Metellus (telefone 976365) adicionado na agenda
+[CONTATOS COM INICIAL I]
+Nenhum contato encontrado
+Contato Ernandez (telefone 961804) adicionado na agenda
+Ligando para Brentano (telefone 960338)
+[CONTATOS PREFERIDOS]
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Dosal (telefone 925359) codigo: 62964
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Dunham (telefone 998731) codigo: 77029
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Caveney (telefone 914481) codigo: 14893
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Ancrum (telefone 921752) codigo: 49624
+Contato Stasulis (telefone 976088) codigo: 87129
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Lout (telefone 993355) codigo: 58993
+Contato Judge (telefone 966760) selecionado
+[CONTATOS PREFERIDOS]
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Ancrum (telefone 921752) codigo: 49624
+Contato Stasulis (telefone 976088) codigo: 87129
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Dosal (telefone 925359) codigo: 62964
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Dunham (telefone 998731) codigo: 77029
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Caveney (telefone 914481) codigo: 14893
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Welti (telefone 994448) removido da agenda
+Contato Hollyfield (telefone 934023) assinalado como preferido
+Ligando para Tobert (telefone 962910)
+Ligando para Prestwood (telefone 972173)
+[CONTATOS PREFERIDOS]
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Hollyfield (telefone 934023) codigo: 69179
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Dosal (telefone 925359) codigo: 62964
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Dunham (telefone 998731) codigo: 77029
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Caveney (telefone 914481) codigo: 14893
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Ancrum (telefone 921752) codigo: 49624
+Contato Stasulis (telefone 976088) codigo: 87129
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Ernandez (telefone 961804) assinalado como preferido
+Contato Hricko (telefone 992921) removido da agenda
+Contato Levoy (telefone 976025) assinalado como preferido
+Contato Emanuel (telefone 930272) selecionado
+Ligando para Gwendolyn (telefone 982727)
+[CONTATOS COM INICIAL O]
+Nenhum contato encontrado
+[CONTATOS PREFERIDOS]
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Ernandez (telefone 961804) codigo: 27214
+Contato Ancrum (telefone 921752) codigo: 49624
+Contato Stasulis (telefone 976088) codigo: 87129
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Levoy (telefone 976025) codigo: 42137
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Hollyfield (telefone 934023) codigo: 69179
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Dosal (telefone 925359) codigo: 62964
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Dunham (telefone 998731) codigo: 77029
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Caveney (telefone 914481) codigo: 14893
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Okamoto (telefone 914996) adicionado na agenda
+[CONTATOS COM INICIAL H]
+Contato Harrop (telefone 925671) codigo: 57343 [N_PREFERIDO]
+Contato Hollyfield (telefone 934023) codigo: 69179 [PREFERIDO]
+Contato Hinkes (telefone 947620) codigo: 69049 [N_PREFERIDO]
+Contato Harrod (telefone 950062) codigo: 85429 [N_PREFERIDO]
+Contato Okamoto (telefone 914996) selecionado
+[CONTATOS COM INICIAL W]
+Contato Wolaver (telefone 974082) codigo: 55381 [N_PREFERIDO]
+Contato Harrod (telefone 950062) removido da agenda
+[CONTATOS COM INICIAL O]
+Contato Okamoto (telefone 914996) codigo: 69721 [N_PREFERIDO]
+Contato Johnie (telefone 979374) adicionado na agenda
+Ligando para Caveney (telefone 914481)
+Contato Kuklinski (telefone 978351) selecionado
+Contato Gainforth (telefone 996047) removido da agenda
+Ligando para Reil (telefone 937402)
+Contato Urquidi (telefone 965025) selecionado
+Contato Lavina (telefone 916741) selecionado
+Contato Brentano (telefone 960338) selecionado
+Ligando para Aller (telefone 956657)
+Contato Fringuello (telefone 944064) selecionado
+Contato Tingwald (telefone 999633) selecionado
+[CONTATOS COM INICIAL L]
+Contato Lout (telefone 993355) codigo: 58993 [PREFERIDO]
+Contato Lavina (telefone 916741) codigo: 86689 [N_PREFERIDO]
+Contato Lockmiller (telefone 999629) codigo: 39400 [PREFERIDO]
+Contato Lesmeister (telefone 937051) codigo: 25330 [N_PREFERIDO]
+Contato Levoy (telefone 976025) codigo: 42137 [PREFERIDO]
+Ligando para Aller (telefone 956657)
+Contato Elzinga (telefone 995122) selecionado
+[CONTATOS COM INICIAL P]
+Contato Purwin (telefone 972429) codigo: 11353 [N_PREFERIDO]
+Contato Petter (telefone 942113) codigo: 95624 [N_PREFERIDO]
+Contato Palomares (telefone 989135) codigo: 69751 [PREFERIDO]
+Contato Pettiway (telefone 966699) codigo: 52307 [PREFERIDO]
+Contato Prestwood (telefone 972173) codigo: 34400 [PREFERIDO]
+Ligando para Stasulis (telefone 976088)
+Contato Elzinga (telefone 995122) removido da agenda
+[CONTATOS COM INICIAL S]
+Contato Stasulis (telefone 976088) codigo: 87129 [PREFERIDO]
+Contato Shollenberger (telefone 969286) codigo: 46235 [N_PREFERIDO]
+Contato Stall (telefone 958210) codigo: 56186 [N_PREFERIDO]
+Contato Spires (telefone 961663) codigo: 19372 [N_PREFERIDO]
+Contato Stele (telefone 910297) codigo: 57810 [N_PREFERIDO]
+Contato Santoro (telefone 941652) codigo: 17516 [PREFERIDO]
+Contato Dosal (telefone 925359) selecionado
+Ligando para Spires (telefone 961663)
+Contato Aller (telefone 956657) removido da agenda
+[CONTATOS PREFERIDOS]
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Ernandez (telefone 961804) codigo: 27214
+Contato Ancrum (telefone 921752) codigo: 49624
+Contato Stasulis (telefone 976088) codigo: 87129
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Levoy (telefone 976025) codigo: 42137
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Hollyfield (telefone 934023) codigo: 69179
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Dosal (telefone 925359) codigo: 62964
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Dunham (telefone 998731) codigo: 77029
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Caveney (telefone 914481) codigo: 14893
+[CONTATOS PREFERIDOS]
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Ernandez (telefone 961804) codigo: 27214
+Contato Ancrum (telefone 921752) codigo: 49624
+Contato Stasulis (telefone 976088) codigo: 87129
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Levoy (telefone 976025) codigo: 42137
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Hollyfield (telefone 934023) codigo: 69179
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Dosal (telefone 925359) codigo: 62964
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Dunham (telefone 998731) codigo: 77029
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Caveney (telefone 914481) codigo: 14893
+Contato Purwin (telefone 972429) assinalado como preferido
+[CONTATOS PREFERIDOS]
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Ernandez (telefone 961804) codigo: 27214
+Contato Ancrum (telefone 921752) codigo: 49624
+Contato Stasulis (telefone 976088) codigo: 87129
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Levoy (telefone 976025) codigo: 42137
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Hollyfield (telefone 934023) codigo: 69179
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Dosal (telefone 925359) codigo: 62964
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Purwin (telefone 972429) codigo: 11353
+Contato Dunham (telefone 998731) codigo: 77029
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Caveney (telefone 914481) codigo: 14893
+[CONTATOS PREFERIDOS]
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Ernandez (telefone 961804) codigo: 27214
+Contato Ancrum (telefone 921752) codigo: 49624
+Contato Stasulis (telefone 976088) codigo: 87129
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Levoy (telefone 976025) codigo: 42137
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Hollyfield (telefone 934023) codigo: 69179
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Dosal (telefone 925359) codigo: 62964
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Purwin (telefone 972429) codigo: 11353
+Contato Dunham (telefone 998731) codigo: 77029
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Caveney (telefone 914481) codigo: 14893
+Contato Guevin (telefone 956686) removido da agenda
+Contato Dikeman (telefone 983251) adicionado na agenda
+Contato Marguez (telefone 988925) removido da agenda
+Ligando para Millers (telefone 933443)
+Contato Splawn (telefone 976350) adicionado na agenda
+Contato Okamoto (telefone 914996) assinalado como preferido
+Contato Kingham (telefone 962926) selecionado
+Contato Dosal (telefone 925359) removido da agenda
+[CONTATOS COM INICIAL K]
+Contato Kingham (telefone 962926) codigo: 71671 [N_PREFERIDO]
+Contato Krupinski (telefone 995508) codigo: 38370 [PREFERIDO]
+Contato Kloepper (telefone 941073) codigo: 37152 [PREFERIDO]
+Contato Kuklinski (telefone 978351) codigo: 33497 [N_PREFERIDO]
+Contato Millers (telefone 933443) assinalado como preferido
+Contato Korineck (telefone 965803) adicionado na agenda
+Contato Krupinski (telefone 995508) assinalado como preferido
+[CONTATOS PREFERIDOS]
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Hollyfield (telefone 934023) codigo: 69179
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Purwin (telefone 972429) codigo: 11353
+Contato Dunham (telefone 998731) codigo: 77029
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Caveney (telefone 914481) codigo: 14893
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Okamoto (telefone 914996) codigo: 69721
+Contato Ernandez (telefone 961804) codigo: 27214
+Contato Ancrum (telefone 921752) codigo: 49624
+Contato Stasulis (telefone 976088) codigo: 87129
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Levoy (telefone 976025) codigo: 42137
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Lout (telefone 993355) codigo: 58993
+Ligando para Behmer (telefone 957209)
+Contato Santoro (telefone 941652) selecionado
+[CONTATOS PREFERIDOS]
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Okamoto (telefone 914996) codigo: 69721
+Contato Ernandez (telefone 961804) codigo: 27214
+Contato Ancrum (telefone 921752) codigo: 49624
+Contato Stasulis (telefone 976088) codigo: 87129
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Levoy (telefone 976025) codigo: 42137
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Hollyfield (telefone 934023) codigo: 69179
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Purwin (telefone 972429) codigo: 11353
+Contato Dunham (telefone 998731) codigo: 77029
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Caveney (telefone 914481) codigo: 14893
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+[CONTATOS COM INICIAL U]
+Contato Urquidi (telefone 965025) codigo: 53879 [N_PREFERIDO]
+[CONTATOS PREFERIDOS]
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Okamoto (telefone 914996) codigo: 69721
+Contato Ernandez (telefone 961804) codigo: 27214
+Contato Ancrum (telefone 921752) codigo: 49624
+Contato Stasulis (telefone 976088) codigo: 87129
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Levoy (telefone 976025) codigo: 42137
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Hollyfield (telefone 934023) codigo: 69179
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Purwin (telefone 972429) codigo: 11353
+Contato Dunham (telefone 998731) codigo: 77029
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Caveney (telefone 914481) codigo: 14893
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Caveney (telefone 914481) removido da agenda
+Contato Stasulis (telefone 976088) removido da agenda
+Contato Petter (telefone 942113) selecionado
+[CONTATOS COM INICIAL F]
+Contato Fearing (telefone 999154) codigo: 92058 [N_PREFERIDO]
+Contato Floe (telefone 933170) codigo: 37137 [N_PREFERIDO]
+Contato Fiebig (telefone 919407) codigo: 18460 [N_PREFERIDO]
+Contato Fringuello (telefone 944064) codigo: 63413 [N_PREFERIDO]
+Contato Ficorilli (telefone 991797) codigo: 37414 [N_PREFERIDO]
+Contato Fronek (telefone 975543) codigo: 55389 [N_PREFERIDO]
+[CONTATOS PREFERIDOS]
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Okamoto (telefone 914996) codigo: 69721
+Contato Ernandez (telefone 961804) codigo: 27214
+Contato Ancrum (telefone 921752) codigo: 49624
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Levoy (telefone 976025) codigo: 42137
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Hollyfield (telefone 934023) codigo: 69179
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Purwin (telefone 972429) codigo: 11353
+Contato Dunham (telefone 998731) codigo: 77029
+[CONTATOS PREFERIDOS]
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Okamoto (telefone 914996) codigo: 69721
+Contato Ernandez (telefone 961804) codigo: 27214
+Contato Ancrum (telefone 921752) codigo: 49624
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Levoy (telefone 976025) codigo: 42137
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Hollyfield (telefone 934023) codigo: 69179
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Purwin (telefone 972429) codigo: 11353
+Contato Dunham (telefone 998731) codigo: 77029
+Contato Stele (telefone 910297) assinalado como preferido
+Contato Korineck (telefone 965803) selecionado
+Contato Kuklinski (telefone 978351) assinalado como preferido
+Contato Splawn (telefone 976350) selecionado
+[CONTATOS COM INICIAL M]
+Contato Metellus (telefone 976365) codigo: 54702 [N_PREFERIDO]
+Contato Muston (telefone 963920) codigo: 24228 [N_PREFERIDO]
+Contato Millers (telefone 933443) codigo: 96698 [PREFERIDO]
+Contato Mancos (telefone 991319) codigo: 10198 [N_PREFERIDO]
+Contato Motta (telefone 980848) codigo: 42791 [PREFERIDO]
+Contato Mcnear (telefone 930943) codigo: 71740 [N_PREFERIDO]
+Contato Dakins (telefone 963589) adicionado na agenda
+Ligando para Dressman (telefone 932472)
+Contato Purwin (telefone 972429) selecionado
+Contato Behmer (telefone 957209) selecionado
+[CONTATOS PREFERIDOS]
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Levoy (telefone 976025) codigo: 42137
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Kuklinski (telefone 978351) codigo: 33497
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Hollyfield (telefone 934023) codigo: 69179
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Purwin (telefone 972429) codigo: 11353
+Contato Dunham (telefone 998731) codigo: 77029
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Stele (telefone 910297) codigo: 57810
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Okamoto (telefone 914996) codigo: 69721
+Contato Ernandez (telefone 961804) codigo: 27214
+Contato Ancrum (telefone 921752) codigo: 49624
+[CONTATOS PREFERIDOS]
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Levoy (telefone 976025) codigo: 42137
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Kuklinski (telefone 978351) codigo: 33497
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Hollyfield (telefone 934023) codigo: 69179
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Purwin (telefone 972429) codigo: 11353
+Contato Dunham (telefone 998731) codigo: 77029
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Stele (telefone 910297) codigo: 57810
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Okamoto (telefone 914996) codigo: 69721
+Contato Ernandez (telefone 961804) codigo: 27214
+Contato Ancrum (telefone 921752) codigo: 49624
+Contato Muston (telefone 963920) assinalado como preferido
+Contato Goyda (telefone 970687) selecionado
+[CONTATOS PREFERIDOS]
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Muston (telefone 963920) codigo: 24228
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Purwin (telefone 972429) codigo: 11353
+Contato Dunham (telefone 998731) codigo: 77029
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Stele (telefone 910297) codigo: 57810
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Okamoto (telefone 914996) codigo: 69721
+Contato Ernandez (telefone 961804) codigo: 27214
+Contato Ancrum (telefone 921752) codigo: 49624
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Levoy (telefone 976025) codigo: 42137
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Kuklinski (telefone 978351) codigo: 33497
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Hollyfield (telefone 934023) codigo: 69179
+Contato Fronek (telefone 975543) selecionado
+Contato Bastian (telefone 945320) selecionado
+Contato Wolaver (telefone 974082) removido da agenda
+Contato Abousaleh (telefone 952317) selecionado
+Contato Santoro (telefone 941652) assinalado como preferido
+Contato Anglada (telefone 972642) adicionado na agenda
+[CONTATOS COM INICIAL X]
+Nenhum contato encontrado
+[CONTATOS COM INICIAL O]
+Contato Okamoto (telefone 914996) codigo: 69721 [PREFERIDO]
+Contato Nyahay (telefone 911203) adicionado na agenda
+Contato Rosek (telefone 960966) selecionado
+Contato Trammel (telefone 921286) adicionado na agenda
+[CONTATOS COM INICIAL C]
+Contato Carreno (telefone 948213) codigo: 47316 [N_PREFERIDO]
+[CONTATOS PREFERIDOS]
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Stele (telefone 910297) codigo: 57810
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Okamoto (telefone 914996) codigo: 69721
+Contato Ernandez (telefone 961804) codigo: 27214
+Contato Ancrum (telefone 921752) codigo: 49624
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Levoy (telefone 976025) codigo: 42137
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Kuklinski (telefone 978351) codigo: 33497
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Hollyfield (telefone 934023) codigo: 69179
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Muston (telefone 963920) codigo: 24228
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Purwin (telefone 972429) codigo: 11353
+Contato Dunham (telefone 998731) codigo: 77029
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Pasquarella (telefone 946314) adicionado na agenda
+Contato Tobert (telefone 962910) removido da agenda
+Contato Shollenberger (telefone 969286) assinalado como preferido
+Contato Carreno (telefone 948213) selecionado
+Contato Goyda (telefone 970687) selecionado
+[CONTATOS PREFERIDOS]
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Muston (telefone 963920) codigo: 24228
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Purwin (telefone 972429) codigo: 11353
+Contato Dunham (telefone 998731) codigo: 77029
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Stele (telefone 910297) codigo: 57810
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Okamoto (telefone 914996) codigo: 69721
+Contato Ernandez (telefone 961804) codigo: 27214
+Contato Ancrum (telefone 921752) codigo: 49624
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Levoy (telefone 976025) codigo: 42137
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Shollenberger (telefone 969286) codigo: 46235
+Contato Kuklinski (telefone 978351) codigo: 33497
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Hollyfield (telefone 934023) codigo: 69179
+Ligando para Korineck (telefone 965803)
+Contato Tur (telefone 943379) adicionado na agenda
+Contato Palomares (telefone 989135) assinalado como preferido
+Contato Ficorilli (telefone 991797) selecionado
+[CONTATOS PREFERIDOS]
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Hollyfield (telefone 934023) codigo: 69179
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Muston (telefone 963920) codigo: 24228
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Purwin (telefone 972429) codigo: 11353
+Contato Dunham (telefone 998731) codigo: 77029
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Stele (telefone 910297) codigo: 57810
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Okamoto (telefone 914996) codigo: 69721
+Contato Ernandez (telefone 961804) codigo: 27214
+Contato Ancrum (telefone 921752) codigo: 49624
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Levoy (telefone 976025) codigo: 42137
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Shollenberger (telefone 969286) codigo: 46235
+Contato Kuklinski (telefone 978351) codigo: 33497
+Contato Spires (telefone 961663) selecionado
+Contato Huotari (telefone 978553) adicionado na agenda
+Contato Emanuel (telefone 930272) assinalado como preferido
+Ligando para Gobeille (telefone 991930)
+Contato Jen (telefone 957809) removido da agenda
+Ligando para Ernandez (telefone 961804)
+Contato Ancrum (telefone 921752) removido da agenda
+[CONTATOS COM INICIAL K]
+Contato Kuklinski (telefone 978351) codigo: 33497 [PREFERIDO]
+Contato Kingham (telefone 962926) codigo: 71671 [N_PREFERIDO]
+Contato Krupinski (telefone 995508) codigo: 38370 [PREFERIDO]
+Contato Kloepper (telefone 941073) codigo: 37152 [PREFERIDO]
+Contato Korineck (telefone 965803) codigo: 74186 [N_PREFERIDO]
+Ligando para Huotari (telefone 978553)
+Contato Mcnear (telefone 930943) removido da agenda
+Contato Alves (telefone 987319) removido da agenda
+Contato Dotie (telefone 998349) adicionado na agenda
+Contato Dotie (telefone 998349) selecionado
+Contato Graeff (telefone 927335) assinalado como preferido
+[CONTATOS PREFERIDOS]
+Contato Okamoto (telefone 914996) codigo: 69721
+Contato Ernandez (telefone 961804) codigo: 27214
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Levoy (telefone 976025) codigo: 42137
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Shollenberger (telefone 969286) codigo: 46235
+Contato Kuklinski (telefone 978351) codigo: 33497
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Hollyfield (telefone 934023) codigo: 69179
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Muston (telefone 963920) codigo: 24228
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Purwin (telefone 972429) codigo: 11353
+Contato Dunham (telefone 998731) codigo: 77029
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Emanuel (telefone 930272) codigo: 23828
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Stele (telefone 910297) codigo: 57810
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Gobeille (telefone 991930) selecionado
+Contato Floe (telefone 933170) removido da agenda
+Contato Pasquarella (telefone 946314) removido da agenda
+Ligando para Johnie (telefone 979374)
+Ligando para Splawn (telefone 976350)
+Contato Razavi (telefone 946082) adicionado na agenda
+Contato Kloepper (telefone 941073) selecionado
+Ligando para Harrop (telefone 925671)
+Contato Mancos (telefone 991319) removido da agenda
+Contato Muston (telefone 963920) assinalado como preferido
+Contato Abousaleh (telefone 952317) assinalado como preferido
+Contato Buntyn (telefone 957210) removido da agenda
+Contato Milliron (telefone 938696) adicionado na agenda
+Ligando para Astwood (telefone 932473)
+[CONTATOS COM INICIAL O]
+Contato Okamoto (telefone 914996) codigo: 69721 [PREFERIDO]
+[CONTATOS PREFERIDOS]
+Contato Purwin (telefone 972429) codigo: 11353
+Contato Dunham (telefone 998731) codigo: 77029
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Emanuel (telefone 930272) codigo: 23828
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Stele (telefone 910297) codigo: 57810
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Okamoto (telefone 914996) codigo: 69721
+Contato Ernandez (telefone 961804) codigo: 27214
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Levoy (telefone 976025) codigo: 42137
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Shollenberger (telefone 969286) codigo: 46235
+Contato Kuklinski (telefone 978351) codigo: 33497
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Hollyfield (telefone 934023) codigo: 69179
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Muston (telefone 963920) codigo: 24228
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Hassell (telefone 990282) adicionado na agenda
+Contato Nanes (telefone 968258) adicionado na agenda
+[CONTATOS COM INICIAL B]
+Contato Bluming (telefone 951270) codigo: 95702 [N_PREFERIDO]
+Contato Bastian (telefone 945320) codigo: 87087 [N_PREFERIDO]
+Contato Blindt (telefone 970110) codigo: 28335 [N_PREFERIDO]
+Contato Behmer (telefone 957209) codigo: 55305 [N_PREFERIDO]
+Contato Brentano (telefone 960338) codigo: 72765 [PREFERIDO]
+Contato Kingham (telefone 962926) removido da agenda
+Contato Motta (telefone 980848) assinalado como preferido
+Contato Vagott (telefone 929730) adicionado na agenda
+Contato Nyahay (telefone 911203) selecionado
+Ligando para Emanuel (telefone 930272)
+Contato Fringuello (telefone 944064) selecionado
+Contato Ledsome (telefone 943690) adicionado na agenda
+Contato Millers (telefone 933443) assinalado como preferido
+[CONTATOS PREFERIDOS]
+Contato Kuklinski (telefone 978351) codigo: 33497
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Hollyfield (telefone 934023) codigo: 69179
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Muston (telefone 963920) codigo: 24228
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Purwin (telefone 972429) codigo: 11353
+Contato Dunham (telefone 998731) codigo: 77029
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Emanuel (telefone 930272) codigo: 23828
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Stele (telefone 910297) codigo: 57810
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Okamoto (telefone 914996) codigo: 69721
+Contato Ernandez (telefone 961804) codigo: 27214
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Levoy (telefone 976025) codigo: 42137
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Shollenberger (telefone 969286) codigo: 46235
+Contato Milliron (telefone 938696) assinalado como preferido
+[CONTATOS PREFERIDOS]
+Contato Kuklinski (telefone 978351) codigo: 33497
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Hollyfield (telefone 934023) codigo: 69179
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Muston (telefone 963920) codigo: 24228
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Purwin (telefone 972429) codigo: 11353
+Contato Dunham (telefone 998731) codigo: 77029
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Emanuel (telefone 930272) codigo: 23828
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Stele (telefone 910297) codigo: 57810
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Milliron (telefone 938696) codigo: 94401
+Contato Okamoto (telefone 914996) codigo: 69721
+Contato Ernandez (telefone 961804) codigo: 27214
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Levoy (telefone 976025) codigo: 42137
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Shollenberger (telefone 969286) codigo: 46235
+[CONTATOS PREFERIDOS]
+Contato Kuklinski (telefone 978351) codigo: 33497
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Hollyfield (telefone 934023) codigo: 69179
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Muston (telefone 963920) codigo: 24228
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Purwin (telefone 972429) codigo: 11353
+Contato Dunham (telefone 998731) codigo: 77029
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Emanuel (telefone 930272) codigo: 23828
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Stele (telefone 910297) codigo: 57810
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Milliron (telefone 938696) codigo: 94401
+Contato Okamoto (telefone 914996) codigo: 69721
+Contato Ernandez (telefone 961804) codigo: 27214
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Levoy (telefone 976025) codigo: 42137
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Shollenberger (telefone 969286) codigo: 46235
+Contato Levoy (telefone 976025) selecionado
+[CONTATOS PREFERIDOS]
+Contato Levoy (telefone 976025) codigo: 42137
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Shollenberger (telefone 969286) codigo: 46235
+Contato Kuklinski (telefone 978351) codigo: 33497
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Hollyfield (telefone 934023) codigo: 69179
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Muston (telefone 963920) codigo: 24228
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Purwin (telefone 972429) codigo: 11353
+Contato Dunham (telefone 998731) codigo: 77029
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Emanuel (telefone 930272) codigo: 23828
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Stele (telefone 910297) codigo: 57810
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Milliron (telefone 938696) codigo: 94401
+Contato Okamoto (telefone 914996) codigo: 69721
+Contato Ernandez (telefone 961804) codigo: 27214
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Anglada (telefone 972642) removido da agenda
+Contato Dotie (telefone 998349) selecionado
+Ligando para Okamoto (telefone 914996)
+Contato Palomares (telefone 989135) selecionado
+[CONTATOS PREFERIDOS]
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Emanuel (telefone 930272) codigo: 23828
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Stele (telefone 910297) codigo: 57810
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Milliron (telefone 938696) codigo: 94401
+Contato Okamoto (telefone 914996) codigo: 69721
+Contato Ernandez (telefone 961804) codigo: 27214
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Levoy (telefone 976025) codigo: 42137
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Shollenberger (telefone 969286) codigo: 46235
+Contato Kuklinski (telefone 978351) codigo: 33497
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Hollyfield (telefone 934023) codigo: 69179
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Muston (telefone 963920) codigo: 24228
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Purwin (telefone 972429) codigo: 11353
+Contato Dunham (telefone 998731) codigo: 77029
+Contato Motta (telefone 980848) codigo: 42791
+Contato Lockmiller (telefone 999629) selecionado
+Contato Chimenti (telefone 997450) adicionado na agenda
+[CONTATOS PREFERIDOS]
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Stele (telefone 910297) codigo: 57810
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Milliron (telefone 938696) codigo: 94401
+Contato Okamoto (telefone 914996) codigo: 69721
+Contato Ernandez (telefone 961804) codigo: 27214
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Levoy (telefone 976025) codigo: 42137
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Shollenberger (telefone 969286) codigo: 46235
+Contato Kuklinski (telefone 978351) codigo: 33497
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Hollyfield (telefone 934023) codigo: 69179
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Muston (telefone 963920) codigo: 24228
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Purwin (telefone 972429) codigo: 11353
+Contato Dunham (telefone 998731) codigo: 77029
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Emanuel (telefone 930272) codigo: 23828
+Contato Santoro (telefone 941652) selecionado
+Contato Millers (telefone 933443) selecionado
+[CONTATOS COM INICIAL R]
+Contato Rosek (telefone 960966) codigo: 48024 [PREFERIDO]
+Contato Razavi (telefone 946082) codigo: 96406 [N_PREFERIDO]
+Contato Reil (telefone 937402) codigo: 66274 [N_PREFERIDO]
+Contato Claybourn (telefone 958058) adicionado na agenda
+Contato Abousaleh (telefone 952317) assinalado como preferido
+Contato Tepe (telefone 937922) selecionado
+Contato Levoy (telefone 976025) selecionado
+Contato Tutoky (telefone 960396) selecionado
+Contato Lesmeister (telefone 937051) selecionado
+Contato Gottke (telefone 938823) adicionado na agenda
+Contato Bastian (telefone 945320) assinalado como preferido
+[CONTATOS COM INICIAL X]
+Nenhum contato encontrado
+Contato Huotari (telefone 978553) removido da agenda
+Contato Dunham (telefone 998731) selecionado
+Contato Behmer (telefone 957209) removido da agenda
+Contato Razavi (telefone 946082) removido da agenda
+Contato Bastian (telefone 945320) selecionado
+Contato Harrop (telefone 925671) removido da agenda
+Contato Pettiway (telefone 966699) selecionado
+[CONTATOS PREFERIDOS]
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Levoy (telefone 976025) codigo: 42137
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Shollenberger (telefone 969286) codigo: 46235
+Contato Kuklinski (telefone 978351) codigo: 33497
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Hollyfield (telefone 934023) codigo: 69179
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Muston (telefone 963920) codigo: 24228
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Purwin (telefone 972429) codigo: 11353
+Contato Dunham (telefone 998731) codigo: 77029
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Bastian (telefone 945320) codigo: 87087
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Emanuel (telefone 930272) codigo: 23828
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Stele (telefone 910297) codigo: 57810
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Milliron (telefone 938696) codigo: 94401
+Contato Okamoto (telefone 914996) codigo: 69721
+Contato Ernandez (telefone 961804) codigo: 27214
+Ligando para Gobeille (telefone 991930)
+Contato Hinkes (telefone 947620) assinalado como preferido
+Contato Dunham (telefone 998731) assinalado como preferido
+Contato Selin (telefone 916452) adicionado na agenda
+[CONTATOS COM INICIAL C]
+Contato Carreno (telefone 948213) codigo: 47316 [N_PREFERIDO]
+Contato Claybourn (telefone 958058) codigo: 73324 [N_PREFERIDO]
+Contato Chimenti (telefone 997450) codigo: 89321 [N_PREFERIDO]
+Contato Micallef (telefone 923468) adicionado na agenda
+Contato Fearing (telefone 999154) selecionado
+[CONTATOS PREFERIDOS]
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Levoy (telefone 976025) codigo: 42137
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Shollenberger (telefone 969286) codigo: 46235
+Contato Kuklinski (telefone 978351) codigo: 33497
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Hollyfield (telefone 934023) codigo: 69179
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Muston (telefone 963920) codigo: 24228
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Hinkes (telefone 947620) codigo: 69049
+Contato Purwin (telefone 972429) codigo: 11353
+Contato Dunham (telefone 998731) codigo: 77029
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Bastian (telefone 945320) codigo: 87087
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Emanuel (telefone 930272) codigo: 23828
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Stele (telefone 910297) codigo: 57810
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Milliron (telefone 938696) codigo: 94401
+Contato Okamoto (telefone 914996) codigo: 69721
+Contato Ernandez (telefone 961804) codigo: 27214
+Ligando para Tingwald (telefone 999633)
+Contato Kanaan (telefone 974337) adicionado na agenda
+Contato Birkline (telefone 936973) adicionado na agenda
+[CONTATOS PREFERIDOS]
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Hollyfield (telefone 934023) codigo: 69179
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Muston (telefone 963920) codigo: 24228
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Hinkes (telefone 947620) codigo: 69049
+Contato Purwin (telefone 972429) codigo: 11353
+Contato Dunham (telefone 998731) codigo: 77029
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Bastian (telefone 945320) codigo: 87087
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Emanuel (telefone 930272) codigo: 23828
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Stele (telefone 910297) codigo: 57810
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Milliron (telefone 938696) codigo: 94401
+Contato Okamoto (telefone 914996) codigo: 69721
+Contato Ernandez (telefone 961804) codigo: 27214
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Levoy (telefone 976025) codigo: 42137
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Shollenberger (telefone 969286) codigo: 46235
+Contato Kuklinski (telefone 978351) codigo: 33497
+Contato Gioia (telefone 968106) adicionado na agenda
+Contato Ernandez (telefone 961804) selecionado
+Contato Lesmeister (telefone 937051) assinalado como preferido
+Contato Stall (telefone 958210) removido da agenda
+[CONTATOS COM INICIAL D]
+Contato Dunham (telefone 998731) codigo: 77029 [PREFERIDO]
+Contato Daddona (telefone 962080) codigo: 58653 [N_PREFERIDO]
+Contato Dressman (telefone 932472) codigo: 7685 [PREFERIDO]
+Contato Dotie (telefone 998349) codigo: 62683 [N_PREFERIDO]
+Contato Dakins (telefone 963589) codigo: 72244 [N_PREFERIDO]
+Contato Dikeman (telefone 983251) codigo: 20394 [N_PREFERIDO]
+Ligando para Dunham (telefone 998731)
+Ligando para Fronek (telefone 975543)
+Contato Millers (telefone 933443) selecionado
+[CONTATOS PREFERIDOS]
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Hinkes (telefone 947620) codigo: 69049
+Contato Purwin (telefone 972429) codigo: 11353
+Contato Dunham (telefone 998731) codigo: 77029
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Bastian (telefone 945320) codigo: 87087
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Emanuel (telefone 930272) codigo: 23828
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Stele (telefone 910297) codigo: 57810
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Milliron (telefone 938696) codigo: 94401
+Contato Okamoto (telefone 914996) codigo: 69721
+Contato Ernandez (telefone 961804) codigo: 27214
+Contato Lesmeister (telefone 937051) codigo: 25330
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Levoy (telefone 976025) codigo: 42137
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Shollenberger (telefone 969286) codigo: 46235
+Contato Kuklinski (telefone 978351) codigo: 33497
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Hollyfield (telefone 934023) codigo: 69179
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Muston (telefone 963920) codigo: 24228
+Contato Dressman (telefone 932472) assinalado como preferido
+[CONTATOS COM INICIAL T]
+Contato Tepe (telefone 937922) codigo: 66810 [N_PREFERIDO]
+Contato Tur (telefone 943379) codigo: 14149 [N_PREFERIDO]
+Contato Trammel (telefone 921286) codigo: 36583 [N_PREFERIDO]
+Contato Tingwald (telefone 999633) codigo: 70913 [N_PREFERIDO]
+Contato Tutoky (telefone 960396) codigo: 37940 [N_PREFERIDO]
+Ligando para Emanuel (telefone 930272)
+Contato Stele (telefone 910297) selecionado
+Contato Tur (telefone 943379) selecionado
+Contato Stele (telefone 910297) selecionado
+Contato Tur (telefone 943379) removido da agenda
+Contato Metellus (telefone 976365) assinalado como preferido
+Contato Gabe (telefone 984641) adicionado na agenda
+Contato Judge (telefone 966760) assinalado como preferido
+Contato Stele (telefone 910297) assinalado como preferido
+[CONTATOS COM INICIAL U]
+Contato Urquidi (telefone 965025) codigo: 53879 [N_PREFERIDO]
+[CONTATOS COM INICIAL J]
+Contato Judge (telefone 966760) codigo: 86019 [PREFERIDO]
+Contato Johnie (telefone 979374) codigo: 94009 [N_PREFERIDO]
+Contato Korineck (telefone 965803) selecionado
+Contato Vagott (telefone 929730) selecionado
+[CONTATOS COM INICIAL K]
+Contato Korineck (telefone 965803) codigo: 74186 [N_PREFERIDO]
+Contato Kuklinski (telefone 978351) codigo: 33497 [PREFERIDO]
+Contato Krupinski (telefone 995508) codigo: 38370 [PREFERIDO]
+Contato Kloepper (telefone 941073) codigo: 37152 [PREFERIDO]
+Contato Kanaan (telefone 974337) codigo: 66380 [N_PREFERIDO]
+Contato Palomares (telefone 989135) selecionado
+Contato Gloshen (telefone 981076) assinalado como preferido
+Contato Tutoky (telefone 960396) selecionado
+[CONTATOS PREFERIDOS]
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Muston (telefone 963920) codigo: 24228
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Hinkes (telefone 947620) codigo: 69049
+Contato Purwin (telefone 972429) codigo: 11353
+Contato Dunham (telefone 998731) codigo: 77029
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Bastian (telefone 945320) codigo: 87087
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Emanuel (telefone 930272) codigo: 23828
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Stele (telefone 910297) codigo: 57810
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Milliron (telefone 938696) codigo: 94401
+Contato Okamoto (telefone 914996) codigo: 69721
+Contato Ernandez (telefone 961804) codigo: 27214
+Contato Metellus (telefone 976365) codigo: 54702
+Contato Lesmeister (telefone 937051) codigo: 25330
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Levoy (telefone 976025) codigo: 42137
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Shollenberger (telefone 969286) codigo: 46235
+Contato Kuklinski (telefone 978351) codigo: 33497
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Hollyfield (telefone 934023) codigo: 69179
+Contato Gloshen (telefone 981076) codigo: 90901
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Dakins (telefone 963589) selecionado
+Contato Chimenti (telefone 997450) removido da agenda
+Contato Goyda (telefone 970687) selecionado
+Contato Millers (telefone 933443) selecionado
+Contato Bluming (telefone 951270) selecionado
+Contato Gloshen (telefone 981076) selecionado
+Ligando para Palomares (telefone 989135)
+[CONTATOS COM INICIAL V]
+Contato Vagott (telefone 929730) codigo: 78798 [N_PREFERIDO]
+[CONTATOS COM INICIAL A]
+Contato Arendsee (telefone 976769) codigo: 4892 [PREFERIDO]
+Contato Abousaleh (telefone 952317) codigo: 11167 [PREFERIDO]
+Contato Astwood (telefone 932473) codigo: 32070 [N_PREFERIDO]
+Ligando para Splawn (telefone 976350)
+Contato Tepe (telefone 937922) selecionado
+Contato Micallef (telefone 923468) removido da agenda
+Contato Fiebig (telefone 919407) selecionado
+Contato Fringuello (telefone 944064) assinalado como preferido
+Contato Milliron (telefone 938696) removido da agenda
+Contato Tutoky (telefone 960396) selecionado
+Contato Splawn (telefone 976350) assinalado como preferido
+Contato Metellus (telefone 976365) assinalado como preferido
+Contato Yolonda (telefone 980895) removido da agenda
+Ligando para Arendsee (telefone 976769)
+Contato Dunham (telefone 998731) removido da agenda
+[CONTATOS COM INICIAL R]
+Contato Reil (telefone 937402) codigo: 66274 [N_PREFERIDO]
+Contato Rosek (telefone 960966) codigo: 48024 [PREFERIDO]
+Contato Santoro (telefone 941652) selecionado
+Contato Dotie (telefone 998349) removido da agenda
+[CONTATOS PREFERIDOS]
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Splawn (telefone 976350) codigo: 36574
+Contato Okamoto (telefone 914996) codigo: 69721
+Contato Ernandez (telefone 961804) codigo: 27214
+Contato Metellus (telefone 976365) codigo: 54702
+Contato Lesmeister (telefone 937051) codigo: 25330
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Levoy (telefone 976025) codigo: 42137
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Shollenberger (telefone 969286) codigo: 46235
+Contato Fringuello (telefone 944064) codigo: 63413
+Contato Kuklinski (telefone 978351) codigo: 33497
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Hollyfield (telefone 934023) codigo: 69179
+Contato Gloshen (telefone 981076) codigo: 90901
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Muston (telefone 963920) codigo: 24228
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Hinkes (telefone 947620) codigo: 69049
+Contato Purwin (telefone 972429) codigo: 11353
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Bastian (telefone 945320) codigo: 87087
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Emanuel (telefone 930272) codigo: 23828
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Stele (telefone 910297) codigo: 57810
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Selin (telefone 916452) selecionado
+Contato Birkline (telefone 936973) removido da agenda
+Contato Lesmeister (telefone 937051) selecionado
+Contato Gloshen (telefone 981076) selecionado
+[CONTATOS PREFERIDOS]
+Contato Gloshen (telefone 981076) codigo: 90901
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Muston (telefone 963920) codigo: 24228
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Hinkes (telefone 947620) codigo: 69049
+Contato Purwin (telefone 972429) codigo: 11353
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Bastian (telefone 945320) codigo: 87087
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Emanuel (telefone 930272) codigo: 23828
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Stele (telefone 910297) codigo: 57810
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Splawn (telefone 976350) codigo: 36574
+Contato Okamoto (telefone 914996) codigo: 69721
+Contato Ernandez (telefone 961804) codigo: 27214
+Contato Metellus (telefone 976365) codigo: 54702
+Contato Lesmeister (telefone 937051) codigo: 25330
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Levoy (telefone 976025) codigo: 42137
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Shollenberger (telefone 969286) codigo: 46235
+Contato Fringuello (telefone 944064) codigo: 63413
+Contato Kuklinski (telefone 978351) codigo: 33497
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Hollyfield (telefone 934023) codigo: 69179
+[CONTATOS COM INICIAL H]
+Contato Hinkes (telefone 947620) codigo: 69049 [PREFERIDO]
+Contato Hassell (telefone 990282) codigo: 54004 [N_PREFERIDO]
+Contato Hollyfield (telefone 934023) codigo: 69179 [PREFERIDO]
+Contato Ernandez (telefone 961804) selecionado
+[CONTATOS COM INICIAL D]
+Contato Daddona (telefone 962080) codigo: 58653 [N_PREFERIDO]
+Contato Dressman (telefone 932472) codigo: 7685 [PREFERIDO]
+Contato Dakins (telefone 963589) codigo: 72244 [N_PREFERIDO]
+Contato Dikeman (telefone 983251) codigo: 20394 [N_PREFERIDO]
+Contato Fiebig (telefone 919407) assinalado como preferido
+[CONTATOS COM INICIAL O]
+Contato Okamoto (telefone 914996) codigo: 69721 [PREFERIDO]
+Contato Fronek (telefone 975543) assinalado como preferido
+[CONTATOS PREFERIDOS]
+Contato Ernandez (telefone 961804) codigo: 27214
+Contato Metellus (telefone 976365) codigo: 54702
+Contato Lesmeister (telefone 937051) codigo: 25330
+Contato Pettiway (telefone 966699) codigo: 52307
+Contato Levoy (telefone 976025) codigo: 42137
+Contato Prestwood (telefone 972173) codigo: 34400
+Contato Shollenberger (telefone 969286) codigo: 46235
+Contato Fiebig (telefone 919407) codigo: 18460
+Contato Fringuello (telefone 944064) codigo: 63413
+Contato Kuklinski (telefone 978351) codigo: 33497
+Contato Lout (telefone 993355) codigo: 58993
+Contato Brentano (telefone 960338) codigo: 72765
+Contato Hollyfield (telefone 934023) codigo: 69179
+Contato Gloshen (telefone 981076) codigo: 90901
+Contato Goyda (telefone 970687) codigo: 4961
+Contato Arendsee (telefone 976769) codigo: 4892
+Contato Muston (telefone 963920) codigo: 24228
+Contato Fronek (telefone 975543) codigo: 55389
+Contato Millers (telefone 933443) codigo: 96698
+Contato Abousaleh (telefone 952317) codigo: 11167
+Contato Graeff (telefone 927335) codigo: 94314
+Contato Krupinski (telefone 995508) codigo: 38370
+Contato Hinkes (telefone 947620) codigo: 69049
+Contato Purwin (telefone 972429) codigo: 11353
+Contato Motta (telefone 980848) codigo: 42791
+Contato Palomares (telefone 989135) codigo: 69751
+Contato Bastian (telefone 945320) codigo: 87087
+Contato Rosek (telefone 960966) codigo: 48024
+Contato Emanuel (telefone 930272) codigo: 23828
+Contato Lockmiller (telefone 999629) codigo: 39400
+Contato Stele (telefone 910297) codigo: 57810
+Contato Dressman (telefone 932472) codigo: 7685
+Contato Judge (telefone 966760) codigo: 86019
+Contato Kloepper (telefone 941073) codigo: 37152
+Contato Santoro (telefone 941652) codigo: 17516
+Contato Splawn (telefone 976350) codigo: 36574
+Contato Okamoto (telefone 914996) codigo: 69721
+Contato Metellus (telefone 976365) assinalado como preferido
+Contato Johnie (telefone 979374) selecionado
+Contato Cocanougher (telefone 968354) adicionado na agenda
+Ligando para Lesmeister (telefone 937051)
+Ligando para Okamoto (telefone 914996)
+Contato Astwood (telefone 932473) assinalado como preferido
+Contato Motta (telefone 980848) assinalado como preferido
+[CONTATOS COM INICIAL M]
+Contato Metellus (telefone 976365) codigo: 54702 [PREFERIDO]
+Contato Muston (telefone 963920) codigo: 24228 [PREFERIDO]
+Contato Millers (telefone 933443) codigo: 96698 [PREFERIDO]
+Contato Motta (telefone 980848) codigo: 42791 [PREFERIDO]
+Contato Ficorilli (telefone 991797) removido da agenda
+[CONTATOS COM INICIAL V]
+Contato Vagott (telefone 929730) codigo: 78798 [N_PREFERIDO]
+Contato Colver (telefone 998776) adicionado na agenda
+Contato Okamoto (telefone 914996) removido da agenda
+Contato Cocanougher (telefone 968354) removido da agenda
+Contato Shollenberger (telefone 969286) selecionado
+Contato Kuklinski (telefone 978351) selecionado
+Contato Judge (telefone 966760) selecionado
+Contato Tepe (telefone 937922) selecionado
+Contato Metellus (telefone 976365) selecionado

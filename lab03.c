@@ -28,12 +28,14 @@ int printaContato(Contato* contatinho){
 	}
 
 	//Ex. Contato​ ​ Dexter​ ​ (telefone​ ​ 9555)​ ​ codigo:​ ​ 5555​ ​ [N_PREFERIDO]
-	printf("Contato %s (telefone​ %d) codigo: %d ", contatinho->nome, contatinho->tel, contatinho->cod);
+	//printf("Contato %s (telefone​ %d) codigo: %d ", contatinho->nome, contatinho->tel, contatinho->cod);
 
 	if(contatinho->preferido == 0){
-		printf("[N_PREFERIDO]\n");
+		printf("Contato %s (telefone %d) codigo: %d [N_PREFERIDO]\n", contatinho->nome, contatinho->tel, contatinho->cod);
+		//printf("[N_PREFERIDO]\n");
 	}else{
-		printf("[PREFERIDO]\n");
+		printf("Contato %s (telefone %d) codigo: %d [PREFERIDO]\n", contatinho->nome, contatinho->tel, contatinho->cod);
+		//printf("[PREFERIDO]\n");
 	}
 
 	return 1;
@@ -131,7 +133,8 @@ int adicionaNoFimListaVazia(Lista* lista, No* no){
 	lista->fim->dir = no;
 	lista->selecionado = no;
 
-	printf("Contato %s (telefone​ %d) adicionado na agenda\n", no->chave->nome, no->chave->tel);
+	printf("Contato %s (telefone %d) adicionado na agenda\n", no->chave->nome, no->chave->tel);
+	//printf("Contato %s (telefone​ %d) adicionado na agenda\n", no->chave->nome, no->chave->tel);
 	return 1;
 }
 
@@ -155,7 +158,8 @@ int adicionaNoFim(Lista* lista, No* no){
 
 	//atualiza o fim
 	lista->fim->dir = no;
-	printf("Contato %s (telefone​ %d) adicionado na agenda\n", no->chave->nome, no->chave->tel);
+	//printf("Contato %s (telefone​ %d) adicionado na agenda\n", no->chave->nome, no->chave->tel);
+	printf("Contato %s (telefone %d) adicionado na agenda\n", no->chave->nome, no->chave->tel);
 	return 1;
 }
 
@@ -273,8 +277,8 @@ int removeContato(Lista* lista, int cod){
 	ant->dir = noAchado->dir;
 	noAchado->dir->esq = ant;	
 
-	printf("Contato %s (telefone​ %d) removido da agenda\n",noAchado->chave->nome, noAchado->chave->tel);
-
+	//printf("Contato %s (telefone​ %d) removido da agenda\n",noAchado->chave->nome, noAchado->chave->tel);
+	printf("Contato %s (telefone %d) removido da agenda\n",noAchado->chave->nome, noAchado->chave->tel);
 	free(noAchado);
 
 	return 1;
@@ -303,7 +307,8 @@ int liga(Lista* lista, int tel){
 
 	do{
 		if(noAchado->chave->tel == tel){
-			printf("Ligando para %s (telefone​ %d)\n", noAchado->chave->nome, noAchado->chave->tel);
+			//printf("Ligando para %s (telefone​ %d)\n", noAchado->chave->nome, noAchado->chave->tel);
+			printf("Ligando para %s (telefone %d)\n",noAchado->chave->nome, noAchado->chave->tel);
 			lista->selecionado = noAchado;
 			return 1;
 		}
@@ -344,8 +349,8 @@ int avancar(Lista* lista, int n){
 	}
 
 	lista->selecionado = sel;
-	printf("Contato %s (telefone​ %d) selecionado\n", sel->chave->nome, sel->chave->tel);
-
+	//printf("Contato %s (telefone​ %d) selecionado\n", sel->chave->nome, sel->chave->tel);
+	printf("Contato %s (telefone %d) selecionado\n",sel->chave->nome, sel->chave->tel);
 	return 1;
 	
 }
@@ -378,7 +383,8 @@ int retroceder(Lista* lista, int n){
 
 	lista->selecionado = sel;
 
-	printf("Contato %s (telefone​ %d) selecionado\n", sel->chave->nome, sel->chave->tel);
+	//printf("Contato %s (telefone​ %d) selecionado\n", sel->chave->nome, sel->chave->tel);
+	printf("Contato %s (telefone %d) selecionado\n",sel->chave->nome, sel->chave->tel);
 
 	return 1;
 }
@@ -411,7 +417,8 @@ int preferido(Lista* lista, char* nome){
 
 		if(strcmp(nomeDoNo, nome) == 0){
 			//printaNo(no);
-			printf("Contato %s (telefone​ %d) assinalado como preferido\n",no->chave->nome, no->chave->tel);
+			//printf("Contato %s (telefone​ %d) assinalado como preferido\n",no->chave->nome, no->chave->tel);
+			printf("Contato %s (telefone %d) assinalado como preferido\n",no->chave->nome, no->chave->tel);
 			no->chave->preferido = 1;
 			return 1;
 		}
@@ -447,6 +454,7 @@ int imprimirPreferidos(Lista* lista){
 	//verifica se o selecionado é preferido
 	if(no->chave->preferido == 1){
 		preferidos++;
+		//printf("Contato %s (telefone %d) codigo: %d\n",no->chave->nome, no->chave->tel, no->chave->cod);
 		printf("Contato %s (telefone %d) codigo: %d\n",no->chave->nome, no->chave->tel, no->chave->cod);
 	}
 
@@ -457,6 +465,7 @@ int imprimirPreferidos(Lista* lista){
 	while(no != lista->selecionado){
 		if(no->chave->preferido == 1){
 			preferidos++;
+			//printf("Contato %s (telefone %d) codigo: %d\n",no->chave->nome, no->chave->tel, no->chave->cod);
 			printf("Contato %s (telefone %d) codigo: %d\n",no->chave->nome, no->chave->tel, no->chave->cod);
 		}
 
@@ -497,7 +506,14 @@ int imprimirContatos(Lista* lista, char letra){
 		//printf("primeiraLetra: %c\n", primeiraLetra);
 
 		if(primeiraLetra == letra){
-			printaContato(no->chave);
+
+			if(no->chave->preferido == 0){
+				printf("Contato %s (telefone %d) codigo: %d [N_PREFERIDO]\n", no->chave->nome, no->chave->tel, no->chave->cod);
+			}else{
+				printf("Contato %s (telefone %d) codigo: %d [PREFERIDO]\n", no->chave->nome, no->chave->tel, no->chave->cod);
+			}
+			
+			//printaContato(no->chave);
 			contatos++;
 		}
 
