@@ -594,6 +594,11 @@ int preparaParaAvancar(Lista* lista){
 }
 
 int preparaParaRetroceder(Lista* lista){
+	int n;
+
+	scanf("%d", &n);
+	retroceder(lista, n);
+
 	return 1;
 }
 
