@@ -54,6 +54,8 @@ int printaNo(No* no){
 		printf("dir: %s\n", no->dir->chave->nome);
 	}
 
+	return 1;
+
 }
 
 //Imprime TODOS os contatos da lista
@@ -75,6 +77,8 @@ int imprimeTodosContatos(Lista* lista){
 
 	printf("selecionado: %s\n", lista->selecionado->chave->nome);
 	printf("-------------------------------------------------------------\n");
+
+	return 1;
 }
 
 //Coloca 0 e "" nos atrivutos
@@ -250,7 +254,7 @@ int removeContato(Lista* lista, int cod){
 	//settando o nó SEL
 	if(lista->selecionado == noAchado){
 		if(noAchado->dir == noAchado){
-			lista->selecionado == NULL;
+			lista->selecionado = NULL;
 		}else{
 			lista->selecionado = ant;
 		}
@@ -341,6 +345,8 @@ int avancar(Lista* lista, int n){
 
 	lista->selecionado = sel;
 	printf("Contato %s (telefone​ %d) selecionado\n", sel->chave->nome, sel->chave->tel);
+
+	return 1;
 	
 }
 
@@ -373,6 +379,8 @@ int retroceder(Lista* lista, int n){
 	lista->selecionado = sel;
 
 	printf("Contato %s (telefone​ %d) selecionado\n", sel->chave->nome, sel->chave->tel);
+
+	return 1;
 }
 
 int preferido(Lista* lista, char* nome){
@@ -504,71 +512,6 @@ int imprimirContatos(Lista* lista, char letra){
 	return 1;
 }
 
-int testandoFuncoes()
-{
-	Lista* lista = malloc(sizeof(Lista*));
-
-	inicializaLista(lista);
-
-	No* noAchado = malloc(sizeof(No*));
-	No* ant =  malloc(sizeof(No*));
-
-	printaContato(noAchado->chave);
-
-	printf("\n");
-
-	adicionaContato(lista, 87, "Daniel", 981344418, 0);	
-	adicionaContato(lista, 12345678, "Giovanna", 981344418, 0);	
-	adicionaContato(lista, 001, "Gabriel", 9111, 0);
-	adicionaContato(lista, 002, "Luma", 9222, 0);
-	adicionaContato(lista, 003, "João", 9888, 0);
-	adicionaContato(lista, 004, "Lucas", 9000, 0);
-	adicionaContato(lista, 11, "José", 9111, 0);
-	adicionaContato(lista, 10, "Jon Snow", 12121, 0);
-	adicionaContato(lista, 007, "Fernanda", 9272, 0);
-	printf("selecionado.nome: %s\n\n", lista->selecionado->chave->nome);
-
-	printf("\nVOU LIGAAAAAAR\n");
-	liga(lista, 9111);
-
-	imprimirContatos(lista, 'G');
-
-	imprimirContatos(lista, 'M');
-
-	printf("\n");
-
-	removeContato(lista, 12345678);
-	removeContato(lista, 2);
-	removeContato(lista, 87);
-	removeContato(lista, 999);
-	removeContato(lista, 7);
-	//adicionaContato(lista, 007, "Telefoneee", 9111, 0);
-
-	printf("\nVOU LIGAAAAAAR\n");
-	liga(lista, 9111);
-
-	printf("\n Contatos: \n");
-	imprimeTodosContatos(lista);
-
-	printf("selecionado.nome: %s\n\n", lista->selecionado->chave->nome);
-
-	avancar(lista, 3);
-	printf("selecionado.nome: %s\n\n", lista->selecionado->chave->nome);
-
-	retroceder(lista, 2);
-	printf("selecionado.nome: %s\n\n", lista->selecionado->chave->nome);
-
-	printf("\n");	
-
-	preferido(lista, "Giovanna");
-	imprimirPreferidos(lista);
-
-	preferido(lista, "Jon Snow");
-	imprimirPreferidos(lista);
-
-	return 0;
-}
-
 int preparaParaAdicao(Lista* lista){
 	int cod, tel, preferido;
 	char* nome = malloc(sizeof(char*));
@@ -643,55 +586,43 @@ int preparaParaImprimirPreferidos(Lista* lista){
 }
 
 int main(){
-
-	// testandoFuncoes();
-	// printf("\n");
-
-	int op, teste;
+	int op;
 
 	Lista* agenda = malloc(sizeof(Lista*));
 	inicializaLista(agenda);
 
-	while(teste = scanf("%d", &op) != EOF){
+	while(scanf("%d", &op) != EOF){
 
 		switch(op){
 			case 1: preparaParaAdicao(agenda);
-					//imprimeTodosContatos(agenda);
 					op = 0;
 					break;
 
 			case 2: preparaParaRemocao(agenda);
-					//imprimeTodosContatos(agenda);
 					op = 0;
 					break;
 
 			case 3: preparaParaLigar(agenda);
-					//imprimeTodosContatos(agenda);
 					op = 0;
 					break;
 
 			case 4: preparaParaAvancar(agenda);
-					//imprimeTodosContatos(agenda);
 					op = 0;
 					break;
 
 			case 5: preparaParaRetroceder(agenda);
-					//imprimeTodosContatos(agenda);
 					op = 0;
 					break;
 
 			case 6: preparaParaMarcarComoPreferido(agenda);
-					//imprimeTodosContatos(agenda);
 					op = 0;
 					break;
 
 			case 7: preparaParaImprimirContatos(agenda);
-					//imprimeTodosContatos(agenda);
 					op = 0;
 					break;
 
 			case 8: preparaParaImprimirPreferidos(agenda);
-					//imprimeTodosContatos(agenda);
 					op = 0;
 					break;
 		}
