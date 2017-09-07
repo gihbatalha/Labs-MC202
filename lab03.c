@@ -33,7 +33,7 @@ int printaContato(Contato* contatinho){
 	if(contatinho->preferido == 0){
 		printf("[N_PREFERIDO]\n");
 	}else{
-		printf("PREFERIDO\n");
+		printf("[PREFERIDO]\n");
 	}
 
 	return 1;
@@ -397,28 +397,24 @@ int preferido(Lista* lista, char* nome){
 		return 0;
 	}
 
-	No* no = busca(lista, lista->selecionado->chave->cod);
-	no = no->dir;
-
-	//verifica se é o selecionado
-	if(no->chave->nome == nome){		
-		printf("Contato %s (telefone​ %d) assinalado como preferido\n",no->chave->nome, no->chave->tel);
-		no->chave->preferido = 1;
+	if(lista->inicio->esq == NULL && lista->fim->dir == NULL){
+		printf("Contato nao existe\n");
 		return 1;
 	}
 
+	No* no = busca(lista, lista->selecionado->chave->cod);
 	no = no->dir;
 
-	//Percorrendo pela direita
-	while(no != lista->selecionado){
-		if(no->chave->nome == nome){
+	do{
+		if(*(no->chave->nome) == *nome){
 			printf("Contato %s (telefone​ %d) assinalado como preferido\n",no->chave->nome, no->chave->tel);
 			no->chave->preferido = 1;
 			return 1;
 		}
 
 		no = no->dir;
-	}
+
+	}while(no != lista->selecionado);
 
 	printf("Contato nao existe\n");
 	return 0;	
@@ -603,6 +599,10 @@ int preparaParaRetroceder(Lista* lista){
 }
 
 int preparaParaMarcarComoPreferido(Lista* lista){
+	char* nome = malloc(sizeof(No*));
+
+	scanf("%s", nome);
+	preferido(lista, nome);
 	return 1;
 }
 
