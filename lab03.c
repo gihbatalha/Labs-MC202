@@ -1,3 +1,17 @@
+//Giovanna Batalha 197960
+
+//O projeto a seguir tem como objetivo compor uma agenda implementada com uma lista duplamente ligada com cabeça
+//Como entrada teremos o número de alguma operação e seus respectivos parâmetros
+//Operações e respectivos parâmetros:
+//1. Adiciona contato - código, nome, telefone
+//2. Remove contato   - código
+//3. Efetua ligação   - telefone
+//4. Avança na agenda - número
+//5. Retrocede na agenda - número
+//6. Assinala contato como preferido - nome
+//7. Imprime contatos - letra
+//8. Imprime preferidos
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -502,6 +516,7 @@ int imprimirContatos(Lista* lista, char letra){
 	return 1;
 }
 
+//Métodos que esperam pelos parâmetros e chamam as funções de acordo com a operação passada na main
 int preparaParaAdicao(Lista* lista){
 	int cod, tel, preferido;
 	char* nome = malloc(sizeof(char*));
