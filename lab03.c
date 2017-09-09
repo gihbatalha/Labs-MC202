@@ -27,15 +27,10 @@ int printaContato(Contato* contatinho){
 		return 0;
 	}
 
-	//Ex. Contato​ ​ Dexter​ ​ (telefone​ ​ 9555)​ ​ codigo:​ ​ 5555​ ​ [N_PREFERIDO]
-	//printf("Contato %s (telefone​ %d) codigo: %d ", contatinho->nome, contatinho->tel, contatinho->cod);
-
 	if(contatinho->preferido == 0){
 		printf("Contato %s (telefone %d) codigo: %d [N_PREFERIDO]\n", contatinho->nome, contatinho->tel, contatinho->cod);
-		//printf("[N_PREFERIDO]\n");
 	}else{
 		printf("Contato %s (telefone %d) codigo: %d [PREFERIDO]\n", contatinho->nome, contatinho->tel, contatinho->cod);
-		//printf("[PREFERIDO]\n");
 	}
 
 	return 1;
@@ -60,7 +55,7 @@ int printaNo(No* no){
 
 }
 
-//Imprime TODOS os contatos da lista
+//Imprime TODOS os contatos da lista. Usado para controle interno
 int imprimeTodosContatos(Lista* lista){
 	printf("\n--------------- Imprimindo todos os contatos ----------------\n");
 	if(lista->inicio->esq == NULL && lista->fim->dir == NULL){
@@ -83,7 +78,7 @@ int imprimeTodosContatos(Lista* lista){
 	return 1;
 }
 
-//Coloca 0 e "" nos atrivutos
+//Coloca NULL nos atributos do Nó
 int inicializaNo(No* no){
 	if(no == NULL){
 		printf("ERRO [inicializaNo]: nó nulo\n");
@@ -97,8 +92,8 @@ int inicializaNo(No* no){
 	return 1;
 }
 
+//Inicializa a lista com os nós inicio, fim e selecionado
 int inicializaLista(Lista* lista){
-	//printf("Inicializando lista...\n");
 
 	if(lista == NULL){
 		printf("ERRO [inicializaLista]: Lista nula \n");
@@ -118,8 +113,41 @@ int inicializaLista(Lista* lista){
 	return 1;
 }
 
+//Retorna o anterior do nó buscado
+No* busca(Lista* lista, int cod){
+	if(lista == NULL){
+		printf("ERRO [buscaContato] lista nula\n");
+		return NULL;
+	}
+
+	//Lista vazia
+	if(lista->inicio->esq == NULL && lista->fim->dir == NULL){
+		return NULL;
+	}
+
+	No* noAchado = malloc(sizeof(No*));
+	No* ant = malloc(sizeof(No*));
+
+	noAchado = lista->inicio->esq; //Recebe o início da lista
+	ant = lista->inicio->esq->esq; //Recebe o início da lista
+
+	//Percorremos a lista pela direita, do início ao fim
+	do{
+		if(noAchado->chave->cod == cod){
+			return ant;
+		}
+
+		ant = noAchado;
+		noAchado = noAchado->dir;
+
+	}while(noAchado != lista->inicio->esq);
+
+	return NULL;
+	
+}
+
+//Adição usada quando a lista está vazia
 int adicionaNoFimListaVazia(Lista* lista, No* no){
-	//printf("Adicionando no fim da lista vazia - Contato %d\n", no->chave->cod);
 	
 	if(no == NULL){
 		printf("ERRO [adicionaNoFimListaVazia] Nó nulo \n");
@@ -134,13 +162,13 @@ int adicionaNoFimListaVazia(Lista* lista, No* no){
 	lista->selecionado = no;
 
 	printf("Contato %s (telefone %d) adicionado na agenda\n", no->chave->nome, no->chave->tel);
-	//printf("Contato %s (telefone​ %d) adicionado na agenda\n", no->chave->nome, no->chave->tel);
+
 	return 1;
 }
 
 
 //Adiciona um nó já com a chave preenchida, no fim da lista
-int adicionaNoFim(Lista* lista, No* no){	
+int adiciona(Lista* lista, No* no){	
 	if(no == NULL){
 		printf("ERRO [Adiciona no fim] Nó nulo \n");
 		return 0;
@@ -150,24 +178,29 @@ int adicionaNoFim(Lista* lista, No* no){
 	if(lista->inicio->esq == NULL && lista->fim->dir == NULL){
 		return adicionaNoFimListaVazia(lista, no);
 	}
-	
-	no->dir = lista->inicio->esq;
-	lista->inicio->esq->esq = no;
-	lista->fim->dir->dir = no;
-	no->esq = lista->fim->dir;
 
-	//atualiza o fim
-	lista->fim->dir = no;
-	//printf("Contato %s (telefone​ %d) adicionado na agenda\n", no->chave->nome, no->chave->tel);
+	//busca retorna o anterior do nó selecionado
+	No* sel = busca(lista, lista->selecionado->chave->cod);
+	sel = sel->dir;
+	
+	//Adicionando depois do nó selecionado da lista
+	no->dir = sel->dir;
+	sel->dir->esq = no;
+	sel->dir = no;
+	no->esq = sel;
+
+	//se o sel é o fim e estamos adicionando um nó após o sel,
+	// devemos settar o fim para apontar para o novo nó	
+	if(lista->fim->dir == sel){
+		lista->fim->dir = no;
+	}
+
 	printf("Contato %s (telefone %d) adicionado na agenda\n", no->chave->nome, no->chave->tel);
 	return 1;
 }
 
-//Métodos oficiais a serem chamados......
 
 int adicionaContato(Lista* lista, int cod, char* nome, int tel, int preferido){
-	//printf("Adicionando contato....\n");
-	//printf("cod: %d| nome %s| tel %d|\n", cod, nome, tel);
 	Contato* novoContato;
 	novoContato = malloc(sizeof(Contato*));
 
@@ -183,68 +216,27 @@ int adicionaContato(Lista* lista, int cod, char* nome, int tel, int preferido){
 	novoNo = malloc(sizeof(No*));
 
 	novoNo->chave = novoContato;
-	return adicionaNoFim(lista, novoNo);
+	return adiciona(lista, novoNo);
 }
-
-No* busca(Lista* lista, int cod){
-	if(lista == NULL){
-		printf("ERRO [buscaContato] lista nula\n");
-		return NULL;
-	}
-
-	if(lista->inicio->esq == NULL && lista->fim->dir == NULL){
-		//printf("Buscando contato - Lista vazia\n");
-		return NULL;
-	}
-
-	No* noAchado = malloc(sizeof(No*));
-	No* ant = malloc(sizeof(No*));
-	//printf("Busca Nó - Lista não vazia\n");
-	noAchado = lista->inicio->esq; //Recebe o início da lista
-	ant = lista->inicio->esq->esq; //Recebe o início da lista
-
-	if(noAchado->chave->cod == cod){
-		//printf("achado no primeiro nó:  %s\n", noAchado->chave->nome);
-		return ant;
-	}			
-
-	ant = noAchado;
-	noAchado = noAchado->dir;
-
-	//Percorrendo pela direita
-	while(noAchado != lista->inicio->esq){
-		if(noAchado->chave->cod == cod){
-			return ant;
-		}
-
-		ant = noAchado;
-		noAchado = noAchado->dir;
-	}
-
-	return NULL;
-	
-}
-
 
 
 int removeContato(Lista* lista, int cod){
 	No* ant = busca(lista, cod);
 	
-	//Remoção de verdade a partir da busca:
 	if(ant == NULL){
 		printf("Contato nao existe\n");
 		return 0;
 	}
 
 	if(lista->inicio->esq == NULL && lista->fim->dir == NULL){
-		//lista vazia
 		printf("Contato nao existe\n");
 		return 0;
 	}
 
 	No* noAchado = ant->dir;
 
-	//Se há um nó na lista
+	//Se há um nó na lista, ele aponta para ele mesmo
+	//Ao retirá-lo devemos settar o inicio e o fim	
 	if(noAchado == noAchado->dir){
 		lista->inicio->esq = NULL;
 		lista->fim->dir = NULL;
@@ -252,10 +244,9 @@ int removeContato(Lista* lista, int cod){
 		free(noAchado);
 		return 1;
 	}
-
-
-	//Se á mais de um nó...
-	//settando o nó SEL
+	
+	//Se estamos removendo o selecionado,
+	//devemos alterar o selecionado
 	if(lista->selecionado == noAchado){
 		if(noAchado->dir == noAchado){
 			lista->selecionado = NULL;
@@ -274,10 +265,10 @@ int removeContato(Lista* lista, int cod){
 		lista->fim->dir = ant;
 	}
 
+	//Removendo
 	ant->dir = noAchado->dir;
 	noAchado->dir->esq = ant;	
 
-	//printf("Contato %s (telefone​ %d) removido da agenda\n",noAchado->chave->nome, noAchado->chave->tel);
 	printf("Contato %s (telefone %d) removido da agenda\n",noAchado->chave->nome, noAchado->chave->tel);
 	free(noAchado);
 
@@ -287,6 +278,7 @@ int removeContato(Lista* lista, int cod){
 int liga(Lista* lista, int tel){
 	//recebe o anterior do nó selecionado da lista
 	No* noAchado = busca(lista, lista->selecionado->chave->cod);
+	noAchado = noAchado->dir; 
 
 	if(noAchado == NULL){
 		printf("ERRO [liga]: no nulo\n");
@@ -297,17 +289,14 @@ int liga(Lista* lista, int tel){
 
 	//Lista vazia
 	if(lista->inicio->esq == NULL && lista->fim->dir == NULL){
-		//printf("Lista vazia\n");
 		printf("Contato nao existe\n");
 		return 0;
 	}
 
-	//noAchado começa do selecionado
-	noAchado = noAchado->dir; 
-
+	//Percorremos a lista pela direita a partir do selecionado
+	//buscando o primeiro contato com o telefone passado
 	do{
 		if(noAchado->chave->tel == tel){
-			//printf("Ligando para %s (telefone​ %d)\n", noAchado->chave->nome, noAchado->chave->tel);
 			printf("Ligando para %s (telefone %d)\n",noAchado->chave->nome, noAchado->chave->tel);
 			lista->selecionado = noAchado;
 			return 1;
@@ -343,13 +332,15 @@ int avancar(Lista* lista, int n){
 	No* sel = busca(lista, lista->selecionado->chave->cod);
 	sel = sel->dir;
 
+	//Andamos com o ponteiro sel para a direita a qtdd passada por parâmetro
 	int i;
 	for(i=0; i < n; i++){
-		sel = sel->esq;
-	}
+		sel = sel->dir;
+	}	
 
+	//Settamos o selecionado da lista
 	lista->selecionado = sel;
-	//printf("Contato %s (telefone​ %d) selecionado\n", sel->chave->nome, sel->chave->tel);
+
 	printf("Contato %s (telefone %d) selecionado\n",sel->chave->nome, sel->chave->tel);
 	return 1;
 	
@@ -376,11 +367,13 @@ int retroceder(Lista* lista, int n){
 	No* sel = busca(lista, lista->selecionado->chave->cod);
 	sel = sel->dir;
 
+	//Andamos com o ponteiro sel para a esquerda a qtdd passada por parâmetro
 	int i;
 	for(i=0; i < n; i++){
-		sel = sel->dir;
+		sel = sel->esq;
 	}
 
+	//Settamos o selecionado da lista
 	lista->selecionado = sel;
 
 	//printf("Contato %s (telefone​ %d) selecionado\n", sel->chave->nome, sel->chave->tel);
@@ -409,15 +402,12 @@ int preferido(Lista* lista, char* nome){
 	No* no = busca(lista, lista->selecionado->chave->cod);
 	no = no->dir; // setamos o no para o selecionado
 
-	//printf("nome: %s\n",nome);
-
+	//Percorremos todos os nós a procura do contato com o nome passado
+	// e settamos a propriedade preferido dele para 1
 	do{
 		char* nomeDoNo = no->chave->nome;
-		//printf("Nome do no: %s\n",nomeDoNo);
 
 		if(strcmp(nomeDoNo, nome) == 0){
-			//printaNo(no);
-			//printf("Contato %s (telefone​ %d) assinalado como preferido\n",no->chave->nome, no->chave->tel);
 			printf("Contato %s (telefone %d) assinalado como preferido\n",no->chave->nome, no->chave->tel);
 			no->chave->preferido = 1;
 			return 1;
@@ -441,6 +431,7 @@ int imprimirPreferidos(Lista* lista){
 
 	int preferidos = 0;
 
+	//Lista vazia
 	if(lista->inicio->esq == NULL && lista->fim->dir == NULL){
 		printf("Nenhum preferido encontrado\n");
 		return 1;
@@ -449,33 +440,23 @@ int imprimirPreferidos(Lista* lista){
 	//Retorna o ant do selecionado
 	No* no = busca(lista, lista->selecionado->chave->cod);
 	no = no->dir;
-	//no = no->esq;
 
-	//verifica se o selecionado é preferido
-	if(no->chave->preferido == 1){
-		preferidos++;
-		//printf("Contato %s (telefone %d) codigo: %d\n",no->chave->nome, no->chave->tel, no->chave->cod);
-		printf("Contato %s (telefone %d) codigo: %d\n",no->chave->nome, no->chave->tel, no->chave->cod);
-	}
-
-	//no = no->dir;
-	no = no->esq;
-
-	//Percorrendo pela direita
-	while(no != lista->selecionado){
+	//percorremos a lista toda a partir do selecionado 
+	//verificando se o contato atual tem a prop selecionado == 1
+	do{
 		if(no->chave->preferido == 1){
 			preferidos++;
-			//printf("Contato %s (telefone %d) codigo: %d\n",no->chave->nome, no->chave->tel, no->chave->cod);
 			printf("Contato %s (telefone %d) codigo: %d\n",no->chave->nome, no->chave->tel, no->chave->cod);
 		}
 
-		//no = no->dir;
-		no = no->esq;
-	}
+		no = no->dir;
+
+	}while(no != lista->selecionado);
 
 	if(preferidos <= 0){
 		printf("Nenhum preferido encontrado\n");
 	}
+
 	return 1;
 }
 
@@ -484,41 +465,34 @@ int imprimirContatos(Lista* lista, char letra){
 		printf("ERRO[imprimirContatos]: Lista nula\n");
 		return 0;
 	}
-	//printf("Letra recebida: %c\n",letra);
+
 	printf("[CONTATOS COM INICIAL %c]\n",letra);
 
-	//lista vazia
+	//Lista vazia
 	if(lista->inicio->esq == NULL && lista->fim->dir == NULL){
 		printf("Nenhum contato encontrado\n");
 		return 1;
 	}
 
-	//Retorna o ant do selecionado
+	//A busca retorna o anterior do selecionado, 
+	//por isso utilizamos no = no->dir
 	No* no = busca(lista, lista->selecionado->chave->cod);
 	no = no->dir;
-	//no = no->esq;
 	
 	int contatos = 0;
 
+	//percorremos a lista toda a partir do selecionado 
+	//verificando se a primeira letra do nome do contato é a mesma passada como parâmetro
 	do{
 		char* nome = no->chave->nome;
 		char primeiraLetra = nome[0];
-		//printf("primeiraLetra: %c\n", primeiraLetra);
 
-		if(primeiraLetra == letra){
-
-			if(no->chave->preferido == 0){
-				printf("Contato %s (telefone %d) codigo: %d [N_PREFERIDO]\n", no->chave->nome, no->chave->tel, no->chave->cod);
-			}else{
-				printf("Contato %s (telefone %d) codigo: %d [PREFERIDO]\n", no->chave->nome, no->chave->tel, no->chave->cod);
-			}
-			
-			//printaContato(no->chave);
+		if(primeiraLetra == letra){			
+			printaContato(no->chave);
 			contatos++;
 		}
 
-		//no = no->dir;
-		no = no->esq;
+		no = no->dir;
 	}while(no != lista->selecionado);
 
 	if(contatos <= 0){
@@ -643,6 +617,4 @@ int main(){
 					break;
 		}
 	}
-
-	return 1;
 }
