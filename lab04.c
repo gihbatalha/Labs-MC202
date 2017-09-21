@@ -2,6 +2,8 @@
 #include <stdlib.h>
 
 //Temos uma fila em que, há um ponteiro para o fim, mas o nó cabeça é o fim->prox, ou seja, o começo.
+//Inserimos no fim
+//Retiramos do início
 
 typedef struct Processo{
 	int id;
@@ -34,35 +36,52 @@ int inicializaFila(Fila* fila){
 		return 0;
 	}
 
-	printf("inicializaFila...\n");
 	fila->fim = malloc(sizeof(No*));
-	//fila->fim->prox = malloc(sizeof(No*));
+	fila->fim->prox = fila->fim;
+	fila->fim->processo = NULL;
 
 	return 1;
 }
 
 int imprime(Fila* fila){
 	printf("Imprimindo fila.....................................................\n");
-	if(fila->fim != NULL){
-		printf("fim não eh nulo\n");
-	}
+	printf("cabeça: ");
+	printaProcesso(fila->fim->prox->processo);
 
-	if(fila->fim->prox != NULL){
-		printf("prox do fim nao eh nulo\n");
-	}
+	No* atual = fila->fim->prox->prox; //recebe o inicio da fila, ou seja, o nó depois do cabeça
 
-	No* atual = fila->fim->prox; //recebe o início da fila
-
-	do{
-		printf("oi\n");
+	while(atual != fila->fim->prox){		
 		printaProcesso(atual->processo);
-
 		atual = atual->prox;
-	}while(atual != fila->fim->prox); //até chegar no nó cabeça
+	}; //até chegar no nó cabeça
+
+	printf("fim: ");
+	printaProcesso(fila->fim->processo);
 	printf(".....................................................................\n");
 }
 
-int insereProcesso(Fila* fila, int id, int tempo, int prio){
+Processo* moveProcessos(Fila* origem, Fila* destino){
+	
+}
+
+Processo* removeProcesso(Fila* fila, int idLista){
+	//Remove o primeiro processo, e o retorna.
+	No* cabeca  = fila->fim->prox;
+
+	if(cabeca == fila->fim->prox->prox){
+		//lista vazia
+		printf("Nenhum processo existe na fila %d\n",idLista);
+		return NULL;
+	}
+
+	Processo* processo = cabeca->prox->processo;
+	cabeca->prox = cabeca->prox->prox;
+
+	printf("processo removido!\n");
+	return processo;
+}
+
+Processo* insereProcesso(Fila* fila, int id, int tempo, int prio, int idLista){
 	//Insere depois do fim atual e altera o fim
 	No* novoNo = malloc(sizeof(No*));
 	Processo* processo = malloc(sizeof(Processo*));
@@ -71,34 +90,43 @@ int insereProcesso(Fila* fila, int id, int tempo, int prio){
 	processo->exec = tempo;
 	processo->prio = prio;
 
-	printaProcesso(processo);
-
 	novoNo->processo = processo;
-
-	if(novoNo != NULL){
-		printf("Novo no nao eh nulo\n");
-	}
 
 	novoNo->prox = fila->fim->prox;
 	fila->fim->prox = novoNo;
 
 	fila->fim = novoNo;
 
-	printf("Inserido!\n");
-	return 1;
+	printf("Processo %d (tempo de execucao %d) adicionado na fila %d\n", id, tempo, idLista);
+	return processo;
+}
+
+int testandoMetodos(Fila* fila){
+	if(fila->fim == NULL){
+		printf("Nao DEU CERTO\n");
+	}
+
+	Processo* processo = removeProcesso(fila, 0);
+
+	printaProcesso(processo);
+	
+
+	insereProcesso(fila, 1, 15, 0, 0);
+	insereProcesso(fila, 2, 25, 0, 0);
+	insereProcesso(fila, 3, 10, 1, 0);
+
+	imprime(fila);
+
+	printf("\n");
+
+	processo = removeProcesso(fila, 0);
+
+	imprime(fila);
 }
 
 int main(){
 	Fila* fila = malloc(sizeof(Fila*));
 	inicializaFila(fila);
 
-	if(fila->fim == NULL){
-		printf("Nao DEU CERTO\n");
-	}else{
-		printf(" deu certo\n");
-	}
-
-	insereProcesso(fila, 1, 1, 1);
-
-	imprime(fila);
+	testandoMetodos(fila);
 }
