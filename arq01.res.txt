@@ -1,0 +1,19 @@
+Quantidade de processos finalizados (em tempo, 10): 0
+Processo 42 (tempo de execucao 39) adicionado na fila 0
+Processo 44 (tempo de execucao 29) adicionado na fila 2
+Quantidade de processos finalizados (em tempo, 15): 0
+Processo 42 movido da fila 0 para a 2
+Nenhum processo existe na fila 0
+Quantidade de processos na fila 1: 0
+Processo 11 (tempo de execucao 49) adicionado na fila 0
+Processo 11 movido da fila 0 para a 0
+Nenhum processo existe na fila 1
+Quantidade de processos na fila 1: 0
+Quantidade de processos finalizados (em tempo, 82): 2
+Nenhum processo existe na fila 2
+Nenhum processo existe na fila 2
+Quantidade de processos finalizados (em tempo, 51): 0
+Processo 31 (tempo de execucao 11) adicionado na fila 0
+Processo 11 (tempo de execucao 49) da fila 0
+Processo 31 (tempo de execucao 11) da fila 0
+Nenhum processo existe na fila 2
