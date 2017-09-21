@@ -60,19 +60,20 @@ int imprime(Fila* fila){
 	printf(".....................................................................\n");
 }
 
-Processo* moveProcessos(Fila* origem, Fila* destino){
-	
-}
 
-Processo* removeProcesso(Fila* fila, int idLista){
+
+Processo* removeProcesso(Fila* fila){
 	//Remove o primeiro processo, e o retorna.
 	No* cabeca  = fila->fim->prox;
 
 	if(cabeca == fila->fim->prox->prox){
 		//lista vazia
-		printf("Nenhum processo existe na fila %d\n",idLista);
+		printf("Nenhum processo existe na fila\n");
 		return NULL;
 	}
+
+	//TODO-------------------------------------------------------
+	//se tem somente um processo, devemos atualizar o fim
 
 	Processo* processo = cabeca->prox->processo;
 	cabeca->prox = cabeca->prox->prox;
@@ -81,15 +82,13 @@ Processo* removeProcesso(Fila* fila, int idLista){
 	return processo;
 }
 
-Processo* insereProcesso(Fila* fila, int id, int tempo, int prio, int idLista){
+Processo* insereProcesso(Fila* fila, Processo* processo){
 	//Insere depois do fim atual e altera o fim
+	if(processo == NULL){
+		printf("ERRO[insereProcesso] processo nulo\n");
+	}
+	
 	No* novoNo = malloc(sizeof(No*));
-	Processo* processo = malloc(sizeof(Processo*));
-
-	processo->id = id;
-	processo->exec = tempo;
-	processo->prio = prio;
-
 	novoNo->processo = processo;
 
 	novoNo->prox = fila->fim->prox;
@@ -97,36 +96,102 @@ Processo* insereProcesso(Fila* fila, int id, int tempo, int prio, int idLista){
 
 	fila->fim = novoNo;
 
-	printf("Processo %d (tempo de execucao %d) adicionado na fila %d\n", id, tempo, idLista);
+	//printf("Processo %d (tempo de execucao %d) adicionado na fila %d\n", id, tempo, idLista);
 	return processo;
 }
 
-int testandoMetodos(Fila* fila){
-	if(fila->fim == NULL){
-		printf("Nao DEU CERTO\n");
+Processo* moveProcessos(Fila* origem, Fila* destino){
+	Processo* processo = removeProcesso(origem);
+
+	if(processo == NULL){
+		printf("Nenhum processo para mover\n");
+	}else{
+		insereProcesso(destino, processo);
 	}
 
-	Processo* processo = removeProcesso(fila, 0);
+	return processo;
+}
 
-	printaProcesso(processo);
+// Processo* insereProcesso(Fila* fila, int id, int tempo, int prio, int idLista){
+// 	//Insere depois do fim atual e altera o fim
+// 	No* novoNo = malloc(sizeof(No*));
+// 	Processo* processo = malloc(sizeof(Processo*));
+
+// 	processo->id = id;
+// 	processo->exec = tempo;
+// 	processo->prio = prio;
+
+// 	novoNo->processo = processo;
+
+// 	novoNo->prox = fila->fim->prox;
+// 	fila->fim->prox = novoNo;
+
+// 	fila->fim = novoNo;
+
+// 	printf("Processo %d (tempo de execucao %d) adicionado na fila %d\n", id, tempo, idLista);
+// 	return processo;
+// }
+
+// int testandoMetodos(Fila* fila){
+// 	if(fila->fim == NULL){
+// 		printf("Nao DEU CERTO\n");
+// 	}
+
+// 	Processo* processo = removeProcesso(fila, 0);
+
+// 	printaProcesso(processo);
 	
 
-	insereProcesso(fila, 1, 15, 0, 0);
-	insereProcesso(fila, 2, 25, 0, 0);
-	insereProcesso(fila, 3, 10, 1, 0);
+// 	insereProcesso(fila, 1, 15, 0, 0);
+// 	insereProcesso(fila, 2, 25, 0, 0);
+// 	insereProcesso(fila, 3, 10, 1, 0);
 
-	imprime(fila);
+// 	imprime(fila);
 
-	printf("\n");
+// 	printf("\n");
 
-	processo = removeProcesso(fila, 0);
+// 	processo = removeProcesso(fila, 0);
 
-	imprime(fila);
+// 	imprime(fila);
+// }
+
+Processo* geraProcesso(int id, int tempo){
+	Processo* processo = malloc(sizeof(Processo*));
+
+	processo->id = id;
+	processo->exec = tempo;
+	processo->prio = 0;
+
+	return processo;
+}
+
+int testeMove(){
+	Fila* fila1 = malloc(sizeof(Fila*));
+	Fila* fila2 = malloc(sizeof(Fila*));
+	inicializaFila(fila1);
+	inicializaFila(fila2);
+
+	moveProcessos(fila1, fila2);
+
+	insereProcesso(fila1, geraProcesso(1, 15));
+	insereProcesso(fila1, geraProcesso(2, 15));
+	insereProcesso(fila2, geraProcesso(3, 15));
+	insereProcesso(fila2, geraProcesso(4, 15));
+
+	printf("\nANTES\n");
+	imprime(fila1);
+	imprime(fila2);
+
+	printf("\nDEPOIS\n");
+	moveProcessos(fila1, fila2);
+	imprime(fila1);
+	imprime(fila2);
 }
 
 int main(){
 	Fila* fila = malloc(sizeof(Fila*));
 	inicializaFila(fila);
 
-	testandoMetodos(fila);
+	testeMove();
+	//testandoMetodos(fila);
 }
