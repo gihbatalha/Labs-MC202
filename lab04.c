@@ -1,9 +1,48 @@
-#include <stdio.h>
-#include <stdlib.h>
+//Giovanna Batalha 197960 TURMA F - MC202
 
-//Temos uma fila em que, há um ponteiro para o fim, mas o nó cabeça é o fim->prox, ou seja, o começo.
+//OBJETIVO------
+//Desenvolver uma série de operações utilizando a estrutura de dados FILA, ou seja, inserimos no fim, retiramos do início.
+
+//Fila:
 //Inserimos no fim
 //Retiramos do início
+
+//Essas operações com filas tem o intuito de simular um Sistema operacional, que possui filas de processamento de processos.
+//O SO utilizará três filas
+//0 - Aptos, 1 - Bloqueados, 2- Executando
+
+//ENTRADA E SAÍDA----
+//Recebemos como entrada inicialmente um valor máximo de processos sendo manuzeados no SO e um valor máximo de operaçoes de transições entre filas.
+//Após isso, recebemos um número que representa uma das operações que serão executadas, e em seguida seus respectivos parâmetros
+//1 - Inserir na fila (núm fila, id do processo, tempo de execução do processo, número da prioridade) - Adiciona no fim da fila
+//2 - Remover da fila (núm fila) - remove o processo que está no início
+//3 - Mover entre filas (núm fila origem, núm fila destino) - remove o processo da origem e adiciona no destino
+//4 - Exibe os processos (núm fila) - Exibe os processos do início para o fim
+//5 - Número de processos (núm fila) - Retorna o número de processos da fila
+//6 - Finaliza processos (tempo) - Desenfilera da fila de executando, se o tempo de exec do processo está dentro do tempo passado,
+//								   Percorremos a fila desenfileirando os processos e atualizando o tempo que resta. No fim, 
+//								   retornamos a quantidade de processos desenfileirados naquele tempo de execução.
+//Nesses métodos existe os seguintes tratamentos:
+//Se a fila não está vazia
+//Se os limites de processos e operações de transições não foi excedido
+//Se é possível mover de uma fila para outra.
+// - Não podemos mover de Bloqueado para Executando
+// - Não podemos mover de Aptos para Bloqueado
+// - Não podemos mover um processo com prioridade 1 para fora de Executando
+
+//RACIOCÍNIO USADO------
+//Temos uma fila em que, há um ponteiro para o fim, mas o nó cabeça é o fim->prox.
+//Portanto, para pegarmos o primeiro nó efetivo, devemos usar fim->prox->prox
+
+//ex.
+// cabeça  inicio              fim
+// Nó      Nó       Nó    Nó   Nó 
+
+//Apesar do exemplo, na fila só temos um ponteiro "fim", mas utilizamos o conceito de cabeça, ou seja, um nó com informações nulas
+// e o Início representa o primeiro nó com valor não nulo, ou seja, que representa um processo efetivamente.
+
+#include <stdio.h>
+#include <stdlib.h>
 
 typedef struct Processo{
 	int id;
@@ -20,15 +59,6 @@ typedef struct Lista{
 	No* fim;
 } Fila;
 
-int printaProcesso(Processo* processo, int idLista){
-	if (processo == NULL){
-		printf("ERRO[printaProcesso] processo nulo.\n");
-		return 0;
-	}
-
-	printf("Processo %d (tempo de execucao %d) da fila %d\n",processo->id, processo->exec, idLista);
-	return 1;
-}
 
 int inicializaFila(Fila* fila){
 	if(fila == NULL){
@@ -43,23 +73,28 @@ int inicializaFila(Fila* fila){
 	return 1;
 }
 
-void imprime(Fila* fila){
-	printf("Imprimindo fila.....................................................\n");
-	printf("cabeça: ");
-	printaProcesso(fila->fim->prox->processo, 0);
+//Usado ao adicionar um novo processo.
+Processo* criaProcesso(int id, int exec, int prio){
+	Processo* processo = malloc(sizeof(Processo*));
 
-	No* atual = fila->fim->prox->prox; //recebe o inicio da fila, ou seja, o nó depois do cabeça
+	processo->id = id;
+	processo->exec = exec;
+	processo->prio = prio;
 
-	while(atual != fila->fim->prox){		
-		printaProcesso(atual->processo, 0);
-		atual = atual->prox;
-	}; //até chegar no nó cabeça
-
-	printf("fim: ");
-	printaProcesso(fila->fim->processo, 0);
-	printf(".....................................................................\n");
+	return processo;
 }
 
+int printaProcesso(Processo* processo, int idLista){
+	if (processo == NULL){
+		printf("ERRO[printaProcesso] processo nulo.\n");
+		return 0;
+	}
+
+	printf("Processo %d (tempo de execucao %d) da fila %d\n",processo->id, processo->exec, idLista);
+	return 1;
+}
+
+//Operação 4
 void exibeProcessos(Fila* fila, int idLista){
 	No* atual = fila->fim->prox->prox; //recebe o inicio da fila, ou seja, o nó depois do cabeça
 
@@ -76,8 +111,7 @@ void exibeProcessos(Fila* fila, int idLista){
 	return;
 }
 
-
-
+//Operação 2
 Processo* removeProcesso(Fila* fila){
 	//Remove o primeiro processo, e o retorna.
 	No* cabeca  = fila->fim->prox;
@@ -87,18 +121,19 @@ Processo* removeProcesso(Fila* fila){
 	}
 
 	Processo* processo = cabeca->prox->processo;
-	//printf("removendo processo %d  -- ",processo->id);
 
 	//estamos excluindo o fim, então fazemos ele apontar para a cabeça
 	if(cabeca->prox == fila->fim){
 		fila->fim = cabeca;
 	}
 
+	//Removemos do inicio da fila e atualizamos os ponteiros da fila
 	cabeca->prox = cabeca->prox->prox;
 	
 	return processo;
 }
 
+//Operação 1
 void insereProcesso(Fila* fila, Processo* processo){
 	//Insere depois do fim atual e altera o fim
 	if(processo == NULL){
@@ -114,7 +149,10 @@ void insereProcesso(Fila* fila, Processo* processo){
 	fila->fim = novoNo;
 }
 
+//Operação 3
 Processo* moveProcessos(Fila* origem, Fila* destino){
+	//Removemos da origem e adicionamos no destino
+
 	Processo* processo = removeProcesso(origem);
 
 	if(processo != NULL)
@@ -123,16 +161,7 @@ Processo* moveProcessos(Fila* origem, Fila* destino){
 	return processo;
 }
 
-Processo* geraProcesso(int id, int tempo){
-	Processo* processo = malloc(sizeof(Processo*));
-
-	processo->id = id;
-	processo->exec = tempo;
-	processo->prio = 0;
-
-	return processo;
-}
-
+//Operação 5
 int contaProcessos(Fila* fila){
 	No* atual = fila->fim->prox->prox; //recebe o inicio da fila, ou seja, o nó depois do cabeça
 
@@ -146,107 +175,14 @@ int contaProcessos(Fila* fila){
 	return contador;
 }
 
-void testeMove(){
-	Fila* fila1 = malloc(sizeof(Fila*));
-	Fila* fila2 = malloc(sizeof(Fila*));
-	inicializaFila(fila1);
-	inicializaFila(fila2);
-
-	moveProcessos(fila1, fila2);
-
-	insereProcesso(fila1, geraProcesso(1, 15));
-	insereProcesso(fila1, geraProcesso(2, 15));
-	insereProcesso(fila2, geraProcesso(3, 15));
-	insereProcesso(fila2, geraProcesso(4, 15));
-
-	printf("\nANTES\n");
-	imprime(fila1);
-	imprime(fila2);
-
-	printf("\nDEPOIS\n");
-	moveProcessos(fila1, fila2);
-	imprime(fila1);
-	imprime(fila2);
-}
-
-void testaRemove(){
-	Fila* fila = malloc(sizeof(Fila*));
-	inicializaFila(fila);
-
-	if(fila->fim == NULL){
-		printf("Nao DEU CERTO\n");
-	}
-
-	Processo* processo = removeProcesso(fila);
-	printaProcesso(processo, 0);	
-
-	insereProcesso(fila,  geraProcesso(1, 15));
-	insereProcesso(fila,  geraProcesso(2, 15));
-	//insereProcesso(fila,  geraProcesso(3, 15));
-
-	printf("\nANTES\n");
-	imprime(fila);
-
-	processo = removeProcesso(fila);
-
-	printf("processo removido... ");
-	printaProcesso(processo, 0);
-
-	printf("\nDEPOIS\n");
-	imprime(fila);
-
-	removeProcesso(fila);
-	//removeProcesso(fila);
-
-	exibeProcessos(fila, 0);
-}
-
-void testaContador(){
-	Fila* fila = malloc(sizeof(Fila*));
-	inicializaFila(fila);
-
-	contaProcessos(fila); // 0
-
-	insereProcesso(fila,  geraProcesso(1, 15));
-	insereProcesso(fila,  geraProcesso(2, 15));
-
-	contaProcessos(fila); //2
-
-	insereProcesso(fila,  geraProcesso(3, 15));
-
-	contaProcessos(fila); // 3
-
-	insereProcesso(fila,  geraProcesso(1, 15));
-	insereProcesso(fila,  geraProcesso(2, 15));
-
-	contaProcessos(fila); //5
-
-}
-
-void verificaInicializacao(Fila** filas){
-	int i; 
-	for(i=0; i<3; i++){
-		if(filas[i] == NULL){
-			printf("FILA %d NULAAAAAAAAAAAAAAAAAAAAAAAA\n", i);
-		}
-	}
-}
-
-Processo* criaProcesso(int id, int exec, int prio){
-	Processo* processo = malloc(sizeof(Processo*));
-
-	processo->id = id;
-	processo->exec = exec;
-	processo->prio = prio;
-
-	return processo;
-}
-
+//Operação 6
 int finalizaProcessos(Fila* fila, int tempo){
 	No* atual = fila->fim->prox->prox;
 	int processos = 0;
 
 	while(atual != fila->fim->prox && tempo > 0){
+
+		//Vai desenfileirando enquanto a execução do processo está no tempo passado.
 		if(atual->processo->exec <= tempo){
 			tempo = tempo - atual->processo->exec;
 			removeProcesso(fila);
@@ -255,13 +191,13 @@ int finalizaProcessos(Fila* fila, int tempo){
 			tempo = 0;
 		}
 
-		//printf("tempo: %d\n", tempo);
+		atual = atual->prox;
 	}
 
-	///printf("processos: %d \n", processos);
 	return processos;
 }
 
+//Métodos auxiliares
 void preparaParaFinalizarProcessos(Fila* fila, int tempo){
 	int numeroProcessosFinalizados = finalizaProcessos(fila, tempo);
 
@@ -308,7 +244,7 @@ int preparaParaMoverProcesso(Fila* origem, Fila* destino, int idFilaOrigem, int 
 	if(processo == NULL)
 		printf("Nenhum processo existe na fila %d\n", idFilaOrigem);
 	else{
-		printf("Processo %d movido da fila %d para a fila %d\n",processo->id, idFilaOrigem, idFilaDestino);
+		printf("Processo %d movido da fila %d para a %d\n",processo->id, idFilaOrigem, idFilaDestino);
 		return (numTransicoes + 1);
 	}
 
@@ -333,20 +269,17 @@ void preparaParaInserirProcesso(Fila* fila, int idFila, int maxProcessos, int* n
 
 	int id, tempoExec, prioridade;
 
+	scanf("%d", &id);
+	scanf("%d", &tempoExec);
+	scanf("%d", &prioridade);
+
 	//Número de processos iria exceder
 	if(*numProcessos >= maxProcessos){
 		printf("Limite de processos excedido\n");
 		return;
 	}
 
-	scanf("%d", &id);
-	scanf("%d", &tempoExec);
-	scanf("%d", &prioridade);
-
 	Processo* processo = criaProcesso(id, tempoExec, prioridade);
-
-	//printf("\n processo sendo adicionado. ");
-	//printaProcesso(processo, idFila);
 
 	insereProcesso(fila, processo);
 
@@ -355,16 +288,15 @@ void preparaParaInserirProcesso(Fila* fila, int idFila, int maxProcessos, int* n
 }
 
 int main(){
+	//Vetor de filas, para representar as filas do SO
 	Fila** filas = malloc(3*sizeof(Fila*));
 
+	//Inicialização das filas
 	int i;
 	for(i = 0; i < 3; i++){
 		filas[i] = malloc(sizeof(Fila*));
 		inicializaFila(filas[i]);
 	}
-
-	verificaInicializacao(filas);
-	
 
 	int op, numFila, maxProcessos, maxOperacoes;
 	int numProcessos, numTransicoes, numFilaDestino, tempoExec;
@@ -395,16 +327,6 @@ int main(){
 			case 6: scanf("%d", &tempoExec);
 					preparaParaFinalizarProcessos(filas[2], tempoExec); //Para finalizar, verificamos a lista 2
 					break;
-			case 7: scanf("%d", &numFila);
-					imprime(filas[numFila]);
-					break;
 		}
-
-		//printf("numDeProcessos: %d\n",numProcessos);
-		//printf("numDeTransicoes: %d\n",numTransicoes);
 	}
-
-	//testaContador();
-	//testeMove();
-	//testaRemove();
 }
