@@ -7,8 +7,8 @@ typedef struct Livro{
 }Livro;
 
 typedef struct No{
-	Livro* livro;
 	struct No* prox;
+	Livro* livro;
 }No;
 
 typedef struct PilhaDeLivros{
@@ -16,6 +16,17 @@ typedef struct PilhaDeLivros{
 	int maximo;
 	int tamanho;
 } Pilha;
+
+typedef struct Prateleira{
+	Pilha** pilhaDeLivros; 	
+	int qtddDeLivros;
+	int maxLivros;
+}Prateleira;
+
+typedef struct Estante{
+	Prateleira** prateleiras;
+	Pilha* pilhaAux;
+}Estante;
 
 void inicializaPilha(Pilha* pilha){
 	if(pilha == NULL){
@@ -29,7 +40,7 @@ void inicializaPilha(Pilha* pilha){
 }
 
 void printaLivro(Livro* livro){
-	printf("Livro %d %s\n", livro->id, livro->nome);
+	printf("Livro %d %s", livro->id, livro->nome);
 }
 
 void imprimePilha(Pilha* pilha){
@@ -38,7 +49,12 @@ void imprimePilha(Pilha* pilha){
 	printf("Printando pilha -----------------------------------------\n");
 
 	while(atual != NULL){
+		//printaNo(atual);
 		printaLivro(atual->livro);
+		if(atual == pilha->topo){
+			printf("--topo");
+		}
+		printf("\n");
 		atual = atual->prox;
 	}
 
@@ -46,6 +62,10 @@ void imprimePilha(Pilha* pilha){
 }
 
 void empilha(Pilha* pilha, Livro* livro){
+	printf("Empilhando ");
+	printaLivro(livro);
+	printf("\n");
+
 	if(pilha == NULL || livro == NULL){
 		printf("ERRO[empilha] - Parâmetros nulos...\n");
 	}
@@ -60,6 +80,11 @@ void empilha(Pilha* pilha, Livro* livro){
 
 Livro* desempilha(Pilha* pilha){
 
+	No* noTopo = pilha->topo;
+
+	pilha->topo = pilha->topo->prox;
+
+	return noTopo->livro;
 }
 
 int testaInicializaPilha(Pilha* pilha){
@@ -72,25 +97,67 @@ int testaEmpilha(Pilha* pilha){
 	imprimePilha(pilha);
 	Livro* livro = malloc(sizeof(Livro*));
 	livro->id = 0;
-	livro->nome = "Livro";
-
-	printf("Novo livro::::::::");
-	printaLivro(livro);
+	livro->nome = "Livro\0";
 
 	empilha(pilha, livro);
 
 	imprimePilha(pilha);
 
 	Livro* livro1 = malloc(sizeof(Livro*));
-	livro->id = 1;
-	livro->nome = "Livro1\0";
+	livro1->id = 1;
+	livro1->nome = "Livro1\0";
 
 	empilha(pilha, livro1);
 	imprimePilha(pilha);
+
+	Livro* livro2 = malloc(sizeof(Livro*));
+	livro2->id = 2;
+	livro2->nome = "Livro2\0";
+
+	empilha(pilha, livro2);
+	imprimePilha(pilha);
+
+	Livro* desemp = desempilha(pilha);
+	printf("Livro desempilhado: %s\n", desemp->nome);
+
+	imprimePilha(pilha);
+
+	desempilha(pilha);
+	desempilha(pilha);
+
+	imprimePilha(pilha);
 }
 
+Prateleira* inicializaPrateleira(int numPilhas, int numLivros){
+	Prateleira* retorno = malloc(sizeof(Prateleira*));
 
-int main(){
+	retorno->pilhaDeLivros = malloc(numPilhas*sizeof(Pilha*));
+
+	return retorno;
+}
+
+int inicializaEstante(Estante* estante, int numPrateleiras, int numPilhasPorPrateleira, int numMaxLivros){
+	printf("Inicializando estante....\n");
+	if(estante == NULL){
+		printf("Estante nulaaaaaa\n");
+	}
+
+	estante->prateleiras = malloc(numPrateleiras*sizeof(Prateleira*));
+
+	int i;
+	for (i = 0; i < numPrateleiras; i++)
+	{
+		estante->prateleiras[i] = inicializaPrateleira(numPilhasPorPrateleira, numMaxLivros);
+	}
+
+	estante->pilhaAux = malloc(2*numMaxLivros*sizeof(Pilha*));
+}
+
+void testeInicializaEstante(Estante* estante){
+	inicializaEstante(estante, 5, 3, 1);
+}
+
+int testes(){
 	printf("Oiii\n");
 
 	Pilha* pilha = malloc(sizeof(Pilha*));
@@ -98,5 +165,46 @@ int main(){
 
 	testaInicializaPilha(pilha);
 	testaEmpilha(pilha);
+
+	Estante* estante = malloc(sizeof(Estante*));
+	
+	testeInicializaEstante(estante);
+
+
+	//programa();
+}
+
+void adicionaLivros(Estante* estante,int prat, int qtdLivros, char* nomes){
+
+}
+
+void preparaParaAdicionarLivros(Estante* estante){
+	printf("Preparando para adicionar livrosssss....\n");
+}
+
+int main(){
+	testes();
+
+	int op = 0;
+	int p, c, l;
+
+	scanf("%d", &p);
+	scanf("%d", &c);
+	scanf("%d", &l);
+
+	Estante* estante = malloc(sizeof(Estante*));
+	inicializaEstante(estante, p, c, l);
+
+	
+
+	
+
+	while(scanf("%d", &op) != EOF){
+		switch(op){
+			case 1: preparaParaAdicionarLivros(estante);
+					op = 0;
+					break;
+		}
+	}
 
 }
