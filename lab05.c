@@ -137,7 +137,7 @@ Prateleira* inicializaPrateleira(int numPilhas, int numLivros){
 }
 
 int inicializaEstante(Estante* estante, int numPrateleiras, int numPilhasPorPrateleira, int numMaxLivros){
-	printf("Inicializando estante....\n");
+	printf("Inicializando estante.... %d, %d, %d.\n", numPrateleiras, numPilhasPorPrateleira, numMaxLivros);
 	if(estante == NULL){
 		printf("Estante nulaaaaaa\n");
 	}
@@ -174,12 +174,49 @@ int testes(){
 	//programa();
 }
 
-void adicionaLivros(Estante* estante,int prat, int qtdLivros, char* nomes){
+Livro* criaLivro(char* nome){
+	Livro* meuLivro = malloc(sizeof(Livro*));
+	meuLivro->nome = nome;
 
+	return meuLivro;
+}
+
+void adicionaLivros(Estante* estante, int prat, int qtdLivros, char** nomes){
+	int i;
+
+	//empilha na pilha auxiliar
+	for (i = 0; i < qtdLivros; ++i){
+		Livro* novoLivro = criaLivro(nomes[i]);
+		empilha(estante->pilhaAux, novoLivro);
+	}
+
+	imprimePilha(estante->pilhaAux);
 }
 
 void preparaParaAdicionarLivros(Estante* estante){
 	printf("Preparando para adicionar livrosssss....\n");
+
+	int prat, qtdLivros;
+	char** nomes;
+
+	scanf("%d", &prat);
+	scanf("%d", &qtdLivros);
+
+	nomes = malloc(qtdLivros*sizeof(char*));
+
+	int i;
+	for (i = 0; i < qtdLivros; i++){
+		printf("preparado para ler %dº nome\n", i);
+
+		char* nome = malloc(sizeof(char*));
+		scanf("%s", nome);
+		printf("nome lido: %s\n", nome);
+
+		nomes[i] = nome;
+		printf("nome[%d]: %s\n", i, nomes[i]);
+	}
+
+	adicionaLivros(estante, qtdLivros, nomes);
 }
 
 int main(){
