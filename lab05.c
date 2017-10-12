@@ -22,6 +22,7 @@ typedef struct Prateleira{
 	int qtddDeLivros;
 	int maxLivros;
 	int numColunas;
+	int preco;
 }Prateleira;
 
 typedef struct Estante{
@@ -50,6 +51,9 @@ void imprimePilha(Pilha* pilha){
 
 	printf("Printando pilha -----------------------------------------\n");
 
+	printf("tamanho: %d\n",pilha->tamanho);
+	printf("maximo: %d\n", pilha->maximo);
+
 	while(atual != NULL){
 		//printaNo(atual);
 		printaLivro(atual->livro);
@@ -67,7 +71,7 @@ void imprimePilha(Pilha* pilha){
 void printaPrateleira (Prateleira* prateleira, int index){
 	int i; 
 
-	printf("PRINTANDO PRATELEIRA %d \n", index);
+	printf("PRINTANDO PRATELEIRA %d (R$ %d) \n", index, prateleira->preco);
 
 	for(i=0; i < prateleira->numColunas; i++){
 		printf("Pilha %d\n",i);
@@ -160,12 +164,17 @@ Pilha* criaPilha(int numMaxLivros){
 	return retorno;
 }
 
+void associaPreco(Prateleira* prateleira, int preco){
+	prateleira->preco = preco;
+}
+
 Prateleira* inicializaPrateleira(int numPilhas, int numMaxLivros){
 	Prateleira* retorno = malloc(sizeof(Prateleira*));
 
 	retorno->maxLivros = numMaxLivros * numPilhas;
 	retorno->qtddDeLivros = 0;
 	retorno->numColunas = numPilhas;
+	retorno->preco = 0;
 
 	retorno->pilhaDeLivros = malloc(numPilhas*sizeof(Pilha*));
 
@@ -282,8 +291,6 @@ void adicionaLivros(Estante* estante, int prat, int qtdLivros, char** nomes){
 
 }
 
-
-
 int transformaNumeroDaPrateleira(int prat, int numTotalDePrateleirasNaEstante){
 	printf("numTotalDePrateleirasNaEstante: %d\n", numTotalDePrateleirasNaEstante);
 	printf("prat: %d\n", prat);
@@ -291,8 +298,87 @@ int transformaNumeroDaPrateleira(int prat, int numTotalDePrateleirasNaEstante){
 	return numTotalDePrateleirasNaEstante - prat - 1;
 }
 
+void moveLivrosDasPilhas(Pilha* origem, Pilha* destino, int qtosLivros){
+	printf("move livros das pilhas....");
+
+	int i;
+	for (i = 0; i < qtosLivros; ++i){
+		Livro* desemp = desempilha(origem);
+		empilha(destino, desemp);
+	}
+}
+
+//Remove da pilha o elemento da linha l
+//sendo 0 o livro mais baixo
+void removeLivroDaPilha(Pilha* pilha, int l, Pilha* pilhaAux){
+	int i;
+	int numLivrosColocadosNaAux = 0;
+
+	for (i = pilha->tamanho - 1; i >= 0 ; i--)
+	{
+		if(i == l){
+
+			Livro* livroPraRetirar = desempilha(pilha);
+			free(livroPraRetirar);
+
+			moveLivrosDasPilhas(pilhaAux, pilha, numLivrosColocadosNaAux);
+
+			printf("depois de remover:::::::\n");
+			printf("pilha:\n");
+			imprimePilha(pilha);
+			printf("\n");
+			printf("pilha aux:\n");
+			imprimePilha(pilhaAux);
+
+			return;
+		}else{
+			//se não for o indice q buscamos
+			Livro* desempilhado = desempilha(pilha);
+			empilha(pilhaAux, desempilhado);
+			numLivrosColocadosNaAux++;
+		}
+	}
+}
+
+void preparaParaMudarPrecos(Estante* estante){
+	int pratOrigem, colOrigem, pratDest, colDest;
+
+	scanf("%d", &pratOrigem);
+	scanf("%d", &colOrigem);
+	scanf("%d", &pratDest);
+	scanf("%d", &colDest);
+
+	pratDest = transformaNumeroDaPrateleira(pratDest, estante->numPrateleiras);
+	pratOrigem = transformaNumeroDaPrateleira(pratOrigem, estante->numPrateleiras);
+
+	//IMPORTANTEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+	//verificar se é possivel realizar essa operacao
+	//ou seja, se na pilha de destino cabem os livros da pilha de origem
+	Pilha* origem = estante->prateleiras[pratOrigem]->pilhaDeLivros[colOrigem];
+	Pilha* destino = estante->prateleiras[pratDest]->pilhaDeLivros[colDest];
+
+	moveLivrosDasPilhas(origem, destino, origem->tamanho);
+}
+
+void preparaParaRemoverLivros(Estante* estante){
+	int p, c, l;
+
+	printf("params: prat, coluna, linha da pilha\n");
+	scanf("%d", &p);
+	scanf("%d", &c);
+	scanf("%d", &l);
+
+	p = transformaNumeroDaPrateleira(p, estante->numPrateleiras);
+
+	//validar se o numero da prateleira, coluna e linha são validos
+	//IMPORTANTEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+
+	removeLivroDaPilha(estante->prateleiras[p]->pilhaDeLivros[c], l, estante->pilhaAux);
+}
+
 void preparaParaAdicionarLivros(Estante* estante){
 	printf("Preparando para adicionar livrosssss....\n");
+	printf("params: prat, qtdLivros, os nomes dos livros \n");
 
 	int prat, qtdLivros;
 	char** nomes;
@@ -333,22 +419,70 @@ void preparaParaImprimirPrateleira(Estante* estante){
 	printaPrateleira(estante->prateleiras[numPrat], numPratDigitado);
 }
 
+
+
 int main(){
 	//testes();
+	int opcao = 0;
+	printf("Usar estante default: 1. Criar a sua 2.\n");
+
+	scanf("%d", &opcao);
 
 	int op = 0;
+	Estante* estante;
+
+	if(opcao == 2){
+	
 	int p, c, l;
 
+	printf("começando... params: numPrateleiras, numColunas, maximo de Livros por pilha na pos [linha][coluna]\n");
 	scanf("%d", &p);
 	scanf("%d", &c);
 	scanf("%d", &l);
 
-	Estante* estante = malloc(sizeof(Estante*));
-	inicializaEstante(estante, p, c, l);	
+	estante = malloc(sizeof(Estante*));
+	inicializaEstante(estante, p, c, l);
+
+	printf("digite os precos associados a cada prateleira - numPrateleiras: %d\n", p);
+	int i, precoLido;
+	for (i = p-1; i >= 0; i--)
+	{
+		scanf("%d", &precoLido);
+		associaPreco(estante->prateleiras[i], precoLido);
+	}
+
+	} // fim da opcao 2
+
+	else{
+		estante = malloc(sizeof(Estante*));
+		inicializaEstante(estante, 2, 3, 3);
+
+		associaPreco(estante->prateleiras[0], 15);
+		associaPreco(estante->prateleiras[1], 35);
+
+		printf("sua estante tem: \n");
+		printf("2 prateleiras de 3 colunas\n");
+		printf("cada pilha tem max de 3 livros\n");
+
+		printf("preco das prateleiras: 15, 35\n");
+	}
+		
+	printf("escolha a operacao...\n");
+	printf("1 para adicionar\n");
+	printf("2 para remover\n");
+	printf("3 para mudar de prateleiras/colunas\n");
+	printf("7 + numPrateleira para printar prateleira\n");
+	printf("\n");
 
 	while(scanf("%d", &op) != EOF){
 		switch(op){
 			case 1: preparaParaAdicionarLivros(estante);
+					op = 0;
+					break;
+			case 2: preparaParaRemoverLivros(estante);
+					op=0;
+					break;
+			case 3: preparaParaMudarPrecos(estante);
 					op = 0;
 					break;
 			case 7: preparaParaImprimirPrateleira(estante);
