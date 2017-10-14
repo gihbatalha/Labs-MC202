@@ -421,67 +421,138 @@ void preparaParaExibirMontante(Estante* estante){
 	}
 }
 
-/*
+void trocaConteudoDasPilhas(Pilha* primeira, Pilha* segunda, Pilha* pilhaAux){
+	//prilhas iguais
+	if(primeira == segunda){
+		return;
+	}
 
-Reorganiza​ ​ a ​ ​ disposição​ ​ das​ ​ pilhas​ ​ de
-livros​ ​ de​ ​ uma​ ​ prateleira​ ​ prat
-especificada.​ ​ configuracao​ ​ é ​ ​ um​ ​ vetor
-de​ ​ inteiro​ ​ que​ ​ possui​ ​ valores​ ​ distintos
-de​ ​ 0 ​ ​ a ​ ​ c-1​ .
+	int i;
+	int tamanhoPilhaUm, tamanhoPilhaDois;
 
-Se​ ​ configuracao[i]​ ​ = ​ ​ x ​ , ​ ​ isso​ ​ indica​ ​ que
-na​ ​ nova​ ​ configuração​ ​ a ​ ​ pilha​ ​ que​ ​ antes
-estava​ ​ na​ ​ coluna​ ​ x ​ ​ agora​ ​ deve​ ​ ser
-colocada​ ​ na​ ​ coluna​ ​ i ​ .
+	tamanhoPilhaUm = primeira->tamanho;
+	tamanhoPilhaDois = segunda->tamanho;
 
-Obs1.:​ ​ Note​ ​ que​ ​ implementar​ ​ uma
-função​ ​ que​ ​ efetue​ ​ a ​ ​ troca​ ​ entre​ ​ duas
-pilhas,​ ​ utilizando​ ​ uma​ ​ pilha​ ​ auxiliar,
-pode​ ​ facilitar​ ​ essa​ ​ operação.
-Obs2.:​ ​ Lembre-se​ ​ que​ ​ ao​ ​ começar​ ​ a
-efetuar​ ​ as​ ​ trocas,​ ​ você​ ​ está​ ​ alterando​ ​ a
-configuração​ ​ original!
+	// printf("TROCA CONTEUDO DAS PILHAS. PILHAS RECEBIDAS:::::\n");
+	// printf("Origem: ");
+	// imprimePilha(primeira);
 
+	// printf("Destino: ");
+	// imprimePilha(segunda);
 
-config
+	// printf("Auxiliar:");
+	// imprimePilha(pilhaAux);
+	// printf("\n");
 
-vetor   0 1 2 3 4 5 6 7    pilha/coluna destino
-valores 7                  pilha/coluna origem
+	moveLivrosDasPilhas(primeira, pilhaAux, primeira->tamanho); //move os livros da primeira para aux
+	moveLivrosDasPilhas(segunda, pilhaAux, segunda->tamanho); //move os livros da segunda para aux
 
-*/
+	// printf("MOVEU OS LIVROS DA ORIGEM PARA AUX E DEPOIS OS DO DESTINO PARA AUX::::::\n");
+	// printf("Origem: ");
+	// imprimePilha(primeira);
+
+	// printf("Destino: ");
+	// imprimePilha(segunda);
+
+	// printf("Auxiliar:");
+	// imprimePilha(pilhaAux);
+	// printf("\n");
+
+	moveLivrosDasPilhas(pilhaAux, primeira, tamanhoPilhaDois); //move os primeiros livros da aux, que são os que estavam na segunda pilha, para a primeira pilha.
+	moveLivrosDasPilhas(pilhaAux, segunda, tamanhoPilhaUm); // move os livros da aux que restaram, que são os que estavam na primeira pilha, para a segunda pilha.
+
+	// printf("MOVEU OS LIVROS DA AUX PARA A ORIGEM E DEPOIS PARA A DESTINO. RESULTADO FINAL:::::\n");
+	// printf("Origem: ");
+	// imprimePilha(primeira);
+
+	// printf("Destino: ");
+	// imprimePilha(segunda);
+
+	// printf("Auxiliar:");
+	// imprimePilha(pilhaAux);
+	// printf("\n");
+}
+
+//Inicialmente, em cada coluna temos uma pilha. Iremos guardar essas posições, ou seja, chamaremos a pilha que começou na coluna 0
+//de pilha 0 e assim por diante. 
+//Por exemplo, ao lermos uma configuração para colocar a pilha 1 na coluna 0 e pilha 0 na coluna 5:
+//Ao colocarmos a pilha 1 na coluna 0, teremos consciencia que ao querer trocar a pilha 0 para a coluna 5 não devemos mais pegar
+// a pilha da coluna 0 pois ela já foi alterada e possui agora a pilha 1.
+
+//Para resolver esse problema utilizaremos um vetor auxiliar chamado posicoesDasPilhas, onde os indices serão as colunas da 
+//prateleira e os valores serão as pilhas correspondentes.
+//Desse modo, ele começará com o índice igual ao valor, já que "chamaremos" de pilha 0 aquela que começou na coluna 0.
+//Isso será utilizado ao trocar a configuração:
+//No exemplo anterior, ao colocar a pilha 0 na coluna 5, iremos percorrer o vetor auxiliar e perceber que a pilha 0 não está mais
+//na coluna 0 e sim na coluna 1. Dessa maneira, mantemos a configuração já feita da pilha 1 para a coluna 0, e conseguimos saber
+//a pilha que devemos colocar na coluna 5.
+
 void preparaParaReorganizarPrateleira(Estante* estante){
 	int p, pTransf, conf;
-	int* configuracao;
+	int* posicoesDasPilhas;
 
-	scanf("%d", p);
+	scanf("%d", &p);
 
 	pTransf = transformaNumeroDaPrateleira(p, estante->numPrateleiras);
 	Prateleira* prat = estante->prateleiras[pTransf];
 
-	configuracao = malloc(prat->numColunas * sizeof(int));
+	posicoesDasPilhas = malloc(prat->numColunas * sizeof(int));
 
+	//O vetor posicoesDasPilhas começa com os valores iguais os dos índices
 	int i;
 	for(i = 0; i < prat->numColunas; i++){
-		scanf("%d", conf);
-		configuracao[i] = conf;
+		posicoesDasPilhas[i] = i;
 	}
 
-	//Temos o vetor ok e o numero da prat... Desenvolver a lógicaaaa
+	//Vamos ler os valores das novas configurações e realizar as trocas
+	for(i = 0; i < prat->numColunas; i++){
+		//printf("oi %d\n",i );
+		//scanf("%d", &conf);
+		//printf("lida %dª conf: %d\n", i, conf);
 
-	
+		//Queremos colocar a pilha <conf> na coluna i
+		//Para isso procuraremos em que coluna (pos) atual a pilha <conf> se encontra e trocaremos as pilhas das coluna pos e i.
+		int k;
+		int pos = -1;
+
+		for(k = 0; k < prat->numColunas && pos == -1; k++){
+			//printf("olaa: k: %d\n", k);
+
+			//guardo no pos a coluna que está a pilha <conf>
+			if(posicoesDasPilhas[k] == conf){
+				//printf("entrou no if\n");
+				pos = k;
+			}
+		}
+
+		//printf("saiu do for...... do k\n");
+		//printf("pos: %d\n",pos);
+		//printf("i: %d\n", i);
+
+		//atualizo o vetor posicoesDasPilhas:
+		if(pos != i){
+			int aux = posicoesDasPilhas[pos];
+			posicoesDasPilhas[pos] = posicoesDasPilhas[i];
+			posicoesDasPilhas[i] = aux;
+		}		
+
+		trocaConteudoDasPilhas(prat->pilhaDeLivros[pos], prat->pilhaDeLivros[i], estante->pilhaAux);		
+	}
+
 	printf("A reorganização​ da prateleira​ %d foi feita com sucesso\n", p);
 }
 
 int main(){
-	int opcao = 0;
-	printf("Usar estante default: 1. Criar a sua 2.\n");
 
-	scanf("%d", &opcao);
+	//int opcao = 0;
+	//printf("Usar estante default: 1. Criar a sua 2.\n");
+
+	//scanf("%d", &opcao);
 
 	int op = 0;
 	Estante* estante;
 
-	if(opcao == 2){
+	//if(opcao == 2){
 	
 		int p, c, l;
 
@@ -500,30 +571,22 @@ int main(){
 			associaPreco(estante->prateleiras[i], precoLido);
 		}
 
-	} // fim da opcao 2
+	//} // fim da opcao 2
 
-	else{
-		estante = malloc(sizeof(Estante*));
-		inicializaEstante(estante, 2, 3, 3);
+	// else{
+	// 	estante = malloc(sizeof(Estante*));
+	// 	inicializaEstante(estante, 1, 5, 3);
 
-		associaPreco(estante->prateleiras[0], 15);
-		associaPreco(estante->prateleiras[1], 35);
-
-		printf("sua estante tem: \n");
-		printf("2 prateleiras de 3 colunas\n");
-		printf("cada pilha tem max de 3 livros\n");
-
-		printf("preco das prateleiras: 15, 35\n");
-	}
+	// 	associaPreco(estante->prateleiras[0], 15);
+	// }
 		
 	// printf("escolha a operacao...\n");
 	// printf("1 para adicionar\n");
 	// printf("2 para remover\n");
 	// printf("3 para mudar de prateleiras/colunas\n");
-
+	// printf("4 para alterar a confirguracao das colunas da prateleira\n");
 	// printf("5 para calcular o montante\n");
 	// printf("6 para exibir os livros da prateleira\n");
-
 	// printf("7 para imprimir a estante\n");
 	// printf("\n");
 
@@ -615,7 +678,17 @@ int testes(){
 	Estante* estante = malloc(sizeof(Estante*));
 	
 	testeInicializaEstante(estante);
+}
 
+void testeTrocaConteudoDasPilhas(){
+	Estante* estante = malloc(sizeof(Estante*));
+	inicializaEstante(estante, 5, 4, 3);
 
-	//programa();
+	empilha(estante->prateleiras[0]->pilhaDeLivros[0], criaLivro("Livro1-pilha 0"));
+	empilha(estante->prateleiras[0]->pilhaDeLivros[0], criaLivro("Livro2-pilha 0"));
+
+	empilha(estante->prateleiras[0]->pilhaDeLivros[1], criaLivro("Livro3-pilha 1"));
+	empilha(estante->prateleiras[0]->pilhaDeLivros[1], criaLivro("Livro4-pilha 1"));
+
+	trocaConteudoDasPilhas(estante->prateleiras[0]->pilhaDeLivros[0],estante->prateleiras[0]->pilhaDeLivros[1], estante->pilhaAux);
 }
