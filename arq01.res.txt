@@ -1,0 +1,314 @@
+Foram inseridos com sucesso 4 livros na prateleira de custo $27
+Foram inseridos com sucesso 1 livros na prateleira de custo $15
+[LIVROS DA PRATELEIRA 2]
+Coluna 0:
+Coluna 1:
+Coluna 2:
+Coluna 3:
+Coluna 4:
+Coluna 5:
+Foram inseridos com sucesso 6 livros na prateleira de custo $10
+Foram inseridos com sucesso 8 livros na prateleira de custo $46
+Foram inseridos com sucesso 4 livros na prateleira de custo $32
+Foram inseridos com sucesso 7 livros na prateleira de custo $15
+[VALOR TOTAL DA ESTANTE $784] dos quais:
+Prateleira 0: $368
+Prateleira 1: $0
+Prateleira 2: $128
+Prateleira 3: $60
+Prateleira 4: $0
+Prateleira 5: $0
+Prateleira 6: $120
+Prateleira 7: $108
+Prateleira 8: $0
+A mudança de livros : [0, $10] ==> [5, $18] foi feita com sucesso
+Foram inseridos com sucesso 3 livros na prateleira de custo $32
+A mudança de livros : [5, $10] ==> [3, $46] foi feita com sucesso
+Foram inseridos com sucesso 2 livros na prateleira de custo $18
+Foram inseridos com sucesso 9 livros na prateleira de custo $10
+Foram inseridos com sucesso 1 livros na prateleira de custo $15
+Foram inseridos com sucesso 6 livros na prateleira de custo $17
+Foram inseridos com sucesso 5 livros na prateleira de custo $32
+Livro Livro_5bbth removido com sucesso da coluna 1 da prateleira de custo $10
+Foram inseridos com sucesso 1 livros na prateleira de custo $10
+Foram inseridos com sucesso 8 livros na prateleira de custo $24
+Foram inseridos com sucesso 5 livros na prateleira de custo $10
+A mudança de livros : [2, $18] ==> [1, $46] foi feita com sucesso
+Foram inseridos com sucesso 8 livros na prateleira de custo $24
+Nao existe nenhum livro na posicao desejada
+[VALOR TOTAL DA ESTANTE $1757] dos quais:
+Prateleira 0: $368
+Prateleira 1: $36
+Prateleira 2: $384
+Prateleira 3: $150
+Prateleira 4: $90
+Prateleira 5: $102
+Prateleira 6: $135
+Prateleira 7: $108
+Prateleira 8: $384
+[VALOR TOTAL DA ESTANTE $1757] dos quais:
+Prateleira 0: $368
+Prateleira 1: $36
+Prateleira 2: $384
+Prateleira 3: $150
+Prateleira 4: $90
+Prateleira 5: $102
+Prateleira 6: $135
+Prateleira 7: $108
+Prateleira 8: $384
+[LIVROS DA PRATELEIRA 0]
+Coluna 0: [Livro_cxixz] [Livro_6amsv] [Livro_co2vp] [Livro_h4jfk] [Livro_yrfjb]
+Coluna 1: [Livro_5p83u] [Livro_abpb9] [Livro_4n3pr]
+Coluna 2:
+Coluna 3:
+Coluna 4:
+Coluna 5:
+A mudança de livros : [2, $27] ==> [0, $46] foi feita com sucesso
+A reorganização da prateleira 1 foi feita com sucesso
+Foram inseridos com sucesso 9 livros na prateleira de custo $18
+Foram inseridos com sucesso 1 livros na prateleira de custo $18
+[VALOR TOTAL DA ESTANTE $1937] dos quais:
+Prateleira 0: $368
+Prateleira 1: $54
+Prateleira 2: $384
+Prateleira 3: $150
+Prateleira 4: $252
+Prateleira 5: $102
+Prateleira 6: $135
+Prateleira 7: $108
+Prateleira 8: $384
+A reorganização da prateleira 5 foi feita com sucesso
+A reorganização da prateleira 2 foi feita com sucesso
+Foram inseridos com sucesso 8 livros na prateleira de custo $18
+A reorganização da prateleira 3 foi feita com sucesso
+[VALOR TOTAL DA ESTANTE $2081] dos quais:
+Prateleira 0: $368
+Prateleira 1: $198
+Prateleira 2: $384
+Prateleira 3: $150
+Prateleira 4: $252
+Prateleira 5: $102
+Prateleira 6: $135
+Prateleira 7: $108
+Prateleira 8: $384
+Foram inseridos com sucesso 1 livros na prateleira de custo $18
+Foram inseridos com sucesso 9 livros na prateleira de custo $32
+A mudança de livros : [5, $27] ==> [4, $46] foi feita com sucesso
+Foram inseridos com sucesso 2 livros na prateleira de custo $17
+Foram inseridos com sucesso 2 livros na prateleira de custo $10
+Foram inseridos com sucesso 4 livros na prateleira de custo $18
+Foram inseridos com sucesso 2 livros na prateleira de custo $27
+A reorganização da prateleira 2 foi feita com sucesso
+A mudança de livros : [4, $15] ==> [4, $18] foi feita com sucesso
+[VALOR TOTAL DA ESTANTE $2567] dos quais:
+Prateleira 0: $368
+Prateleira 1: $270
+Prateleira 2: $672
+Prateleira 3: $170
+Prateleira 4: $270
+Prateleira 5: $136
+Prateleira 6: $135
+Prateleira 7: $162
+Prateleira 8: $384
+Foram inseridos com sucesso 6 livros na prateleira de custo $27
+A mudança de livros : [4, $32] ==> [2, $17] foi feita com sucesso
+[VALOR TOTAL DA ESTANTE $2699] dos quais:
+Prateleira 0: $368
+Prateleira 1: $270
+Prateleira 2: $608
+Prateleira 3: $170
+Prateleira 4: $270
+Prateleira 5: $170
+Prateleira 6: $135
+Prateleira 7: $324
+Prateleira 8: $384
+A reorganização da prateleira 7 foi feita com sucesso
+Foram inseridos com sucesso 6 livros na prateleira de custo $32
+Foram inseridos com sucesso 7 livros na prateleira de custo $24
+Foram inseridos com sucesso 5 livros na prateleira de custo $17
+Espaco insuficiente na prateleira de custo $32. Favor remover os livros do compartimento auxiliar.
+A reorganização da prateleira 2 foi feita com sucesso
+Foram inseridos com sucesso 2 livros na prateleira de custo $32
+[LIVROS DA PRATELEIRA 3]
+Coluna 0: [Livro_6qvg] [Livro_fjte]
+Coluna 1: [Livro_cljnp] [Livro_gkcj8] [Livro_a0721] [Livro_8vw09] [Livro_5d7c2]
+Coluna 2: [Livro_wke5ngqd0nsti] [Livro_66ihg] [Livro_mxojl] [Livro_z4rhm] [Livro_d9h3w]
+Coluna 3:
+Coluna 4:
+Coluna 5: [Livro_10ysg] [Livro_gexup] [Livro_2pdgp] [Livro_qqxl4] [Livro_t314i]
+Foram inseridos com sucesso 7 livros na prateleira de custo $18
+[VALOR TOTAL DA ESTANTE $3334] dos quais:
+Prateleira 0: $368
+Prateleira 1: $270
+Prateleira 2: $864
+Prateleira 3: $170
+Prateleira 4: $396
+Prateleira 5: $255
+Prateleira 6: $135
+Prateleira 7: $324
+Prateleira 8: $552
+Foram inseridos com sucesso 5 livros na prateleira de custo $18
+Foram inseridos com sucesso 7 livros na prateleira de custo $46
+[LIVROS DA PRATELEIRA 0]
+Coluna 0: [Livro_cxixz] [Livro_6amsv] [Livro_co2vp] [Livro_h4jfk] [Livro_yrfjb]
+Coluna 1: [Livro_mrsqx0eo] [Livro_d07vrzjf] [Livro_5p83u] [Livro_abpb9] [Livro_4n3pr]
+Coluna 2: [Livro_3or3urcu] [Livro_tj5ikq10] [Livro_mt6c6yam] [Livro_mxpofbag] [Livro_b27aoxzs]
+Coluna 3:
+Coluna 4:
+Coluna 5:
+[LIVROS DA PRATELEIRA 4]
+Coluna 0: [Livro_46l9oygtx07jdq] [Livro_d4k59whc1d7942] [Livro_0dk67ws0sqtwyx] [Livro_gbumorbvy6xb70] [Livro_qml6slaeum66nx]
+Coluna 1: [Livro_7k85wjlkg14w] [Livro_wc8692tc4kf78m] [Livro_ert5za8c0mgdq3] [Livro_rmp14inxbq9cjc] [Livro_7apvvauji0yon0]
+Coluna 2: [Livro_y8s6a] [Livro_bogna] [Livro_dv199] [Livro_5az98] [Livro_wsax5]
+Coluna 3: [Livro_kc656] [Livro_z4f5u]
+Coluna 4:
+Coluna 5: [Livro_pmf94] [Livro_mtbu3] [Livro_h5ia5] [Livro_vjhwl] [Livro_mq2uz]
+Nao existe nenhum livro na posicao desejada
+Foram inseridos com sucesso 8 livros na prateleira de custo $15
+Foram inseridos com sucesso 3 livros na prateleira de custo $32
+[LIVROS DA PRATELEIRA 8]
+Coluna 0: [Livro_devpe792g4nq] [Livro_r4cnwkrqd71j] [Livro_92ycwx370djf] [Livro_g8b0qgcnnzta] [Livro_6nzq0kqi0i4n]
+Coluna 1: [Livro_s05sj] [Livro_nkn8e] [Livro_zauydvydpd9f] [Livro_vp7dx3qijni7] [Livro_acw7dpu0da6r]
+Coluna 2: [Livro_gfgvo] [Livro_9sauw] [Livro_vjep2] [Livro_bf2op] [Livro_oqx79]
+Coluna 3: [Livro_xp6kz] [Livro_h4wvw] [Livro_o4gmq] [Livro_1qthr] [Livro_vg1lg]
+Coluna 4: [Livro_5clhg] [Livro_33uir] [Livro_90uyz]
+Coluna 5:
+Foram inseridos com sucesso 4 livros na prateleira de custo $15
+Foram inseridos com sucesso 1 livros na prateleira de custo $27
+Nao existe nenhum livro na posicao desejada
+[VALOR TOTAL DA ESTANTE $4049] dos quais:
+Prateleira 0: $690
+Prateleira 1: $360
+Prateleira 2: $960
+Prateleira 3: $170
+Prateleira 4: $396
+Prateleira 5: $255
+Prateleira 6: $315
+Prateleira 7: $351
+Prateleira 8: $552
+Foram inseridos com sucesso 4 livros na prateleira de custo $17
+[VALOR TOTAL DA ESTANTE $4117] dos quais:
+Prateleira 0: $690
+Prateleira 1: $360
+Prateleira 2: $960
+Prateleira 3: $170
+Prateleira 4: $396
+Prateleira 5: $323
+Prateleira 6: $315
+Prateleira 7: $351
+Prateleira 8: $552
+Foram inseridos com sucesso 1 livros na prateleira de custo $24
+Foram inseridos com sucesso 2 livros na prateleira de custo $18
+Foram inseridos com sucesso 4 livros na prateleira de custo $27
+Foram inseridos com sucesso 5 livros na prateleira de custo $18
+[VALOR TOTAL DA ESTANTE $4375] dos quais:
+Prateleira 0: $690
+Prateleira 1: $486
+Prateleira 2: $960
+Prateleira 3: $170
+Prateleira 4: $396
+Prateleira 5: $323
+Prateleira 6: $315
+Prateleira 7: $459
+Prateleira 8: $576
+[VALOR TOTAL DA ESTANTE $4375] dos quais:
+Prateleira 0: $690
+Prateleira 1: $486
+Prateleira 2: $960
+Prateleira 3: $170
+Prateleira 4: $396
+Prateleira 5: $323
+Prateleira 6: $315
+Prateleira 7: $459
+Prateleira 8: $576
+[LIVROS DA PRATELEIRA 8]
+Coluna 0: [Livro_devpe792g4nq] [Livro_r4cnwkrqd71j] [Livro_92ycwx370djf] [Livro_g8b0qgcnnzta] [Livro_6nzq0kqi0i4n]
+Coluna 1: [Livro_s05sj] [Livro_nkn8e] [Livro_zauydvydpd9f] [Livro_vp7dx3qijni7] [Livro_acw7dpu0da6r]
+Coluna 2: [Livro_gfgvo] [Livro_9sauw] [Livro_vjep2] [Livro_bf2op] [Livro_oqx79]
+Coluna 3: [Livro_xp6kz] [Livro_h4wvw] [Livro_o4gmq] [Livro_1qthr] [Livro_vg1lg]
+Coluna 4: [Livro_zxxpnksdhv8] [Livro_5clhg] [Livro_33uir] [Livro_90uyz]
+Coluna 5:
+Espaco insuficiente na prateleira de custo $32. Favor remover os livros do compartimento auxiliar.
+A reorganização da prateleira 3 foi feita com sucesso
+A reorganização da prateleira 2 foi feita com sucesso
+[LIVROS DA PRATELEIRA 1]
+Coluna 0: [Livro_9y7qx] [Livro_dxlam] [Livro_wm6rc] [Livro_vp8sv] [Livro_jjg90]
+Coluna 1: [Livro_zwvay] [Livro_k6o6z] [Livro_mofbk] [Livro_xc3pd] [Livro_gre7y]
+Coluna 2: [Livro_rh3f7] [Livro_aywsv] [Livro_6ad0y] [Livro_q3dumzjz5fd] [Livro_dnkgxahvwwg]
+Coluna 3: [Livro_z] [Livro_a] [Livro_e] [Livro_r] [Livro_u]
+Coluna 4: [Livro_l1r26z1f1g] [Livro_0p4u3kl8fl] [Livro_9fqltuua7s] [Livro_mbb] [Livro_jwh]
+Coluna 5: [Livro_aggrr2vevz] [Livro_vfsyf6qwq1]
+Foram inseridos com sucesso 8 livros na prateleira de custo $18
+A reorganização da prateleira 8 foi feita com sucesso
+Foram inseridos com sucesso 5 livros na prateleira de custo $10
+Foram inseridos com sucesso 3 livros na prateleira de custo $15
+[LIVROS DA PRATELEIRA 1]
+Coluna 0: [Livro_9y7qx] [Livro_dxlam] [Livro_wm6rc] [Livro_vp8sv] [Livro_jjg90]
+Coluna 1: [Livro_zwvay] [Livro_k6o6z] [Livro_mofbk] [Livro_xc3pd] [Livro_gre7y]
+Coluna 2: [Livro_rh3f7] [Livro_aywsv] [Livro_6ad0y] [Livro_q3dumzjz5fd] [Livro_dnkgxahvwwg]
+Coluna 3: [Livro_z] [Livro_a] [Livro_e] [Livro_r] [Livro_u]
+Coluna 4: [Livro_l1r26z1f1g] [Livro_0p4u3kl8fl] [Livro_9fqltuua7s] [Livro_mbb] [Livro_jwh]
+Coluna 5: [Livro_aggrr2vevz] [Livro_vfsyf6qwq1]
+Espaco insuficiente na prateleira de custo $18. Favor remover os livros do compartimento auxiliar.
+Livro Livro_yrfjb removido com sucesso da coluna 0 da prateleira de custo $46
+[LIVROS DA PRATELEIRA 6]
+Coluna 0: [Livro_0c2] [Livro_vtz] [Livro_ci7] [Livro_xe2] [Livro_p50as]
+Coluna 1: [Livro_q41am7pguw] [Livro_87it7bw17ka] [Livro_cg1] [Livro_wht] [Livro_hb8]
+Coluna 2: [Livro_524kr5xha9] [Livro_mxugonkclu] [Livro_dla8a6wnlc] [Livro_yao9x2naro] [Livro_s4z4j51i4r]
+Coluna 3: [Livro_d] [Livro_o] [Livro_5] [Livro_kelc8pzv5z] [Livro_waj6by8l2a]
+Coluna 4: [Livro_lpnmsq] [Livro_bcy3jl] [Livro_3m0huv] [Livro_6]
+Coluna 5:
+A reorganização da prateleira 5 foi feita com sucesso
+[VALOR TOTAL DA ESTANTE $4568] dos quais:
+Prateleira 0: $644
+Prateleira 1: $486
+Prateleira 2: $960
+Prateleira 3: $220
+Prateleira 4: $540
+Prateleira 5: $323
+Prateleira 6: $360
+Prateleira 7: $459
+Prateleira 8: $576
+[LIVROS DA PRATELEIRA 0]
+Coluna 0: [Livro_cxixz] [Livro_6amsv] [Livro_co2vp] [Livro_h4jfk]
+Coluna 1: [Livro_mrsqx0eo] [Livro_d07vrzjf] [Livro_5p83u] [Livro_abpb9] [Livro_4n3pr]
+Coluna 2: [Livro_3or3urcu] [Livro_tj5ikq10] [Livro_mt6c6yam] [Livro_mxpofbag] [Livro_b27aoxzs]
+Coluna 3:
+Coluna 4:
+Coluna 5:
+Livro Livro_xe2 removido com sucesso da coluna 0 da prateleira de custo $15
+Foram inseridos com sucesso 8 livros na prateleira de custo $46
+Espaco insuficiente na prateleira 6 e coluna 3
+Foram inseridos com sucesso 2 livros na prateleira de custo $10
+[LIVROS DA PRATELEIRA 1]
+Coluna 0: [Livro_9y7qx] [Livro_dxlam] [Livro_wm6rc] [Livro_vp8sv] [Livro_jjg90]
+Coluna 1: [Livro_zwvay] [Livro_k6o6z] [Livro_mofbk] [Livro_xc3pd] [Livro_gre7y]
+Coluna 2: [Livro_rh3f7] [Livro_aywsv] [Livro_6ad0y] [Livro_q3dumzjz5fd] [Livro_dnkgxahvwwg]
+Coluna 3: [Livro_z] [Livro_a] [Livro_e] [Livro_r] [Livro_u]
+Coluna 4: [Livro_l1r26z1f1g] [Livro_0p4u3kl8fl] [Livro_9fqltuua7s] [Livro_mbb] [Livro_jwh]
+Coluna 5: [Livro_aggrr2vevz] [Livro_vfsyf6qwq1]
+A reorganização da prateleira 3 foi feita com sucesso
+[VALOR TOTAL DA ESTANTE $4941] dos quais:
+Prateleira 0: $1012
+Prateleira 1: $486
+Prateleira 2: $960
+Prateleira 3: $240
+Prateleira 4: $540
+Prateleira 5: $323
+Prateleira 6: $345
+Prateleira 7: $459
+Prateleira 8: $576
+Espaco insuficiente na prateleira de custo $18. Favor remover os livros do compartimento auxiliar.
+Foram inseridos com sucesso 9 livros na prateleira de custo $17
+Espaco insuficiente na prateleira de custo $32. Favor remover os livros do compartimento auxiliar.
+A reorganização da prateleira 3 foi feita com sucesso
+A reorganização da prateleira 2 foi feita com sucesso
+Espaco insuficiente na prateleira de custo $18. Favor remover os livros do compartimento auxiliar.
+Espaco insuficiente na prateleira 7 e coluna 2
+A reorganização da prateleira 2 foi feita com sucesso
+Foram inseridos com sucesso 1 livros na prateleira de custo $15
+Foram inseridos com sucesso 8 livros na prateleira de custo $46
+A reorganização da prateleira 8 foi feita com sucesso
+Nao existe nenhum livro na posicao desejada
+A reorganização da prateleira 5 foi feita com sucesso
+Foram inseridos com sucesso 5 livros na prateleira de custo $24

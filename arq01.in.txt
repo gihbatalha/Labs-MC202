@@ -1,0 +1,118 @@
+9 6 5
+46 18 32 10 18 17 15 27 24
+1 7 4 Livro_sueam2bkfl8ht Livro_uxpfm28sw6wpu Livro_k3hms5ercsgqp Livro_ye1d5xvkuxbu5
+1 6 1 Livro_p50as
+6 2
+1 3 6 Livro_d9h3w Livro_pmf94 Livro_mtbu3 Livro_h5ia5 Livro_vjhwl Livro_mq2uz
+1 0 8 Livro_5p83u Livro_abpb9 Livro_4n3pr Livro_cxixz Livro_6amsv Livro_co2vp Livro_h4jfk Livro_yrfjb
+1 2 4 Livro_vra1y Livro_bdf1d Livro_ebbsh Livro_mulfa
+1 6 7 Livro_cg1 Livro_wht Livro_hb8 Livro_0c2 Livro_vtz Livro_ci7 Livro_xe2
+5
+3 3 0 4 5
+1 2 3 Livro_3zir9padxeqq Livro_f2yzbj9xqf3j Livro_swe190tga8sy
+3 3 5 0 3
+1 1 2 Livro_q3dumzjz5fd Livro_dnkgxahvwwg
+1 3 9 Livro_5bbth Livro_66ihg Livro_mxojl Livro_z4rhm Livro_10ysg Livro_gexup Livro_2pdgp Livro_qqxl4 Livro_t314i
+1 6 1 Livro_87it7bw17ka
+1 5 6 Livro_4lwb1tq0g1pn4 Livro_15mso1u9sxr0j Livro_6bjoxjwqiqlxt Livro_vsnkqrzda9602 Livro_bawmdouxo9ylu Livro_paoutzuyciwg5
+1 2 5 Livro_zquex8069 Livro_botefkfzf Livro_p3llwrga9 Livro_2aofqkux4 Livro_j3r0iydfv
+2 3 1 4
+1 3 1 Livro_wke5ngqd0nsti
+1 8 8 Livro_zauydvydpd9f Livro_vp7dx3qijni7 Livro_acw7dpu0da6r Livro_devpe792g4nq Livro_r4cnwkrqd71j Livro_92ycwx370djf Livro_g8b0qgcnnzta Livro_6nzq0kqi0i4n
+1 3 5 Livro_cljnp Livro_gkcj8 Livro_a0721 Livro_8vw09 Livro_5d7c2
+3 1 2 0 1
+1 8 8 Livro_vg1lg Livro_gfgvo Livro_9sauw Livro_vjep2 Livro_bf2op Livro_oqx79 Livro_s05sj Livro_nkn8e
+2 1 4 2
+5
+5
+6 0
+3 7 2 0 0
+4 1 2 3 5 4 1 0
+1 4 9 Livro_wc8692tc4kf78m Livro_ert5za8c0mgdq3 Livro_rmp14inxbq9cjc Livro_7apvvauji0yon0 Livro_46l9oygtx07jdq Livro_d4k59whc1d7942 Livro_0dk67ws0sqtwyx Livro_gbumorbvy6xb70 Livro_qml6slaeum66nx
+1 1 1 Livro_jjg90
+5
+4 5 1 0 5 3 4 2
+4 2 1 0 5 4 3 2
+1 1 8 Livro_k6o6z Livro_mofbk Livro_xc3pd Livro_gre7y Livro_9y7qx Livro_dxlam Livro_wm6rc Livro_vp8sv
+4 3 5 2 1 0 4 3
+5
+1 4 1 Livro_7k85wjlkg14w
+1 2 9 Livro_q10c5vu95b6dug Livro_vk5ortvpkf1f6w Livro_a1p2xi0bwv4omf Livro_r7hu405mbnyb6z Livro_0iwf07jijdl5b0 Livro_zaglxwkofi2jah Livro_inctaigj9ghek6 Livro_y0y4k96j1s00w1 Livro_lwbespg2t2402o
+3 7 5 0 4
+1 5 2 Livro_jy40 Livro_pou2
+1 3 2 Livro_6qvg Livro_fjte
+1 1 4 Livro_rh3f7 Livro_aywsv Livro_6ad0y Livro_zwvay
+1 7 2 Livro_927zj5iufqzhx Livro_na5trb0ju035j
+4 2 1 3 5 0 2 4
+3 6 4 4 4
+5
+1 7 6 Livro_1agu9cxx Livro_sitww4qp Livro_o4w3mg9u Livro_b7uo8gl6 Livro_oqt9v8vs Livro_xde0ucxk
+3 2 4 5 2
+5
+4 7 1 0 2 3 4 5
+1 2 6 Livro_kwjhclgv2x Livro_cxrcq0xvks Livro_ckxh723pmq Livro_2n01iy4o9s Livro_9jlen3hlsd Livro_qr8jqcpxt9
+1 8 7 Livro_5clhg Livro_33uir Livro_90uyz Livro_xp6kz Livro_h4wvw Livro_o4gmq Livro_1qthr
+1 5 5 Livro_6dultg4ix8z Livro_ev6ouyexhlx Livro_rx6sg966w2h Livro_bit3gxvx4w8 Livro_xosliyw93vj
+1 2 7 Livro_9y Livro_lx Livro_17 Livro_ip Livro_s3 Livro_im Livro_za
+4 2 1 5 0 3 2 4
+1 2 2 Livro_w1lmllx Livro_dcgs3m7
+6 3
+1 4 7 Livro_kc656 Livro_z4f5u Livro_y8s6a Livro_bogna Livro_dv199 Livro_5az98 Livro_wsax5
+5
+1 1 5 Livro_z Livro_a Livro_e Livro_r Livro_u
+1 0 7 Livro_3or3urcu Livro_tj5ikq10 Livro_mt6c6yam Livro_mxpofbag Livro_b27aoxzs Livro_mrsqx0eo Livro_d07vrzjf
+6 0
+6 4
+2 1 5 2
+1 6 8 Livro_kelc8pzv5z Livro_waj6by8l2a Livro_524kr5xha9 Livro_mxugonkclu Livro_dla8a6wnlc Livro_yao9x2naro Livro_s4z4j51i4r Livro_q41am7pguw
+1 2 3 Livro_bse9rx06eb9fb Livro_us7ud97781goc Livro_2js14m3t2spj2
+6 8
+1 6 4 Livro_6 Livro_d Livro_o Livro_5
+1 7 1 Livro_97uovj92
+2 7 4 2
+5
+1 5 4 Livro_8z42zx Livro_j3k169 Livro_kvuagu Livro_cq10wa
+5
+1 8 1 Livro_zxxpnksdhv8
+1 1 2 Livro_mbb Livro_jwh
+1 7 4 Livro_d2 Livro_gf Livro_yy Livro_0j
+1 1 5 Livro_aggrr2vevz Livro_vfsyf6qwq1 Livro_l1r26z1f1g Livro_0p4u3kl8fl Livro_9fqltuua7s
+5
+5
+6 8
+1 2 1 Livro_j
+4 3 5 1 0 3 4 2
+4 2 0 5 4 3 1 2
+6 1
+1 4 8 Livro_932k93ato Livro_dubas611u Livro_aausekta1 Livro_aayjs030f Livro_dkhbxg6zg Livro_alf3qlrz1 Livro_f3tb73t7t Livro_q6txwgzlt
+4 8 3 0 1 5 2 4
+1 3 5 Livro_6ktrli6gofq Livro_8c5cvcfvimc Livro_sgivy58x9w4 Livro_fdvxkb9zwy0 Livro_co80v70hn4k
+1 6 3 Livro_lpnmsq Livro_bcy3jl Livro_3m0huv
+6 1
+1 4 3 Livro_vcdlibapt4 Livro_2cl1pfb6p3 Livro_af12mi43jp
+2 0 0 0
+6 6
+4 5 2 3 5 0 4 1
+5
+6 0
+2 6 0 1
+1 0 8 Livro_w8d83ywe1zop Livro_lkqkhlvvepcp Livro_egc1p200s2gc Livro_1bgznqhm3pyt Livro_lwbx93kql0cr Livro_nvsslwb2h459 Livro_4c4bbundgeac Livro_zvzmsk3wmmk4
+3 0 2 6 3
+1 3 2 Livro_a Livro_n
+6 1
+4 3 4 5 3 2 1 0
+5
+1 4 7 Livro_cp336t7xc4g Livro_6r06p2rh2tc Livro_7xsreiu3pet Livro_ighlpgkcrhl Livro_05ual8zifen Livro_on652y8i5zq Livro_1oq7hv3l0n8
+1 5 9 Livro_aebzwnyn6 Livro_1gxgmyaiz Livro_01mflev8k Livro_mn5phc7jd Livro_op0xijkeu Livro_t85k1ikmf Livro_tvoey8tpi Livro_uc4sm4cb0 Livro_6pxcoz0b8
+1 2 5 Livro_5pwsmwtkwm Livro_en69lty4wh Livro_djzljx7204 Livro_ptcms3wupt Livro_prhnvfl6e1
+4 3 0 1 3 5 2 4
+4 2 5 2 1 0 3 4
+1 4 7 Livro_6n Livro_wh Livro_6m Livro_is Livro_6w Livro_tz Livro_8u
+3 0 0 7 2
+4 2 2 0 3 5 1 4
+1 6 1 Livro_joipd98
+1 0 8 Livro_22fel2qrrfp Livro_epgacj4uwxq Livro_8zse8kpijck Livro_lusbda0u7x1 Livro_7t4qycv5ncb Livro_xxyrrvtoau0 Livro_m0yr4cexhm2 Livro_ziy0w0tcomh
+4 8 2 5 3 1 0 4
+2 7 5 1
+4 5 3 1 0 2 4 5
+1 8 5 Livro_5p Livro_p4 Livro_7t Livro_tw Livro_b7
